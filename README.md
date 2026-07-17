@@ -28,36 +28,63 @@ Ask it anything about the company — *"How many open incidents are critical?"*,
 
 ## Human-in-the-loop report pipeline
 
-The most involved flow in the platform:
+Reports touch real business data, so nothing runs without explicit user approval:
 
-1. **Propose** — a planner LLM receives the *live database schema* (`information_schema`) and submits a structured plan (sections + SQL queries) via a tool call, validated with Pydantic and retried with error feed-forward on failure. Nothing invalid ever reaches the user.
-2. **Approve** — the UI renders the proposal summary with Approve / Reject. Rejecting invites the user to describe exactly what they want instead.
-3. **Execute** — on approval, the *agent loop itself* runs the saved plan: each SQL query is a visible, RBAC-gated, self-correcting tool step.
-4. **Deliver** — the finished report is persisted server-side and appears on the Reports page; the chat receives only a completion notice, never a wall of text.
+1. **Propose** — the AI drafts a report plan (sections plus the exact data queries) against
+   the live database schema, so it can never invent table or column names. Every plan is
+   validated before the user sees it; invalid ones are retried automatically with the error
+   fed back to the model.
+2. **Approve** — the user reviews a short summary and clicks Approve or Reject. Rejecting
+   invites them to describe exactly what they want instead.
+3. **Execute** — the main agent loop runs the approved plan step by step. Every query is
+   permission-checked, self-correcting on failure, and visible live in the UI.
+4. **Deliver** — the finished report is saved server-side and appears on the Reports page.
+   The chat gets a one-line notice — never a wall of text.
 
 ## Engineering highlights
 
-Decisions and hard-won fixes worth reading the code for:
+Real problems encountered and solved while building this — the parts worth reading the code for:
 
-- **Loop-native orchestration** — report generation originally lived in a nested mini-pipeline inside the tool (its own planner, SQL runner, RAG search). It was rebuilt to run *through* the main agent loop, eliminating duplicated logic, closing an RBAC bypass, and gaining SQL self-correction and per-step UI transparency for free.
-- **Reasoning-model realities** — the LLM's hidden reasoning tokens count against `max_tokens` (diagnosed via `finish_reason: "length"` truncating plan JSON mid-string), and thinking mode rejects forced `tool_choice`. The propose pipeline works around both: generous token budgets, `auto` tool choice with a must-call contract, truncation detection *before* parsing, and bounded retries that feed the exact error back to the model.
-- **Stream classification guard** — reasoning models occasionally emit their native tool-call token markup as plain text. The loop detects the leak before committing to "answer" mode, silently retries the turn with a corrective message, and degrades to combiner synthesis if it recurs — raw markup can never reach the user.
-- **Deterministic persistence** — report content is saved by the server when the stream completes, never by asking the model to call a "save" tool. State changes don't depend on LLM compliance.
-- **RBAC at the tool layer** — per-role table and knowledge-base department gates (`apply_rbac`) enforced on every tool call, not just in the prompt.
-- **Tiered routing** — deterministic fast-paths (explicit SQL, memory statements, gibberish) skip the LLM entirely; everything else goes through native tool calling with pre-query name disambiguation.
+- **One orchestrator, not two.** Report generation originally ran inside its own
+  mini-pipeline, duplicating the agent loop's logic — and quietly bypassing access control.
+  Rebuilt to execute through the main loop: less code, a closed security gap, and SQL
+  self-correction plus live UI steps for free.
+
+- **Taming a reasoning model.** The LLM's hidden "thinking" tokens silently consumed the
+  output budget, truncating structured plans mid-JSON — and its thinking mode rejects
+  forced tool selection. Solved with structured tool-call outputs, truncation detection
+  before parsing, and bounded retries that feed the exact error back to the model until
+  it corrects itself.
+
+- **Nothing leaks to the user.** Reasoning models occasionally emit raw internal tool-call
+  markup as plain text. A stream guard catches it before a single character reaches the
+  chat, silently retries the turn, and falls back to a clean synthesized answer if it
+  recurs.
+
+- **The server keeps the state, not the model.** Reports are persisted by the backend when
+  the stream completes — never by asking the model to "call a save tool." Critical state
+  changes never depend on LLM compliance.
+
+- **Access control the model can't talk around.** Role-based gates on every tool call
+  (database tables and knowledge-base departments), enforced in code — not just requested
+  in the prompt.
+
+- **No AI where a rule suffices.** Deterministic fast paths answer trivial input (explicit
+  SQL, memory statements, gibberish) with zero LLM cost or latency; the agent loop handles
+  everything that genuinely needs intelligence.
 
 ## Tech stack
 
-| Layer | Technology |
-|-------|------------|
-| Backend | FastAPI · Python 3.14 · SSE streaming |
-| LLM | DeepSeek V4 Pro (OpenAI-compatible API, native tool calling) |
-| Database | PostgreSQL 16 |
-| Vector store | Qdrant (dense + sparse collections) |
-| Embeddings | all-MiniLM-L6-v2 · SPLADE · ms-marco cross-encoder (all local) |
-| Frontend | React 19 · Vite · Tailwind · SSE client with live tool progress |
-| Infra | Docker Compose (app + PostgreSQL + Qdrant) |
-| Testing | pytest — 20 unit tests with fully mocked LLM streams |
+| Layer        | Technology                                                       |
+|--------------|------------------------------------------------------------------|
+| Backend      | FastAPI · Python 3.14 · SSE streaming                            |
+| LLM          | DeepSeek V4 Pro (OpenAI-compatible API, native tool calling)     |
+| Database     | PostgreSQL 16                                                    |
+| Vector store | Qdrant (dense + sparse collections)                              |
+| Embeddings   | all-MiniLM-L6-v2 · SPLADE · ms-marco cross-encoder (all local)   |
+| Frontend     | React 19 · Vite · Tailwind · SSE client with live tool progress  |
+| Infra        | Docker Compose (app + PostgreSQL + Qdrant)                       |
+| Testing      | pytest — 21 unit tests with fully mocked LLM streams             |
 
 ## Quick start
 
@@ -82,20 +109,20 @@ Open **http://localhost:5173** — Dashboard first, then **Chat** to talk to the
 
 ## API
 
-| Method | Path | Description |
-|--------|------|-------------|
-| `POST` | `/query/stream` | SSE streaming query — events: `plan`, `tool_start`, `tool_result`, `token`, `sources`, `done` |
-| `GET/POST` | `/conversations` | List / create conversations |
-| `GET/DELETE` | `/conversations/{id}` | Fetch with messages / delete |
-| `GET` | `/reports` · `/reports/{id}` | Generated reports |
-| `GET` | `/dashboard/stats` | Aggregated dashboard metrics |
-| `GET` | `/tools` · `/tools/{name}` | Tool schemas |
-| `GET` | `/health` | Health check |
+| Method       | Path                          | Description                                                                                   |
+|--------------|-------------------------------|-----------------------------------------------------------------------------------------------|
+| `POST`       | `/query/stream`               | SSE streaming query — events: `plan`, `tool_start`, `tool_result`, `token`, `sources`, `done` |
+| `GET/POST`   | `/conversations`              | List / create conversations                                                                   |
+| `GET/DELETE` | `/conversations/{id}`         | Fetch with messages / delete                                                                  |
+| `GET`        | `/reports` · `/reports/{id}`  | Generated reports                                                                             |
+| `GET`        | `/dashboard/stats`            | Aggregated dashboard metrics                                                                  |
+| `GET`        | `/tools` · `/tools/{name}`    | Tool schemas                                                                                  |
+| `GET`        | `/health`                     | Health check                                                                                  |
 
 ## Testing
 
 ```bash
-python -m pytest tests/test_react_loop.py tests/test_report_tool.py -q   # 20 tests
+python -m pytest tests/test_react_loop.py tests/test_report_tool.py -q   # 21 tests
 ```
 
 Unit tests mock the LLM stream chunk-by-chunk to cover the loop's hard paths: parallel tool calls, SQL retry synthesis, RBAC denials, argument validation, max-iteration forcing, markup-leak recovery, and the report briefing flow. [`UI_TEST_SCENARIOS.md`](UI_TEST_SCENARIOS.md) contains the manual end-to-end test plan — one scenario per tool, all passing.
