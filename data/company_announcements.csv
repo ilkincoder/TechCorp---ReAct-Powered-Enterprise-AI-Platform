@@ -1,0 +1,41 @@
+announcement_id,title,body_preview,author_id,department_id,posted_date,category,priority
+1,Holiday Schedule and Office Closure Notice,"Holiday Schedule and Office Closure Notice. For more details, refer to the internal wiki or contact your department head.",1,,2025-04-06,Company,Low
+2,Welcoming Felix Kim to the Marketing team!,"Welcoming Felix Kim to the Marketing team!. For more details, refer to the internal wiki or contact your department head.",25,8,2025-05-23,People,Medium
+3,New Office Hours for Marketing Leadership,"New Office Hours for Marketing Leadership. For more details, refer to the internal wiki or contact your department head.",4,8,2025-03-15,People,Low
+4,Holiday Schedule and Office Closure Notice,"Holiday Schedule and Office Closure Notice. For more details, refer to the internal wiki or contact your department head.",2,,2025-05-12,Company,Low
+5,New Office Hours for Security Leadership,"New Office Hours for Security Leadership. For more details, refer to the internal wiki or contact your department head.",2,11,2025-05-15,People,Low
+6,CustomerIQ price update effective Q4,"CustomerIQ price update effective Q4. For more details, refer to the internal wiki or contact your department head.",2,,2025-05-08,Product,High
+7,New Office Hours for {department} Leadership,"New Office Hours for {department} Leadership. For more details, refer to the internal wiki or contact your department head.",30,,2025-03-22,People,Low
+8,Security Awareness Training — required for all employees,"Security Awareness Training — required for all employees. For more details, refer to the internal wiki or contact your department head.",2,,2025-03-16,Security,High
+9,Holiday Schedule and Office Closure Notice,"Holiday Schedule and Office Closure Notice. For more details, refer to the internal wiki or contact your department head.",25,,2025-05-13,Company,Low
+10,CustomerIQ price update effective Q4,"CustomerIQ price update effective Q4. For more details, refer to the internal wiki or contact your department head.",4,,2025-05-27,Product,High
+11,Policy Update: Engineering-handbook.pdf,"Policy Update: Engineering-handbook.pdf. For more details, refer to the internal wiki or contact your department head.",12,,2025-04-07,Policy,Medium
+12,Holiday Schedule and Office Closure Notice,"Holiday Schedule and Office Closure Notice. For more details, refer to the internal wiki or contact your department head.",30,,2025-03-24,Company,Low
+13,{department} Reorganization Announcement,"{department} Reorganization Announcement. For more details, refer to the internal wiki or contact your department head.",2,,2025-05-16,Org,High
+14,Operations Reorganization Announcement,"Operations Reorganization Announcement. For more details, refer to the internal wiki or contact your department head.",2,9,2025-04-09,Org,High
+15,Policy Update: TechCorp_IT_Systems_Integration_Policy.pdf,"Policy Update: TechCorp_IT_Systems_Integration_Policy.pdf. For more details, refer to the internal wiki or contact your department head.",2,,2025-06-02,Policy,Medium
+16,Sentinel Security Suite price update effective Q4,"Sentinel Security Suite price update effective Q4. For more details, refer to the internal wiki or contact your department head.",4,,2025-03-08,Product,High
+17,TeamSync Collaboration v2.9 is now Generally Available,"TeamSync Collaboration v2.9 is now Generally Available. For more details, refer to the internal wiki or contact your department head.",1,,2025-06-28,Product,High
+18,Security Awareness Training — required for all employees,"Security Awareness Training — required for all employees. For more details, refer to the internal wiki or contact your department head.",2,,2025-03-26,Security,High
+19,"Quarterly Town Hall — August 03, 2025","Quarterly Town Hall — August 03, 2025. For more details, refer to the internal wiki or contact your department head.",12,,2025-06-14,Company,Low
+20,New Office Hours for Legal Leadership,"New Office Hours for Legal Leadership. For more details, refer to the internal wiki or contact your department head.",12,7,2025-04-23,People,Low
+21,CustomerIQ price update effective Q4,"CustomerIQ price update effective Q4. For more details, refer to the internal wiki or contact your department head.",11,,2025-05-15,Product,High
+22,InsightFlow Analytics price update effective Q4,"InsightFlow Analytics price update effective Q4. For more details, refer to the internal wiki or contact your department head.",4,,2025-04-08,Product,High
+23,Holiday Schedule and Office Closure Notice,"Holiday Schedule and Office Closure Notice. For more details, refer to the internal wiki or contact your department head.",2,,2025-03-14,Company,Low
+24,"Quarterly Town Hall — August 22, 2025","Quarterly Town Hall — August 22, 2025. For more details, refer to the internal wiki or contact your department head.",1,,2025-04-25,Company,Low
+25,TechCorp AI Core v2.4 is now Generally Available,"TechCorp AI Core v2.4 is now Generally Available. For more details, refer to the internal wiki or contact your department head.",30,,2025-05-29,Product,High
+26,InsightFlow Analytics price update effective Q4,"InsightFlow Analytics price update effective Q4. For more details, refer to the internal wiki or contact your department head.",7,,2025-04-20,Product,High
+27,TechCorp AI Core v2.0 is now Generally Available,"TechCorp AI Core v2.0 is now Generally Available. For more details, refer to the internal wiki or contact your department head.",11,,2025-05-22,Product,High
+28,TechCorp AI Core v2.1 is now Generally Available,"TechCorp AI Core v2.1 is now Generally Available. For more details, refer to the internal wiki or contact your department head.",11,,2025-05-27,Product,High
+29,Holiday Schedule and Office Closure Notice,"Holiday Schedule and Office Closure Notice. For more details, refer to the internal wiki or contact your department head.",4,,2025-05-05,Company,Low
+30,New Office Hours for Sales Leadership,"New Office Hours for Sales Leadership. For more details, refer to the internal wiki or contact your department head.",25,10,2025-05-21,People,Low
+31,New Office Hours for HR Leadership,"New Office Hours for HR Leadership. For more details, refer to the internal wiki or contact your department head.",25,5,2025-05-05,People,Low
+32,Congratulations to the Chatbot Intent Expansion Team on a Successful Launch,"Congratulations to the Chatbot Intent Expansion Team on a Successful Launch. For more details, refer to the internal wiki or contact your department head.",30,,2025-04-11,Recognition,Medium
+33,Congratulations to the Invoice Processing Automation Team on a Successful Launch,"Congratulations to the Invoice Processing Automation Team on a Successful Launch. For more details, refer to the internal wiki or contact your department head.",1,,2025-04-27,Recognition,Medium
+34,Welcoming Ingrid Brown to the AI team!,"Welcoming Ingrid Brown to the AI team!. For more details, refer to the internal wiki or contact your department head.",30,1,2025-03-10,People,Medium
+35,Sentinel Security Suite price update effective Q4,"Sentinel Security Suite price update effective Q4. For more details, refer to the internal wiki or contact your department head.",4,,2025-04-01,Product,High
+36,Congratulations to the Invoice Processing Automation Team on a Successful Launch,"Congratulations to the Invoice Processing Automation Team on a Successful Launch. For more details, refer to the internal wiki or contact your department head.",12,,2025-04-27,Recognition,Medium
+37,Welcoming Sana Brown to the Marketing team!,"Welcoming Sana Brown to the Marketing team!. For more details, refer to the internal wiki or contact your department head.",25,8,2025-05-27,People,Medium
+38,Security Reorganization Announcement,"Security Reorganization Announcement. For more details, refer to the internal wiki or contact your department head.",4,11,2025-03-02,Org,High
+39,Sentinel Security Suite v4.3 is now Generally Available,"Sentinel Security Suite v4.3 is now Generally Available. For more details, refer to the internal wiki or contact your department head.",30,,2025-04-12,Product,High
+40,Holiday Schedule and Office Closure Notice,"Holiday Schedule and Office Closure Notice. For more details, refer to the internal wiki or contact your department head.",1,,2025-05-18,Company,Low

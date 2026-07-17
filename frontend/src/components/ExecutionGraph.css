@@ -1,0 +1,204 @@
+.execution-graph {
+  padding: 16px 12px;
+  font-size: 13px;
+}
+
+/* ── Nodes ─────────────────────────────────────────── */
+
+.graph-node {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: var(--bg-card, #f8f9fa);
+  border: 1px solid var(--border-color, #e0e0e0);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.graph-node-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+  width: 28px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.graph-node-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.graph-node-label {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-primary, #1a1a1a);
+}
+
+.graph-node-detail {
+  color: var(--text-secondary, #666);
+  font-size: 12px;
+  margin-top: 2px;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.graph-node-timing {
+  color: var(--text-secondary, #666);
+  font-size: 11px;
+  margin-top: 2px;
+  font-family: ui-monospace, monospace;
+}
+
+.graph-node-error {
+  color: #d32f2f;
+  font-size: 11px;
+  margin-top: 3px;
+  line-height: 1.4;
+}
+
+/* ── Status colors ─────────────────────────────────── */
+
+.graph-node.status-success {
+  border-color: #4caf50;
+  background: #f1f8e9;
+}
+
+.graph-node.status-failed {
+  border-color: #f44336;
+  background: #fef2f2;
+}
+
+.graph-node.status-retrying {
+  border-color: #ff9800;
+  background: #fff3e0;
+}
+
+.graph-node.status-running {
+  border-color: #2196f3;
+  background: #e3f2fd;
+  animation: graph-pulse-border 1.5s ease-in-out infinite;
+}
+
+.graph-node.status-pending {
+  opacity: 0.6;
+}
+
+.graph-node.status-skipped {
+  opacity: 0.45;
+  text-decoration: line-through;
+}
+
+.graph-status-icon {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.graph-status-icon.status-success {
+  color: #4caf50;
+}
+
+.graph-status-icon.status-failed {
+  color: #f44336;
+}
+
+.graph-status-icon.status-retrying {
+  color: #ff9800;
+}
+
+.graph-status-icon.status-running {
+  color: #2196f3;
+}
+
+/* ── Connectors ────────────────────────────────────── */
+
+.graph-connector {
+  display: flex;
+  justify-content: center;
+  padding: 0 12px;
+}
+
+.graph-line {
+  width: 2px;
+  height: 20px;
+  background: var(--border-color, #e0e0e0);
+}
+
+/* ── Tools row ─────────────────────────────────────── */
+
+.graph-tools-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 4px 0;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.graph-tool-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.graph-tool-arrow {
+  color: var(--text-secondary, #999);
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.graph-tool {
+  min-width: 140px;
+  max-width: 220px;
+}
+
+/* ── Animations ────────────────────────────────────── */
+
+.graph-spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #2196f3;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: graph-spin 0.6s linear infinite;
+}
+
+.graph-pulse {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #4caf50;
+  animation: graph-pulse-dot 1s ease-in-out infinite;
+}
+
+@keyframes graph-spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes graph-pulse-border {
+  0%, 100% { border-color: #2196f3; }
+  50% { border-color: #90caf9; }
+}
+
+@keyframes graph-pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* ── Planner / Answer special ──────────────────────── */
+
+.graph-planner {
+  background: #f3e5f5;
+  border-color: #ce93d8;
+}
+
+.graph-answer {
+  background: #e8f5e9;
+  border-color: #81c784;
+}

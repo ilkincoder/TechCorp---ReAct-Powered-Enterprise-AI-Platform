@@ -1,0 +1,12 @@
+department_id,department_name,budget_code,floor
+1,AI,DEPT-AI-001,Floor 3
+2,Customer_Support,DEPT-CS-001,Floor 1
+3,Engineering,DEPT-ENG-001,Floor 4
+4,Finance,DEPT-FIN-001,Floor 2
+5,HR,DEPT-HR-001,Floor 2
+6,IT,DEPT-IT-001,Floor 1
+7,Legal,DEPT-LEG-001,Floor 5
+8,Marketing,DEPT-MKT-001,Floor 3
+9,Operations,DEPT-OPS-001,Floor 2
+10,Sales,DEPT-SAL-001,Floor 3
+11,Security,DEPT-SEC-001,Floor 4

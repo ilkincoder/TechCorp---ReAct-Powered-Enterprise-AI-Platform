@@ -1,0 +1,26 @@
+project_id,project_name,department_id,customer_id,lead_employee_id,start_date,end_date,status,project_type
+1,Deploy RAG Pipeline v2,6,,80,2023-01-03,2023-03-19,Completed,Internal
+2,Customer Onboarding Portal,2,,38,2024-08-10,,On Hold,Internal
+3,Q3 Security Audit,3,,40,2025-03-09,2025-05-29,Completed,Internal
+4,AI Model Fine-Tuning Sprint,5,,76,2023-08-25,,On Hold,Internal
+5,Compliance Automation Initiative,5,,70,2024-04-20,2024-07-10,Completed,Internal
+6,Data Lake Migration,3,,52,2023-02-10,,Planning,Internal
+7,Real-Time Analytics Dashboard,6,,89,2024-11-24,,Planning,Internal
+8,Self-Service Support Portal,7,,101,2023-04-29,2023-06-21,Completed,Internal
+9,Internal Knowledge Graph Build,1,,25,2023-05-22,,In Progress,Internal
+10,Sales Forecasting Pipeline,6,,82,2024-03-24,,Planning,Internal
+11,Identity Access Management Overhaul,2,,30,2023-12-17,,In Progress,Internal
+12,Automated Testing Framework,2,,31,2024-02-14,,On Hold,Internal
+13,Cloud Cost Optimization,5,,72,2024-12-07,,On Hold,Internal
+14,Partner API Gateway,7,,100,2023-06-20,2023-09-25,Completed,Internal
+15,Employee Onboarding Automation,1,,25,2023-06-13,2024-02-11,Completed,Internal
+16,Disaster Recovery Drill,10,31,135,2024-08-05,,On Hold,External
+17,Sentiment Analysis Pipeline,3,40,45,2025-03-08,,Planning,External
+18,Vendor Risk Assessment,10,2,133,2025-01-14,,In Progress,External
+19,Multi-Region Deployment,8,32,102,2024-02-26,,On Hold,External
+20,CRM Data Quality Initiative,1,5,16,2024-11-01,,Planning,External
+21,Chatbot Intent Expansion,1,46,25,2024-11-25,,In Progress,External
+22,Invoice Processing Automation,11,22,143,2024-06-19,2025-02-25,Completed,External
+23,Threat Detection Upgrade,11,47,138,2024-05-08,,Planning,External
+24,Marketing Attribution Model,11,44,145,2024-01-30,,In Progress,External
+25,Platform Scalability Benchmark,9,40,10,2023-01-12,,In Progress,External

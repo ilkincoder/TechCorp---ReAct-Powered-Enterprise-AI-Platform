@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+.venv
+.git
+.idea
+.claude
+*.egg-info
+.env.example
+README.md
+.DS_Store
+frontend/
+node_modules/

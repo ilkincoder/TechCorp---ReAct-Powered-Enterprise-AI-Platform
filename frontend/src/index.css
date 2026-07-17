@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── shadcn/ui CSS variables (HSL) ──────────────────────────── */
+/* Dark mode: Linear / Vercel / Stripe — deep navy, low contrast, depth-based */
+
+:root {
+  --background: 225 49% 8%;             /* #0B1020 */
+  --foreground: 220 14% 91%;            /* #E5E7EB — soft off-white, never pure #FFF */
+  --card: 220 39% 11%;                  /* #111827 */
+  --card-foreground: 220 14% 91%;
+  --popover: 223 37% 13%;               /* #151C2E */
+  --popover-foreground: 220 14% 91%;
+  --primary: 217 91% 60%;               /* #3B82F6 */
+  --primary-foreground: 220 14% 91%;
+  --secondary: 223 37% 13%;             /* #151C2E */
+  --secondary-foreground: 220 14% 91%;
+  --muted: 223 37% 13%;
+  --muted-foreground: 215 20% 65%;      /* #94A3B8 */
+  --accent: 221 38% 15%;                /* #172033 — hover bg */
+  --accent-foreground: 220 14% 91%;
+  --destructive: 0 84% 60%;             /* #EF4444 */
+  --destructive-foreground: 220 14% 91%;
+  --border: 225 30% 13%;                /* ≈ rgba(255,255,255,0.04) on #0B1020 */
+  --input: 225 30% 13%;
+  --ring: 217 91% 60%;
+  --sidebar: 224 47% 7%;                /* #0A0F1C */
+  --radius: 0.75rem;
+}
+
+[data-theme="light"] {
+  --background: 220 23% 97%;
+  --foreground: 221 39% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 221 39% 11%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 221 39% 11%;
+  --primary: 217 91% 60%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 220 14% 90%;
+  --secondary-foreground: 221 39% 11%;
+  --muted: 220 14% 90%;
+  --muted-foreground: 215 14% 46%;
+  --accent: 220 14% 90%;
+  --accent-foreground: 221 39% 11%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 220 13% 88%;
+  --input: 220 13% 88%;
+  --ring: 217 91% 60%;
+  --sidebar: 220 20% 94%;
+}
+
+/* ── Legacy CSS custom properties (Chat, Reports, NavSidebar, old pages) ── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg: #0B1020;
+  --color-surface: #111827;
+  --color-surface-hover: #172033;
+  --color-border: rgba(255,255,255,0.04);
+  --color-text: #E5E7EB;
+  --color-text-muted: #94A3B8;
+  --color-primary: #3B82F6;
+  --color-primary-dim: #2563EB;
+  --color-user-bubble: #1e3a5f;
+  --color-assistant-bubble: #111827;
+  --color-error: #EF4444;
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-info: #3B82F6;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --shadow: 0 1px 2px rgba(0,0,0,0.25), 0 10px 30px rgba(0,0,0,0.18);
+  --nav-width: 300px;
+  --insights-width: 300px;
+  --color-error-bg: #3b1219;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+}
+
+:root[data-theme="light"] {
+  --color-bg: #F7F8FA;
+  --color-surface: #ffffff;
+  --color-surface-hover: #edf0f7;
+  --color-border: rgba(0,0,0,0.06);
+  --color-text: #111827;
+  --color-text-muted: #6B7280;
+  --color-user-bubble: #d4e3ff;
+  --color-assistant-bubble: #f0f2f8;
+  --color-primary: #4a62cc;
+  --color-primary-dim: #3b4fa0;
+  --color-error-bg: #fde8ec;
+  --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+textarea {
+  font-family: inherit;
+}

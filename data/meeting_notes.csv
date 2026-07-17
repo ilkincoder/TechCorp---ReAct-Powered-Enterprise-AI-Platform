@@ -1,0 +1,226 @@
+note_id,meeting_title,meeting_date,start_time,end_time,organizer_id,attendees_ids,project_id,incident_id,summary,action_items,decisions,location
+1,Security Council — Internal Knowledge Graph Build,2025-06-02,15:00,16:00,4,"4,82,46,83",9,,Architecture decision review. Approved design for TeamSync Collaboration data pipeline changes.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Approved deployment window for next release. Risk accepted for Q3 timeline.,Virtual - Teams
+2,Security Council — Platform Scalability Benchmark,2025-05-31,15:30,15:60,25,"25,146,6,56,131,138,38",25,,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on CustomerIQ stability.","- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Accepted vendor proposal. Contract review pending legal approval.,Virtual - Teams
+3,Sprint Planning — Marketing Attribution Model,2025-03-10,14:00,15:00,80,"80,33,135,132,106,76,131,110",24,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Accepted vendor proposal. Contract review pending legal approval.,Virtual - Teams
+4,Customer Success Sync — Internal Knowledge Graph Build,2025-02-24,11:30,11:60,4,"4,14,112",9,,Reviewed Account health and escalation review. Discussed progress on Internal Knowledge Graph Build.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Accepted vendor proposal. Contract review pending legal approval.,Huddle Room 1A
+5,All-Hands — Platform Team,2025-06-03,09:00,10:00,12,"12,6,98,15,95,131,125,103,148",,,Reviewed Department updates and recognition. Discussed progress on ongoing work.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Escalated monitoring gap to security council. Prioritized for this sprint.,Virtual - Zoom
+6,Security Council — Engineering Team,2025-04-05,09:00,10:00,7,"7,106,140,4,31,92,27,101,146",,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Accepted vendor proposal. Contract review pending legal approval.,Virtual - Zoom
+7,Customer Success Sync — Incident #29,2025-05-06,16:00,17:00,4,"4,70,110,102,39,122,125,22",,29,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Postponed database migration to next maintenance window. Additional testing required.,Conference Room 3A
+8,Customer Success Sync — Vendor Risk Assessment,2025-03-17,13:30,13:60,2,"2,130,46,14,141,113,13,102",18,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Postponed database migration to next maintenance window. Additional testing required.,Huddle Room 1A
+9,Customer Success Sync — Employee Onboarding Automation,2025-01-31,12:00,13:00,2,"2,49,4,16,28",15,,Architecture decision review. Approved design for TeamSync Collaboration data pipeline changes.,"- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Escalated monitoring gap to security council. Prioritized for this sprint.,Conference Room 3A
+10,Quarterly Business Review — Threat Detection Upgrade,2025-05-25,14:00,15:00,12,"12,133,39,20,112,51,86,53,59",23,,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on DataVault Backup stability.","- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Accepted vendor proposal. Contract review pending legal approval.,Huddle Room 1A
+11,Daily Standup — Compliance Automation Initiative,2025-01-02,11:00,12:00,25,"25,78,32",5,,Reviewed Quick sync on blockers and progress. Discussed progress on Compliance Automation Initiative.,"- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Zoom
+12,Quarterly Business Review — IT Team,2025-03-18,14:00,15:00,7,"7,62,27,132,82,94",,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Escalated monitoring gap to security council. Prioritized for this sprint.,Virtual - Zoom
+13,Quarterly Business Review — Automated Testing Framework,2025-05-27,09:30,09:60,2,"2,134,129,110,35,125,86,94",12,45,Post-incident review of incident #45. Identified 3 action items to prevent recurrence.,"- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Teams
+14,Quarterly Business Review — Multi-Region Deployment,2025-02-05,08:00,09:00,7,"7,78,95,67,10,148,25,3,91,69",19,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Approved deployment window for next release. Risk accepted for Q3 timeline.,Conference Room 3A
+15,Architecture Review — Platform Team,2025-04-10,16:00,17:00,7,"7,111,121,145,19,59,31,105,69",,,Architecture decision review. Approved design for InsightFlow Analytics data pipeline changes.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Teams
+16,Customer Success Sync — Security Team,2025-06-12,16:30,16:60,80,"80,123,10,99",,,Architecture decision review. Approved design for TechCorp AI Core data pipeline changes.,"- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Postponed database migration to next maintenance window. Additional testing required.,Board Room 5
+17,Incident Retrospective — Disaster Recovery Drill,2025-02-02,14:30,14:60,25,"25,13,146,61",16,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Postponed database migration to next maintenance window. Additional testing required.,Board Room 5
+18,Sprint Planning — Data Lake Migration,2025-06-08,13:30,13:60,25,"25,12,27,39,61,29,33,52,103,102",6,,Architecture decision review. Approved design for TeamSync Collaboration data pipeline changes.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Approved deployment window for next release. Risk accepted for Q3 timeline.,Conference Room 3A
+19,All-Hands — Automated Testing Framework,2025-03-22,12:00,13:00,80,"80,1,48",12,1,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on CustomerIQ stability.","- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Approved deployment window for next release. Risk accepted for Q3 timeline.,Board Room 5
+20,Security Council — Real-Time Analytics Dashboard,2025-03-08,10:00,11:00,4,"4,97,55,93,26",7,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Approved deployment window for next release. Risk accepted for Q3 timeline.,Virtual - Zoom
+21,Sprint Planning — Data Lake Migration,2025-05-20,13:30,13:60,2,"2,78,28,98",6,,Reviewed Backlog grooming and sprint commitment. Discussed progress on Data Lake Migration.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Escalated monitoring gap to security council. Prioritized for this sprint.,Virtual - Teams
+22,Sprint Planning — Automated Testing Framework,2025-02-26,09:00,10:00,7,"7,125,61,6,53,9",12,53,Architecture decision review. Approved design for CustomerIQ data pipeline changes.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Escalated monitoring gap to security council. Prioritized for this sprint.,Board Room 5
+23,Architecture Review — Employee Onboarding Automation,2025-02-05,15:30,15:60,25,"25,61,67,56,11,76,4,14,49",15,,Architecture decision review. Approved design for TeamSync Collaboration data pipeline changes.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Approved deployment window for next release. Risk accepted for Q3 timeline.,Conference Room 3A
+24,Quarterly Business Review — Platform Team,2025-02-12,08:00,09:00,80,"80,103,46,118,7",,,Architecture decision review. Approved design for Sentinel Security Suite data pipeline changes.,"- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Accepted vendor proposal. Contract review pending legal approval.,Conference Room 3A
+25,Release Readiness — Platform Team,2025-06-03,15:00,16:00,25,"25,140,31",,,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on InsightFlow Analytics stability.","- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Approved deployment window for next release. Risk accepted for Q3 timeline.,Huddle Room 1A
+26,Quarterly Business Review — IT Team,2025-04-28,13:00,14:00,2,"2,142,43,1",,,"Reviewed KPIs, roadmap, and resource planning. Discussed progress on ongoing work.","- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Escalated monitoring gap to security council. Prioritized for this sprint.,Board Room 5
+27,Incident Retrospective — IT Team,2025-04-20,14:00,15:00,12,"12,30,145,136,104,118,140",,,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on Sentinel Security Suite stability.","- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Accepted vendor proposal. Contract review pending legal approval.,Huddle Room 1A
+28,Architecture Review — Engineering Team,2025-02-23,09:00,10:00,12,"12,18,105,109,32,10,102,16,22,139",,,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Accepted vendor proposal. Contract review pending legal approval.,Virtual - Zoom
+29,All-Hands — Multi-Region Deployment,2025-05-08,10:00,11:00,4,"4,129,137,29,146,13,91,132,78",19,49,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on TeamSync Collaboration stability.","- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Approved deployment window for next release. Risk accepted for Q3 timeline.,Conference Room 3A
+30,Release Readiness — Platform Scalability Benchmark,2025-05-23,15:00,16:00,4,"4,67,99,55,68,118",25,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Postponed database migration to next maintenance window. Additional testing required.,Conference Room 3A
+31,Daily Standup — AI Team,2025-02-19,09:00,10:00,25,"25,29,139,103,8,59,56,20,146,43",,,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Accepted vendor proposal. Contract review pending legal approval.,Conference Room 3A
+32,Security Council — Self-Service Support Portal,2025-06-14,09:00,10:00,25,"25,19,90,149,48",8,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Zoom
+33,Daily Standup — AI Model Fine-Tuning Sprint,2025-05-02,08:00,09:00,4,"4,1,92,9,128,57,122,17,133",4,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Escalated monitoring gap to security council. Prioritized for this sprint.,Virtual - Teams
+34,Release Readiness — Marketing Attribution Model,2025-05-20,15:00,16:00,80,"80,51,102,69,73,141,139",24,32,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Zoom
+35,Incident Retrospective — Deploy RAG Pipeline v2,2025-02-10,11:30,11:60,25,"25,6,70,62,111",1,,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Postponed database migration to next maintenance window. Additional testing required.,Huddle Room 1A
+36,Release Readiness — Employee Onboarding Automation,2025-04-27,11:00,12:00,7,"7,54,51,49,106,61,19,113,83,30",15,,Architecture decision review. Approved design for InsightFlow Analytics data pipeline changes.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Escalated monitoring gap to security council. Prioritized for this sprint.,Huddle Room 1A
+37,Customer Success Sync — Incident #10,2025-04-13,14:00,15:00,7,"7,88,104,69",,10,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Teams
+38,Release Readiness — Employee Onboarding Automation,2025-05-20,14:00,15:00,7,"7,40,119,108,92",15,14,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on TechCorp AI Core stability.","- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Escalated monitoring gap to security council. Prioritized for this sprint.,Board Room 5
+39,Security Council — Platform Scalability Benchmark,2025-06-12,09:00,10:00,12,"12,107,14",25,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Approved deployment window for next release. Risk accepted for Q3 timeline.,Virtual - Zoom
+40,Quarterly Business Review — Engineering Team,2025-05-15,12:00,13:00,25,"25,94,139,130,69,73,51,111",,,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on TechCorp AI Core stability.","- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Postponed database migration to next maintenance window. Additional testing required.,Huddle Room 1A
+41,Sprint Planning — Platform Team,2025-05-22,15:00,16:00,80,"80,110,40,109,132,139,34,15,105,146",,,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Escalated monitoring gap to security council. Prioritized for this sprint.,Huddle Room 1A
+42,Incident Retrospective — IT Team,2025-01-08,13:00,14:00,80,"80,68,138,3,74",,,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on TechCorp AI Core stability.","- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Teams
+43,Architecture Review — AI Team,2025-01-25,15:00,16:00,12,"12,43,112,125,146,124,11,53",,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Zoom
+44,Quarterly Business Review — IT Team,2025-04-11,12:30,12:60,25,"25,7,104,34,110",,,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Accepted vendor proposal. Contract review pending legal approval.,Conference Room 3A
+45,Customer Success Sync — Incident #60,2025-06-24,12:30,12:60,80,"80,118,93",,60,Reviewed Account health and escalation review. Discussed progress on ongoing work.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Escalated monitoring gap to security council. Prioritized for this sprint.,Virtual - Zoom
+46,Release Readiness — Sentiment Analysis Pipeline,2025-05-10,15:00,16:00,7,"7,111,51,18,145,52,113,39,90",17,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Approved deployment window for next release. Risk accepted for Q3 timeline.,Virtual - Teams
+47,Sprint Planning — Compliance Automation Initiative,2025-02-02,11:00,12:00,4,"4,11,26,55,10,21",5,,Architecture decision review. Approved design for TechCorp AI Core data pipeline changes.,"- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Accepted vendor proposal. Contract review pending legal approval.,Conference Room 3A
+48,Incident Retrospective — Security Team,2024-12-30,10:00,11:00,12,"12,99,17,8",,,Reviewed Root cause analysis and action items. Discussed progress on ongoing work.,"- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Approved deployment window for next release. Risk accepted for Q3 timeline.,Conference Room 3A
+49,Release Readiness — Incident #4,2025-02-13,11:30,11:60,12,"12,57,49,101",,4,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Zoom
+50,Daily Standup — Sentiment Analysis Pipeline,2025-05-28,09:00,10:00,2,"2,20,136,88,93,28,110",17,12,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Teams
+51,Architecture Review — AI Team,2025-01-12,12:00,13:00,7,"7,129,52,118,34,83,1",,,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Approved deployment window for next release. Risk accepted for Q3 timeline.,Virtual - Zoom
+52,Daily Standup — IT Team,2025-03-28,09:00,10:00,4,"4,48,95,122",,,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Accepted vendor proposal. Contract review pending legal approval.,Virtual - Zoom
+53,Security Council — Disaster Recovery Drill,2025-03-30,14:30,14:60,12,"12,33,95,25,6,109",16,,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Escalated monitoring gap to security council. Prioritized for this sprint.,Huddle Room 1A
+54,Incident Retrospective — Platform Scalability Benchmark,2025-01-18,10:30,10:60,4,"4,124,48,56,135",25,,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on Sentinel Security Suite stability.","- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Teams
+55,Incident Retrospective — Deploy RAG Pipeline v2,2025-04-12,16:00,17:00,2,"2,51,29,4,78,59,22",1,,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Escalated monitoring gap to security council. Prioritized for this sprint.,Huddle Room 1A
+56,Incident Retrospective — Invoice Processing Automation,2025-02-22,11:30,11:60,4,"4,111,74,98,43,20,34,82",22,7,Post-incident review of incident #7. Identified 3 action items to prevent recurrence.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Zoom
+57,Release Readiness — Security Team,2025-06-12,08:30,08:60,25,"25,127,109,134,17,55,92,73",,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Postponed database migration to next maintenance window. Additional testing required.,Board Room 5
+58,Customer Success Sync — Security Team,2025-04-07,11:00,12:00,80,"80,93,125,49,110,27,139,17",,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Approved deployment window for next release. Risk accepted for Q3 timeline.,Virtual - Teams
+59,Sprint Planning — Compliance Automation Initiative,2025-03-05,14:00,15:00,4,"4,71,98,139,138,146,148,116,40,10",5,,Reviewed Backlog grooming and sprint commitment. Discussed progress on Compliance Automation Initiative.,"- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Accepted vendor proposal. Contract review pending legal approval.,Huddle Room 1A
+60,Quarterly Business Review — Deploy RAG Pipeline v2,2025-02-11,11:00,12:00,80,"80,91,19,124,39,148,46,74,98,137",1,,"Reviewed KPIs, roadmap, and resource planning. Discussed progress on Deploy RAG Pipeline v2.","- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Accepted vendor proposal. Contract review pending legal approval.,Board Room 5
+61,All-Hands — Incident #51,2025-04-14,08:00,09:00,7,"7,110,128,133,2,44,39,30,20",,51,Post-incident review of incident #51. Identified 3 action items to prevent recurrence.,"- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Approved deployment window for next release. Risk accepted for Q3 timeline.,Huddle Room 1A
+62,Incident Retrospective — Cloud Cost Optimization,2025-03-04,12:00,13:00,80,"80,121,46,14,144,40,69,28,111,98",13,,Reviewed Root cause analysis and action items. Discussed progress on Cloud Cost Optimization.,"- Schedule load test for new infrastructure
+- Update capacity planning doc
+- Review vendor SLA terms",Approved deployment window for next release. Risk accepted for Q3 timeline.,Conference Room 3A
+63,Customer Success Sync — IT Team,2025-01-14,13:30,13:60,80,"80,101,65",,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Accepted vendor proposal. Contract review pending legal approval.,Virtual - Teams
+64,Daily Standup — Incident #46,2025-05-21,09:00,10:00,12,"12,78,9,142,19",,46,Post-incident review of incident #46. Identified 3 action items to prevent recurrence.,"- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Accepted vendor proposal. Contract review pending legal approval.,Virtual - Zoom
+65,Sprint Planning — Platform Scalability Benchmark,2025-01-15,14:00,15:00,80,"80,83,62",25,26,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on TeamSync Collaboration stability.","- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Escalated monitoring gap to security council. Prioritized for this sprint.,Conference Room 3A
+66,Architecture Review — Customer Onboarding Portal,2025-01-01,11:30,11:60,80,"80,7,103",2,,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on TechCorp AI Core stability.","- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Postponed database migration to next maintenance window. Additional testing required.,Board Room 5
+67,All-Hands — Cloud Cost Optimization,2025-01-01,14:00,15:00,12,"12,3,81,121,43,78,4,106,112",13,,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on TechCorp AI Core stability.","- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Teams
+68,Security Council — Threat Detection Upgrade,2025-06-27,12:00,13:00,25,"25,59,31,20,86",23,57,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on TeamSync Collaboration stability.","- Align with legal on data retention policy
+- Update API documentation
+- Share meeting notes with stakeholders",Postponed database migration to next maintenance window. Additional testing required.,Virtual - Teams
+69,Architecture Review — Identity Access Management Overhaul,2025-06-21,15:30,15:60,7,"7,104,42,69",11,,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Approved deployment window for next release. Risk accepted for Q3 timeline.,Conference Room 3A
+70,Quarterly Business Review — Multi-Region Deployment,2025-03-02,08:00,09:00,25,"25,137,95,128,44,54",19,,Post-incident review of incident #recent. Identified 3 action items to prevent recurrence.,"- Complete RCA documentation by EOW
+- Notify affected customers
+- Patch deployment by Friday",Approved deployment window for next release. Risk accepted for Q3 timeline.,Conference Room 3A
+71,Quarterly Business Review — IT Team,2025-02-23,15:00,16:00,12,"12,113,49,70,59,98,120,25,141",,,"Reviewed KPIs, roadmap, and resource planning. Discussed progress on ongoing work.","- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Approved deployment window for next release. Risk accepted for Q3 timeline.,Conference Room 3A
+72,Daily Standup — Security Team,2025-01-14,11:30,11:60,7,"7,116,92,149,22,14,8,55,31",,,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Accepted vendor proposal. Contract review pending legal approval.,Conference Room 3A
+73,Architecture Review — AI Team,2025-01-05,08:30,08:60,25,"25,144,137,126,141,30,16,102,119,146",,,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on TechCorp AI Core stability.","- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Approved deployment window for next release. Risk accepted for Q3 timeline.,Huddle Room 1A
+74,All-Hands — Deploy RAG Pipeline v2,2025-05-04,09:30,09:60,7,"7,116,109,21",1,,Quarterly planning session. Prioritized backlog items for next sprint. Resource allocation discussed.,"- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Approved deployment window for next release. Risk accepted for Q3 timeline.,Huddle Room 1A
+75,Security Council — Deploy RAG Pipeline v2,2025-04-18,12:30,12:60,4,"4,148,122,136",1,,"Team sync covering sprint progress, blockers, and upcoming deliverables. Focus on InsightFlow Analytics stability.","- Update runbook with new escalation path
+- Schedule follow-up review next week
+- File Jira for monitoring gap",Accepted vendor proposal. Contract review pending legal approval.,Board Room 5

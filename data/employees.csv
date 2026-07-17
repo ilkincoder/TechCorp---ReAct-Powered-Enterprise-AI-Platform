@@ -1,0 +1,150 @@
+employee_id,first_name,last_name,email,department_id,job_title,manager_id,hire_date,salary,employment_status
+1,David,Williams,david.williams@techcorp.com,6,CEO,,2018-03-15,350000,Active
+2,Fatima,Chen,fatima.chen@techcorp.com,1,VP of AI,1,2021-01-31,212098,Active
+3,Linh,Nakamura,linh.nakamura@techcorp.com,2,Director of Customer Support,1,2019-02-24,268696,Active
+4,Thabo,Kim,thabo.kim@techcorp.com,3,CTO,1,2024-08-15,235302,Active
+5,Wei,Chen,wei.chen@techcorp.com,4,CFO,1,2019-01-19,208657,Active
+6,Linh,Dubois,linh.dubois@techcorp.com,5,VP of People,1,2024-10-01,183478,Active
+7,Jin,Muller,jin.muller@techcorp.com,6,VP of IT,1,2024-02-11,234987,Active
+8,Linh,Ibrahim,linh.ibrahim@techcorp.com,7,General Counsel,1,2024-08-10,216463,Active
+9,James,Morales,james.morales@techcorp.com,8,CMO,1,2019-10-16,271506,Active
+10,Hiroshi,Tanaka,hiroshi.tanaka@techcorp.com,9,COO,1,2021-02-12,200379,Active
+11,Raj,Morales,raj.morales@techcorp.com,10,VP of Sales,1,2021-10-10,193396,Active
+12,Priya,Johnson,priya.johnson@techcorp.com,11,Director of Security,1,2019-02-01,227052,Active
+13,Camila,Santos,camila.santos@techcorp.com,1,Prompt Engineer,2,2023-07-11,130284,Active
+14,Fatima,Novak,fatima.novak@techcorp.com,1,AI Product Manager,2,2021-02-14,142397,Active
+15,Felix,Ali,felix.ali@techcorp.com,1,ML Engineer,2,2023-10-31,152349,Active
+16,Carlos,Rodriguez,carlos.rodriguez@techcorp.com,1,AI Product Manager,2,2022-09-16,70458,Active
+17,Linh,Rossi,linh.rossi@techcorp.com,1,Prompt Engineer,2,2019-07-26,143320,Active
+18,Samuel,Williams,samuel.williams@techcorp.com,1,NLP Engineer,2,2021-01-28,94993,Active
+19,Carlos,Brown,carlos.brown@techcorp.com,1,NLP Engineer,2,2022-07-24,92087,Active
+20,Elena,Ibrahim,elena.ibrahim@techcorp.com,1,NLP Engineer,2,2021-02-16,150198,Active
+21,Jin,Okafor,jin.okafor@techcorp.com,1,AI Quality Assurance Lead,2,2022-11-03,67331,Active
+22,Linh,Fischer,linh.fischer@techcorp.com,1,Prompt Engineer,2,2019-03-07,95093,Active
+23,Carlos,Muller,carlos.muller@techcorp.com,1,ML Engineer,2,2024-02-14,145909,Terminated
+24,Sana,Johnson,sana.johnson@techcorp.com,1,ML Engineer,2,2023-12-17,94718,Terminated
+25,Yuki,Okafor,yuki.okafor@techcorp.com,1,AI Product Manager,2,2023-03-06,157912,Active
+26,Ravi,Johnson,ravi.johnson@techcorp.com,2,Support Team Lead,3,2021-01-11,126784,Active
+27,Sana,Kim,sana.kim@techcorp.com,2,Support Specialist,3,2023-03-28,80033,Active
+28,Elena,Rahman,elena.rahman@techcorp.com,2,Support Specialist,3,2022-10-25,110432,Active
+29,Zara,Brown,zara.brown@techcorp.com,2,Technical Support Engineer,3,2021-08-16,61504,Active
+30,Fatima,Kowalski,fatima.kowalski@techcorp.com,2,Escalation Manager,3,2023-12-18,144012,Active
+31,Arjun,Patel,arjun.patel@techcorp.com,2,Customer Success Manager,3,2020-08-24,60425,Active
+32,Hannah,Dubois,hannah.dubois@techcorp.com,2,Support Specialist,3,2023-04-10,141959,Active
+33,David,Fischer,david.fischer@techcorp.com,2,Support Team Lead,3,2022-08-01,80032,Active
+34,Samuel,Morales,samuel.morales@techcorp.com,2,Technical Support Engineer,3,2019-11-27,60074,Active
+35,Camila,Tanaka,camila.tanaka@techcorp.com,2,Escalation Manager,3,2021-09-27,100306,Active
+36,Ahmed,Rodriguez,ahmed.rodriguez@techcorp.com,2,Support Specialist,3,2020-05-08,155932,On Leave
+37,Sana,Fischer,sana.fischer@techcorp.com,2,Support Team Lead,3,2019-05-22,146474,On Leave
+38,Diego,Andersson,diego.andersson@techcorp.com,2,Technical Support Engineer,3,2019-12-05,115461,Active
+39,Raj,Novak,raj.novak@techcorp.com,2,Support Team Lead,3,2022-01-09,153447,Active
+40,Chen,Kowalski,chen.kowalski@techcorp.com,3,QA Engineer,4,2022-08-23,119177,Active
+41,Fatima,Okafor,fatima.okafor@techcorp.com,3,Software Engineer,4,2020-04-05,137110,Active
+42,Ravi,Okafor,ravi.okafor@techcorp.com,3,Site Reliability Engineer,4,2019-01-15,67716,Active
+43,Linh,Kim,linh.kim@techcorp.com,3,DevOps Engineer,4,2024-01-29,69287,Active
+44,Viktor,Okafor,viktor.okafor@techcorp.com,3,Senior Software Engineer,4,2020-07-24,130678,Active
+45,Yuki,Bauer,yuki.bauer@techcorp.com,3,Senior Software Engineer,4,2024-03-30,121993,Terminated
+46,Isabella,Muller,isabella.muller@techcorp.com,3,Engineering Manager,4,2019-07-13,106438,Active
+47,Hiroshi,Garcia,hiroshi.garcia@techcorp.com,3,Site Reliability Engineer,4,2021-08-14,145649,On Leave
+48,Dmitri,Rodriguez,dmitri.rodriguez@techcorp.com,3,Backend Developer,4,2021-04-04,74322,Active
+49,Ahmed,Muller,ahmed.muller@techcorp.com,3,Senior Software Engineer,4,2020-01-25,115296,Active
+50,Kwame,Santos,kwame.santos@techcorp.com,3,Software Engineer,4,2021-08-05,118082,Active
+51,Jin,Patel,jin.patel@techcorp.com,3,QA Engineer,4,2019-04-14,61934,Active
+52,Priya,Novak,priya.novak@techcorp.com,3,Senior Software Engineer,4,2023-03-24,113269,Active
+53,Diego,Muller,diego.muller@techcorp.com,4,Financial Analyst,5,2023-11-06,81579,Active
+54,Zara,Chen,zara.chen@techcorp.com,4,Accounts Payable Specialist,5,2021-03-10,97388,Active
+55,Hiroshi,Nguyen,hiroshi.nguyen@techcorp.com,4,Revenue Analyst,5,2024-05-14,146752,Active
+56,Sana,Nakamura,sana.nakamura@techcorp.com,4,Financial Analyst,5,2020-01-24,135914,Active
+57,Thabo,Rodriguez,thabo.rodriguez@techcorp.com,4,Financial Analyst,5,2023-03-12,136569,Active
+58,Diego,Dubois,diego.dubois@techcorp.com,4,Financial Analyst,5,2024-02-26,126562,On Leave
+59,Priya,Rossi,priya.rossi@techcorp.com,4,Financial Analyst,5,2020-01-16,148501,Active
+60,Ahmed,Johnson,ahmed.johnson@techcorp.com,4,Revenue Analyst,5,2019-09-03,137924,On Leave
+61,Wei,Brown,wei.brown@techcorp.com,4,Revenue Analyst,5,2019-06-17,134085,Active
+62,Leila,Tanaka,leila.tanaka@techcorp.com,4,FP&A Manager,5,2024-03-29,91285,Active
+63,Hannah,Johnson,hannah.johnson@techcorp.com,4,FP&A Manager,5,2019-09-26,119929,Active
+64,Nia,Novak,nia.novak@techcorp.com,4,Accounts Payable Specialist,5,2023-03-20,141416,On Leave
+65,Ingrid,Patel,ingrid.patel@techcorp.com,4,Revenue Analyst,5,2019-05-31,94760,Active
+66,Yuki,Novak,yuki.novak@techcorp.com,4,FP&A Manager,5,2020-12-15,97353,On Leave
+67,Amara,Fischer,amara.fischer@techcorp.com,5,Compensation Analyst,6,2022-01-17,145717,Active
+68,Leila,Chen,leila.chen@techcorp.com,5,HR Coordinator,6,2022-09-29,146951,Active
+69,Dmitri,Ali,dmitri.ali@techcorp.com,5,HR Business Partner,6,2019-10-03,157310,Active
+70,Jin,Nakamura,jin.nakamura@techcorp.com,5,Talent Acquisition Specialist,6,2020-07-11,154058,Active
+71,Arjun,Muller,arjun.muller@techcorp.com,5,HR Coordinator,6,2022-11-08,126244,Active
+72,Sana,Santos,sana.santos@techcorp.com,5,HR Business Partner,6,2024-01-29,143136,On Leave
+73,Hiroshi,Fischer,hiroshi.fischer@techcorp.com,5,HR Coordinator,6,2020-07-20,77146,Active
+74,Hannah,Williams,hannah.williams@techcorp.com,5,Learning & Development Lead,6,2023-02-27,133519,Active
+75,James,Patel,james.patel@techcorp.com,5,Compensation Analyst,6,2019-06-04,64722,On Leave
+76,Samuel,Lee,samuel.lee@techcorp.com,5,Talent Acquisition Specialist,6,2022-02-05,65482,Active
+77,David,Gupta,david.gupta@techcorp.com,5,HR Coordinator,6,2024-01-16,87535,On Leave
+78,Ahmed,Kowalski,ahmed.kowalski@techcorp.com,5,Compensation Analyst,6,2019-07-30,113264,Active
+79,Ahmed,Rossi,ahmed.rossi@techcorp.com,6,Network Engineer,7,2019-11-29,63248,On Leave
+80,Kwame,Bauer,kwame.bauer@techcorp.com,6,Network Engineer,7,2024-03-08,147806,Active
+81,Ahmed,Santos,ahmed.santos@techcorp.com,6,Systems Administrator,7,2019-11-23,110140,Active
+82,Wei,Rossi,wei.rossi@techcorp.com,6,Network Engineer,7,2021-08-21,105830,Active
+83,Linh,Okafor,linh.okafor@techcorp.com,6,Network Engineer,7,2019-02-18,103025,Active
+84,Tariq,Rossi,tariq.rossi@techcorp.com,6,Platform Operations Lead,7,2019-05-23,144080,Terminated
+85,Viktor,Johnson,viktor.johnson@techcorp.com,6,Systems Administrator,7,2022-10-23,75118,Terminated
+86,Ravi,Santos,ravi.santos@techcorp.com,6,Network Engineer,7,2019-03-20,105309,Active
+87,Nia,Garcia,nia.garcia@techcorp.com,6,Network Engineer,7,2022-05-26,135574,On Leave
+88,Sofia,Santos,sofia.santos@techcorp.com,6,Systems Administrator,7,2019-04-01,128146,Active
+89,Thabo,Kowalski,thabo.kowalski@techcorp.com,6,Platform Operations Lead,7,2023-01-13,116531,On Leave
+90,Carlos,Kowalski,carlos.kowalski@techcorp.com,6,Platform Operations Lead,7,2024-02-29,146951,Active
+91,David,Dubois,david.dubois@techcorp.com,7,IP Specialist,8,2020-09-25,112743,Active
+92,Mei,Andersson,mei.andersson@techcorp.com,7,Contract Manager,8,2019-09-18,148777,Active
+93,Kwame,Brown,kwame.brown@techcorp.com,7,Privacy Counsel,8,2022-03-11,60053,Active
+94,David,Johansson,david.johansson@techcorp.com,7,Privacy Counsel,8,2020-03-06,139516,Active
+95,Nia,Ibrahim,nia.ibrahim@techcorp.com,7,Compliance Officer,8,2021-06-23,127000,Active
+96,Diego,Rahman,diego.rahman@techcorp.com,7,Corporate Counsel,8,2024-01-20,97196,On Leave
+97,Viktor,Kowalski,viktor.kowalski@techcorp.com,7,Corporate Counsel,8,2022-07-20,158453,Active
+98,David,Okafor,david.okafor@techcorp.com,7,Corporate Counsel,8,2023-07-10,66057,Active
+99,Ahmed,Park,ahmed.park@techcorp.com,7,Corporate Counsel,8,2022-06-05,119692,Active
+100,Isabella,Ali,isabella.ali@techcorp.com,7,Contract Manager,8,2022-07-13,124799,Active
+101,Chen,Okafor,chen.okafor@techcorp.com,7,Corporate Counsel,8,2019-10-30,158430,Active
+102,Hiroshi,Okafor,hiroshi.okafor@techcorp.com,8,Product Marketing Manager,9,2019-12-27,127889,Active
+103,Lucas,Rodriguez,lucas.rodriguez@techcorp.com,8,Marketing Manager,9,2022-02-15,119829,Active
+104,Yuki,Rahman,yuki.rahman@techcorp.com,8,Brand Designer,9,2021-08-09,138047,Active
+105,Nia,Morales,nia.morales@techcorp.com,8,Product Marketing Manager,9,2023-12-31,126162,Active
+106,Jin,Ibrahim,jin.ibrahim@techcorp.com,8,SEO Specialist,9,2024-01-12,118991,Active
+107,Hannah,Morales,hannah.morales@techcorp.com,8,Demand Generation Lead,9,2020-05-21,128327,Active
+108,Sana,Silva,sana.silva@techcorp.com,8,Marketing Manager,9,2020-05-04,153525,Active
+109,Mei,Okafor,mei.okafor@techcorp.com,8,Brand Designer,9,2020-07-10,70561,Active
+110,Yuki,Nakamura,yuki.nakamura@techcorp.com,8,Content Strategist,9,2020-04-18,152591,Active
+111,Raj,Kim,raj.kim@techcorp.com,8,Brand Designer,9,2021-04-29,121069,Active
+112,Isabella,Rodriguez,isabella.rodriguez@techcorp.com,8,SEO Specialist,9,2020-02-28,136556,Active
+113,Ingrid,Johnson,ingrid.johnson@techcorp.com,9,Process Analyst,10,2021-09-03,99139,Active
+114,Zara,Rossi,zara.rossi@techcorp.com,9,Facilities Manager,10,2024-01-01,157978,Terminated
+115,Thabo,Rahman,thabo.rahman@techcorp.com,9,Vendor Manager,10,2022-05-20,95774,Terminated
+116,Hiroshi,Park,hiroshi.park@techcorp.com,9,Supply Chain Coordinator,10,2019-03-01,154919,Active
+117,Elena,Fischer,elena.fischer@techcorp.com,9,Supply Chain Coordinator,10,2021-08-15,137580,On Leave
+118,Ingrid,Kowalski,ingrid.kowalski@techcorp.com,9,Supply Chain Coordinator,10,2019-02-25,77786,Active
+119,Lucas,Williams,lucas.williams@techcorp.com,9,Process Analyst,10,2019-04-13,87742,Active
+120,Lucas,Tanaka,lucas.tanaka@techcorp.com,9,Supply Chain Coordinator,10,2020-11-22,96471,Active
+121,Isabella,Santos,isabella.santos@techcorp.com,9,Operations Manager,10,2023-09-06,158176,Active
+122,Olga,Okafor,olga.okafor@techcorp.com,9,Operations Manager,10,2022-08-24,158858,Active
+123,Maria,Okafor,maria.okafor@techcorp.com,9,Facilities Manager,10,2020-02-13,79973,Active
+124,Yuki,Park,yuki.park@techcorp.com,10,Sales Development Rep,11,2022-10-03,120952,Active
+125,Camila,Brown,camila.brown@techcorp.com,10,Account Executive,11,2024-05-27,81465,Active
+126,David,Patel,david.patel@techcorp.com,10,Sales Manager,11,2022-03-31,135470,Active
+127,Zara,Johnson,zara.johnson@techcorp.com,10,Account Executive,11,2024-04-12,137607,Active
+128,Ahmed,Patel,ahmed.patel@techcorp.com,10,Enterprise Account Executive,11,2022-11-28,138697,Active
+129,Fatima,Rahman,fatima.rahman@techcorp.com,10,Sales Manager,11,2022-03-05,129827,Active
+130,Hiroshi,Kowalski,hiroshi.kowalski@techcorp.com,10,Enterprise Account Executive,11,2021-01-28,104725,Active
+131,James,Rossi,james.rossi@techcorp.com,10,Account Executive,11,2021-05-10,116822,Active
+132,Samuel,Silva,samuel.silva@techcorp.com,10,Enterprise Account Executive,11,2023-12-31,80052,Active
+133,Hiroshi,Williams,hiroshi.williams@techcorp.com,10,Enterprise Account Executive,11,2023-02-11,95400,Active
+134,Felix,Rahman,felix.rahman@techcorp.com,10,Solutions Engineer,11,2024-02-27,120931,Active
+135,Nia,Rossi,nia.rossi@techcorp.com,10,Account Executive,11,2020-05-17,96559,Active
+136,Ahmed,Morales,ahmed.morales@techcorp.com,11,Incident Response Lead,12,2021-08-09,104092,Active
+137,Maria,Park,maria.park@techcorp.com,11,Incident Response Lead,12,2023-10-09,87802,Active
+138,Olga,Rahman,olga.rahman@techcorp.com,11,Compliance Auditor,12,2020-06-13,151905,Active
+139,Tariq,Andersson,tariq.andersson@techcorp.com,11,CISO,12,2019-01-21,71221,Active
+140,Ahmed,Bauer,ahmed.bauer@techcorp.com,11,CISO,12,2021-04-12,150519,Active
+141,Diego,Silva,diego.silva@techcorp.com,11,Security Engineer,12,2022-12-28,72196,Active
+142,Chen,Nguyen,chen.nguyen@techcorp.com,11,Compliance Auditor,12,2020-05-13,108368,Active
+143,Leila,Gupta,leila.gupta@techcorp.com,11,Security Analyst,12,2021-05-21,152124,Terminated
+144,Lucas,Santos,lucas.santos@techcorp.com,11,Security Engineer,12,2020-09-19,154540,Active
+145,Sofia,Tanaka,sofia.tanaka@techcorp.com,11,CISO,12,2019-09-02,85105,Active
+146,Raj,Bauer,raj.bauer@techcorp.com,11,Compliance Auditor,12,2021-09-18,159641,Active
+147,Leila,Brown,leila.brown@techcorp.com,11,Security Analyst,12,2020-08-02,89816,On Leave
+148,David,Chen,david.chen@techcorp.com,11,Security Analyst,12,2022-12-21,65965,Active
+149,Aisha,Andersson,aisha.andersson@techcorp.com,11,CISO,12,2020-08-21,143606,Active

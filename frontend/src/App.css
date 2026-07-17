@@ -1,0 +1,11 @@
+/* 768px – 1023px: insights hidden from grid, show as overlay */
+@media (max-width: 1023px) {
+  .insights-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 10;
+    box-shadow: var(--shadow);
+  }
+}

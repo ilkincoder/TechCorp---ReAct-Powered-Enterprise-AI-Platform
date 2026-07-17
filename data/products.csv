@@ -1,0 +1,13 @@
+product_id,product_name,category,pricing_tier,monthly_price_usd,description
+1,TechCorp AI Core,AI Platform,Enterprise,4999,"Core AI platform with RAG, SQL, and Python tool orchestration"
+2,TechCorp AI Core,AI Platform,Professional,1999,"Core AI platform for mid-size teams, up to 50 seats"
+3,TechCorp AI Core,AI Platform,Starter,0,Internal-use AI platform with basic tool calling
+4,InsightFlow Analytics,Analytics,Enterprise,3999,Advanced analytics dashboard with real-time SQL querying
+5,InsightFlow Analytics,Analytics,Professional,1499,Analytics for teams with scheduled reports
+6,Sentinel Security Suite,Security,Enterprise,5999,AI-powered security monitoring and threat detection
+7,Sentinel Security Suite,Security,Professional,2499,Security suite for mid-size organizations
+8,TeamSync Collaboration,Collaboration,Enterprise,2999,AI-enhanced team collaboration with meeting intelligence
+9,TeamSync Collaboration,Collaboration,Professional,999,Team collaboration with basic AI features
+10,CustomerIQ,AI Platform,Enterprise,4499,Customer intelligence platform with sentiment analysis
+11,CustomerIQ,AI Platform,Professional,1799,Customer intelligence for growing teams
+12,DataVault Backup,Security,Professional,899,Automated backup and recovery solution

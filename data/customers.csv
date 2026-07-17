@@ -1,0 +1,51 @@
+customer_id,company_name,industry,company_size,region,contact_email,account_manager_id
+1,Meridian Financial Group,Finance,Enterprise,North America,contact@meridian-financial-group.com,135
+2,Apex Manufacturing Corp,Manufacturing,Enterprise,North America,contact@apex-manufacturing-corp.com,133
+3,BlueDot Retail Solutions,Retail,Medium,North America,contact@bluedot-retail-solutions.com,128
+4,GreenLeaf Healthcare,Healthcare,Enterprise,North America,contact@greenleaf-healthcare.com,6
+5,Nimbus Cloud Services,Technology,Medium,North America,contact@nimbus-cloud-services.com,135
+6,Pacific Rim Logistics,Manufacturing,Enterprise,APAC,contact@pacific-rim-logistics.com,2
+7,EuroFinance AG,Finance,Enterprise,EMEA,contact@eurofinance-ag.com,130
+8,MediCare Plus,Healthcare,Medium,EMEA,contact@medicare-plus.com,125
+9,DataStream Analytics,Technology,Small,North America,contact@datastream-analytics.com,128
+10,Orion Education Network,Education,Small,North America,contact@orion-education-network.com,128
+11,Latam Trade Partners,Finance,Medium,LATAM,contact@latam-trade-partners.com,128
+12,Terra Engineering GmbH,Manufacturing,Enterprise,EMEA,contact@terra-engineering-gmbh.com,126
+13,ShopLocal Inc.,Retail,Medium,North America,contact@shoplocal-inc.com,7
+14,Singapore Health Systems,Healthcare,Enterprise,APAC,contact@singapore-health-systems.com,2
+15,Northern Trust Bank,Finance,Enterprise,North America,contact@northern-trust-bank.com,125
+16,CodeCraft Software,Technology,Small,EMEA,contact@codecraft-software.com,135
+17,GlobalLink Telecom,Technology,Enterprise,North America,contact@globallink-telecom.com,128
+18,Sunrise Medical Devices,Healthcare,Enterprise,North America,contact@sunrise-medical-devices.com,6
+19,Peak Performance Sports,Retail,Medium,North America,contact@peak-performance-sports.com,135
+20,Asian Pacific Holdings,Finance,Enterprise,APAC,contact@asian-pacific-holdings.com,6
+21,EcoWare Manufacturing,Manufacturing,Small,EMEA,contact@ecoware-manufacturing.com,127
+22,BrightPath Education,Education,Small,North America,contact@brightpath-education.com,128
+23,CyberShield Security,Technology,Medium,North America,contact@cybershield-security.com,6
+24,Urban Harvest Grocers,Retail,Medium,North America,contact@urban-harvest-grocers.com,130
+25,NovaTech Innovations,Technology,Enterprise,North America,contact@novatech-innovations.com,131
+26,Andean Commodities SA,Manufacturing,Medium,LATAM,contact@andean-commodities-sa.com,131
+27,ClearView Diagnostics,Healthcare,Medium,EMEA,contact@clearview-diagnostics.com,2
+28,TechBridge Solutions,Technology,Small,APAC,contact@techbridge-solutions.com,7
+29,Heritage Insurance Group,Finance,Enterprise,North America,contact@heritage-insurance-group.com,7
+30,FusionWare Labs,Technology,Medium,EMEA,contact@fusionware-labs.com,133
+31,Zenith Capital Partners,Finance,Enterprise,North America,contact@zenith-capital-partners.com,130
+32,Maple Leaf Medical Research,Healthcare,Medium,North America,contact@maple-leaf-medical-research.com,125
+33,InnoSys Dynamics,Technology,Small,LATAM,contact@innosys-dynamics.com,6
+34,Pan-Asia Supply Chain Corp,Manufacturing,Enterprise,APAC,contact@pan-asia-supply-chain-corp.com,11
+35,DigitalFirst Agency,Technology,Small,EMEA,contact@digitalfirst-agency.com,6
+36,Summit Retail Brands,Retail,Enterprise,North America,contact@summit-retail-brands.com,129
+37,Oasis Health Partners,Healthcare,Enterprise,EMEA,contact@oasis-health-partners.com,133
+38,Quantum Financial Technologies,Finance,Medium,North America,contact@quantum-financial-technologies.com,127
+39,Sao Paulo Industrial Group,Manufacturing,Enterprise,LATAM,contact@sao-paulo-industrial-group.com,130
+40,Nordic EdTech Solutions,Education,Small,EMEA,contact@nordic-edtech-solutions.com,130
+41,Titanium Manufacturing Ltd,Manufacturing,Enterprise,APAC,contact@titanium-manufacturing-ltd.com,133
+42,BlueWave Renewable Energy,Technology,Medium,North America,contact@bluewave-renewable-energy.com,130
+43,Metropolitan Hospital Network,Healthcare,Enterprise,EMEA,contact@metropolitan-hospital-network.com,11
+44,Argentine Trade Consortium,Finance,Medium,LATAM,contact@argentine-trade-consortium.com,133
+45,Cascade Learning Systems,Education,Small,North America,contact@cascade-learning-systems.com,129
+46,Phoenix Security Solutions,Technology,Medium,EMEA,contact@phoenix-security-solutions.com,127
+47,Chengdu Precision Instruments,Manufacturing,Medium,APAC,contact@chengdu-precision-instruments.com,128
+48,Veridian Retail Group,Retail,Enterprise,EMEA,contact@veridian-retail-group.com,128
+49,Atlas Healthcare Solutions,Healthcare,Medium,APAC,contact@atlas-healthcare-solutions.com,125
+50,Velocity FinTech Partners,Finance,Small,North America,contact@velocity-fintech-partners.com,135

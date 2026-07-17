@@ -1,0 +1,301 @@
+message_id,channel_name,sender_id,message_text,sent_timestamp,thread_id,mentioned_user_ids,related_project_id,related_incident_id,reaction_count,is_pinned
+1,#announcements,48,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-06-26T22:08:00,,,10,,7,false
+2,#product,111,Looking for volunteers to review PRs for the Sentinel Security Suite release. Need 2 approvals.,2025-06-17T07:16:00,,,,4,3,false
+3,#proj-knowledge-graph,107,Great work on the Internal Knowledge Graph Build milestone! :tada:,2025-05-23T15:07:00,1,,9,,1,false
+4,#random,105,Just deployed the fix for TechCorp AI Core. Monitoring dashboards look clean so far.,2025-05-11T11:03:00,,"30,12",,,1,false
+5,#sales,135,Great work on the project milestone! :tada:,2025-06-05T13:55:00,,,,23,1,false
+6,#random,54,Can someone from @engineering take a look at the TechCorp AI Core build? It's been failing since this morning.,2025-01-05T10:25:00,,,,,2,false
+7,#security,1,Can we get an ETA on the Sentinel Security Suite SSO fix? Chengdu Precision Instruments is blocked.,2025-02-03T11:13:00,6,,,,7,false
+8,#engineering,12,Looking for volunteers to review PRs for the TechCorp AI Core release. Need 2 approvals.,2025-01-12T11:07:00,,,9,,1,false
+9,#announcements,29,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-03-09T20:05:00,,"52,7",,,0,false
+10,#customer-success,35,Can someone from @engineering take a look at the TechCorp AI Core build? It's been failing since this morning.,2025-03-11T16:36:00,,,,30,0,false
+11,#proj-attribution,21,Looking for volunteers to review PRs for the InsightFlow Analytics release. Need 2 approvals.,2025-01-10T21:11:00,,,24,,5,true
+12,#proj-iam,86,Just deployed the fix for TeamSync Collaboration. Monitoring dashboards look clean so far.,2025-04-23T10:27:00,,,11,,3,false
+13,#general,41,Great work on the project milestone! :tada:,2025-01-03T19:51:00,,,,,1,false
+14,#product,22,Can someone from @engineering take a look at the TechCorp AI Core build? It's been failing since this morning.,2025-03-02T11:30:00,,,1,,2,false
+15,#security,129,The TechCorp AI Core dashboard is way faster after the query optimization. Nice work team!,2025-03-10T20:54:00,,,,,2,false
+16,#proj-scalability,82,Looking for volunteers to review PRs for the DataVault Backup release. Need 2 approvals.,2025-04-09T09:17:00,7,,25,,7,false
+17,#incident-response,142,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-01-29T17:58:00,,,,,3,false
+18,#security,83,Can someone from @engineering take a look at the CustomerIQ build? It's been failing since this morning.,2025-05-15T13:10:00,,"1,25",,,3,false
+19,#proj-chatbot,88,Customer call with BlueDot Retail Solutions went well. They're excited about the new features.,2025-01-21T14:07:00,18,25,21,,3,false
+20,#proj-rag-pipeline,103,Can someone from @engineering take a look at the DataVault Backup build? It's been failing since this morning.,2025-05-31T10:50:00,,,1,,3,false
+21,#engineering,146,Customer call with Chengdu Precision Instruments went well. They're excited about the new features.,2025-04-04T11:07:00,4,,,,5,false
+22,#general,65,Looking for volunteers to review PRs for the Sentinel Security Suite release. Need 2 approvals.,2025-02-13T20:50:00,,,,,1,false
+23,#proj-iam,133,Just deployed the fix for TechCorp AI Core. Monitoring dashboards look clean so far.,2025-03-18T12:27:00,,,11,,0,false
+24,#security,8,Reminder: code freeze for the InsightFlow Analytics release starts Friday EOD.,2025-04-01T07:52:00,,,,,1,false
+25,#security,119,Reminder: code freeze for the TeamSync Collaboration release starts Friday EOD.,2025-05-27T16:13:00,,"30,1,80",,,0,false
+26,#proj-rag-pipeline,38,Can we get an ETA on the InsightFlow Analytics SSO fix? Titanium Manufacturing Ltd is blocked.,2025-02-19T18:07:00,18,,1,,0,false
+27,#proj-vendor-risk,86,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-02-02T11:45:00,,"7,30",18,,2,false
+28,#proj-rag-pipeline,49,Looking for volunteers to review PRs for the Sentinel Security Suite release. Need 2 approvals.,2025-03-26T19:37:00,,11,1,,3,false
+29,#proj-chatbot,124,Customer call with DataStream Analytics went well. They're excited about the new features.,2024-12-30T10:44:00,,,21,,1,true
+30,#sales,107,Just deployed the fix for TeamSync Collaboration. Monitoring dashboards look clean so far.,2025-05-23T11:50:00,,"2,1",,,3,false
+31,#announcements,80,Can we get an ETA on the Sentinel Security Suite SSO fix? Zenith Capital Partners is blocked.,2025-01-24T11:48:00,27,,18,,0,false
+32,#proj-vendor-risk,130,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-05-17T07:36:00,24,"1,30,135",18,,3,false
+33,#incident-response,15,The InsightFlow Analytics dashboard is way faster after the query optimization. Nice work team!,2024-12-30T21:05:00,4,,,,5,false
+34,#engineering,141,Can we get an ETA on the TechCorp AI Core SSO fix? GlobalLink Telecom is blocked.,2025-06-06T11:19:00,,"11,135",17,,10,false
+35,#proj-rag-pipeline,44,Incident #58 has been resolved. Root cause was a misconfigured deployment flag.,2025-02-22T19:07:00,4,25,1,58,1,false
+36,#proj-iam,10,Can we get an ETA on the CustomerIQ SSO fix? DataStream Analytics is blocked.,2025-04-12T20:28:00,,,11,,0,false
+37,#security,108,Can we get an ETA on the TechCorp AI Core SSO fix? Meridian Financial Group is blocked.,2025-06-13T22:17:00,,52,,,3,false
+38,#proj-data-lake,54,The TechCorp AI Core dashboard is way faster after the query optimization. Nice work team!,2025-02-06T15:56:00,,,6,48,2,false
+39,#proj-rag-pipeline,100,The CustomerIQ dashboard is way faster after the query optimization. Nice work team!,2025-01-02T11:41:00,,,1,,7,false
+40,#general,42,The CustomerIQ dashboard is way faster after the query optimization. Nice work team!,2025-05-28T18:52:00,,,,,2,false
+41,#sales,25,Just deployed the fix for TechCorp AI Core. Monitoring dashboards look clean so far.,2025-05-03T14:31:00,24,,,,10,false
+42,#product,2,The TechCorp AI Core dashboard is way faster after the query optimization. Nice work team!,2025-05-27T09:08:00,41,"1,30",,,1,false
+43,#proj-attribution,76,Looking for volunteers to review PRs for the TeamSync Collaboration release. Need 2 approvals.,2025-01-13T08:54:00,2,,24,,7,false
+44,#proj-iam,76,The TeamSync Collaboration dashboard is way faster after the query optimization. Nice work team!,2025-03-20T13:21:00,34,,11,,0,false
+45,#customer-success,124,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-04-25T14:06:00,,,11,,2,false
+46,#proj-rag-pipeline,62,Customer call with Pacific Rim Logistics went well. They're excited about the new features.,2025-01-02T09:50:00,,,1,,0,false
+47,#proj-iam,10,The CustomerIQ dashboard is way faster after the query optimization. Nice work team!,2025-03-04T19:29:00,4,,11,,5,false
+48,#proj-rag-pipeline,12,Great work on the Deploy RAG Pipeline v2 milestone! :tada:,2025-03-13T22:46:00,,2,1,39,3,false
+49,#engineering,9,Can we get an ETA on the Sentinel Security Suite SSO fix? Peak Performance Sports is blocked.,2025-03-26T07:33:00,38,,,,3,false
+50,#customer-success,146,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-03-01T17:54:00,,,12,,3,false
+51,#proj-iam,97,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-04-28T22:47:00,30,,11,,5,false
+52,#proj-knowledge-graph,52,@channel Heads up: we're seeing increased error rates on TechCorp AI Core. Investigating now.,2025-01-30T18:02:00,,,9,1,10,false
+53,#sales,56,Updated the 03_TechCorp_Prompt_Engineering_Standards.pdf — please review when you get a chance.,2025-01-12T10:21:00,,,,,7,false
+54,#proj-data-lake,108,Can we get an ETA on the InsightFlow Analytics SSO fix? DigitalFirst Agency is blocked.,2025-03-24T18:20:00,,,6,,3,false
+55,#engineering,48,Can we get an ETA on the TeamSync Collaboration SSO fix? Metropolitan Hospital Network is blocked.,2025-01-22T09:10:00,,25,,,3,false
+56,#proj-data-lake,144,Looking for volunteers to review PRs for the Sentinel Security Suite release. Need 2 approvals.,2025-05-03T13:28:00,,"25,52,80",6,,7,false
+57,#proj-iam,109,Looking for volunteers to review PRs for the InsightFlow Analytics release. Need 2 approvals.,2025-06-18T21:32:00,,,11,,3,false
+58,#proj-iam,120,@channel Heads up: we're seeing increased error rates on TeamSync Collaboration. Investigating now.,2025-02-20T09:50:00,,,11,,1,false
+59,#ai-team,105,Looking for volunteers to review PRs for the TechCorp AI Core release. Need 2 approvals.,2025-06-26T16:18:00,13,"25,12,30",,,5,false
+60,#general,136,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-03-01T21:21:00,,,,,5,false
+61,#proj-iam,122,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-03-13T20:43:00,29,,11,9,5,false
+62,#proj-rag-pipeline,30,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-06-12T19:12:00,,11,1,,2,false
+63,#proj-vendor-risk,88,Customer call with ShopLocal Inc. went well. They're excited about the new features.,2025-04-30T16:42:00,7,,18,,3,false
+64,#proj-attribution,25,Can we get an ETA on the InsightFlow Analytics SSO fix? DataStream Analytics is blocked.,2025-05-07T16:27:00,56,,24,,5,false
+65,#announcements,51,Can we get an ETA on the TeamSync Collaboration SSO fix? FusionWare Labs is blocked.,2025-03-02T08:47:00,,,,10,0,false
+66,#proj-vendor-risk,101,Looking for volunteers to review PRs for the TechCorp AI Core release. Need 2 approvals.,2025-01-11T12:44:00,,,18,,3,false
+67,#engineering,63,@channel Heads up: we're seeing increased error rates on Sentinel Security Suite. Investigating now.,2025-04-06T20:28:00,,"52,12,2",,,0,false
+68,#proj-vendor-risk,12,Great work on the Vendor Risk Assessment milestone! :tada:,2025-06-07T14:45:00,60,"80,7,1",18,17,10,false
+69,#random,39,Can we get an ETA on the TeamSync Collaboration SSO fix? CyberShield Security is blocked.,2025-05-14T13:45:00,3,,4,,0,false
+70,#proj-vendor-risk,6,@channel Heads up: we're seeing increased error rates on TechCorp AI Core. Investigating now.,2025-06-16T19:49:00,,,18,,1,false
+71,#customer-success,51,@channel Heads up: we're seeing increased error rates on TechCorp AI Core. Investigating now.,2025-06-01T17:20:00,54,25,,,3,false
+72,#proj-scalability,116,Just deployed the fix for TechCorp AI Core. Monitoring dashboards look clean so far.,2025-06-12T15:41:00,,2,25,,3,false
+73,#product,121,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-01-02T11:21:00,,,,35,0,false
+74,#proj-chatbot,11,Looking for volunteers to review PRs for the InsightFlow Analytics release. Need 2 approvals.,2025-06-23T10:19:00,,,21,,1,false
+75,#ai-team,9,Just deployed the fix for DataVault Backup. Monitoring dashboards look clean so far.,2025-06-18T20:41:00,64,135,,60,5,false
+76,#proj-rag-pipeline,100,The InsightFlow Analytics dashboard is way faster after the query optimization. Nice work team!,2025-05-23T13:08:00,70,"7,1,135",1,,0,false
+77,#product,62,Customer call with CodeCraft Software went well. They're excited about the new features.,2025-01-17T13:17:00,,,,,7,false
+78,#proj-data-lake,116,Updated the 03_TechCorp_Prompt_Engineering_Standards.pdf — please review when you get a chance.,2025-04-13T11:35:00,,,6,,5,false
+79,#announcements,132,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-03-17T20:25:00,72,,5,,10,false
+80,#announcements,12,Looking for volunteers to review PRs for the TeamSync Collaboration release. Need 2 approvals.,2025-01-01T08:41:00,,80,,,2,false
+81,#customer-success,138,Can someone from @engineering take a look at the TechCorp AI Core build? It's been failing since this morning.,2025-01-31T12:00:00,47,,,,0,false
+82,#proj-knowledge-graph,116,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-03-23T16:46:00,,,9,59,2,false
+83,#incident-response,101,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-03-10T12:11:00,,135,,11,2,false
+84,#proj-chatbot,44,Can someone from @engineering take a look at the InsightFlow Analytics build? It's been failing since this morning.,2025-04-14T09:24:00,,"7,11,1",21,12,0,false
+85,#customer-success,138,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-02-15T15:59:00,,,9,,2,false
+86,#proj-rag-pipeline,107,Reminder: code freeze for the TechCorp AI Core release starts Friday EOD.,2025-05-24T07:38:00,,"7,25",1,,0,false
+87,#customer-success,107,Looking for volunteers to review PRs for the Sentinel Security Suite release. Need 2 approvals.,2025-04-06T21:14:00,,,,,3,false
+88,#ai-team,102,Can someone from @engineering take a look at the TechCorp AI Core build? It's been failing since this morning.,2025-02-02T08:08:00,,,,,2,false
+89,#proj-scalability,135,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-03-09T07:10:00,58,,25,,7,false
+90,#random,56,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-02-01T09:41:00,,,,,1,false
+91,#proj-knowledge-graph,127,Reminder: code freeze for the CustomerIQ release starts Friday EOD.,2025-03-23T07:19:00,,12,9,6,0,false
+92,#proj-knowledge-graph,124,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-01-26T16:09:00,,"11,52,7",9,1,5,true
+93,#proj-rag-pipeline,91,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-04-04T11:52:00,,,1,,5,false
+94,#customer-success,7,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-03-31T19:25:00,,,,,0,false
+95,#product,113,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-04-15T11:13:00,42,,,,1,false
+96,#general,105,The Sentinel Security Suite dashboard is way faster after the query optimization. Nice work team!,2025-06-15T10:32:00,,,,,3,false
+97,#security,119,Can someone from @engineering take a look at the DataVault Backup build? It's been failing since this morning.,2025-01-18T21:23:00,16,"12,30",,,0,false
+98,#proj-chatbot,148,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-03-09T16:36:00,76,,21,,0,false
+99,#proj-scalability,46,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-05-06T10:11:00,,,25,,7,false
+100,#proj-scalability,130,Can we get an ETA on the InsightFlow Analytics SSO fix? Urban Harvest Grocers is blocked.,2025-02-09T12:27:00,,30,25,,10,true
+101,#announcements,5,Just deployed the fix for TeamSync Collaboration. Monitoring dashboards look clean so far.,2025-02-18T13:44:00,,,,,0,false
+102,#product,32,Updated the 05_TechCorp_AI_Safety_Guidelines.pdf — please review when you get a chance.,2025-03-23T12:25:00,28,,,,2,false
+103,#security,52,Can someone from @engineering take a look at the Sentinel Security Suite build? It's been failing since this morning.,2025-01-04T20:04:00,94,"7,25,11",,,1,false
+104,#proj-rag-pipeline,74,Updated the 03_TechCorp_Prompt_Engineering_Standards.pdf — please review when you get a chance.,2025-06-04T18:44:00,103,2,1,,3,false
+105,#incident-response,6,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-01-11T11:09:00,97,"1,52",,,2,false
+106,#proj-data-lake,67,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-04-11T09:19:00,,,6,,2,false
+107,#ai-team,13,@channel Heads up: we're seeing increased error rates on TechCorp AI Core. Investigating now.,2025-02-17T10:25:00,,,2,19,0,false
+108,#general,124,Reminder: code freeze for the TechCorp AI Core release starts Friday EOD.,2025-05-15T09:23:00,,,,,5,false
+109,#engineering,124,Can we get an ETA on the TechCorp AI Core SSO fix? Veridian Retail Group is blocked.,2025-01-18T19:13:00,,25,,,7,false
+110,#engineering,134,Can someone from @engineering take a look at the InsightFlow Analytics build? It's been failing since this morning.,2025-06-26T10:27:00,,,1,,2,false
+111,#security,121,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-03-30T20:00:00,63,"12,7,80",,,2,false
+112,#product,80,Looking for volunteers to review PRs for the TechCorp AI Core release. Need 2 approvals.,2025-05-27T17:48:00,51,,,43,5,false
+113,#proj-knowledge-graph,29,Customer call with Argentine Trade Consortium went well. They're excited about the new features.,2025-06-26T20:30:00,14,,9,23,1,false
+114,#proj-iam,67,The InsightFlow Analytics dashboard is way faster after the query optimization. Nice work team!,2025-06-02T12:12:00,,,11,,10,false
+115,#security,59,Looking for volunteers to review PRs for the TeamSync Collaboration release. Need 2 approvals.,2025-04-03T20:30:00,52,11,,,0,false
+116,#announcements,22,Looking for volunteers to review PRs for the TechCorp AI Core release. Need 2 approvals.,2025-02-28T15:58:00,36,,,,3,false
+117,#proj-chatbot,106,Great work on the Chatbot Intent Expansion milestone! :tada:,2025-05-06T19:05:00,,"4,52,11",21,,7,false
+118,#incident-response,4,Looking for volunteers to review PRs for the TeamSync Collaboration release. Need 2 approvals.,2025-05-08T11:02:00,,,,,0,false
+119,#random,101,Just deployed the fix for TechCorp AI Core. Monitoring dashboards look clean so far.,2025-05-26T16:02:00,,,,,10,false
+120,#product,116,Reminder: code freeze for the InsightFlow Analytics release starts Friday EOD.,2025-05-19T13:37:00,,,,29,3,false
+121,#proj-attribution,70,Can someone from @engineering take a look at the TeamSync Collaboration build? It's been failing since this morning.,2025-06-15T14:52:00,,"12,52,2",24,,1,true
+122,#proj-data-lake,107,Great work on the Data Lake Migration milestone! :tada:,2025-03-29T14:46:00,,,6,,10,false
+123,#general,21,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-01-31T19:09:00,,,,,2,false
+124,#proj-data-lake,33,The InsightFlow Analytics dashboard is way faster after the query optimization. Nice work team!,2025-05-18T12:52:00,,80,6,,2,false
+125,#security,12,Just deployed the fix for DataVault Backup. Monitoring dashboards look clean so far.,2025-05-31T07:48:00,,,,,5,false
+126,#ai-team,73,Incident #51 has been resolved. Root cause was a misconfigured deployment flag.,2025-02-04T21:52:00,81,,,51,0,false
+127,#customer-success,8,Can we get an ETA on the TechCorp AI Core SSO fix? CyberShield Security is blocked.,2025-01-12T16:14:00,,"2,4,30",10,57,7,false
+128,#incident-response,141,Can we get an ETA on the CustomerIQ SSO fix? Terra Engineering GmbH is blocked.,2025-01-06T20:09:00,15,"25,2",,60,7,false
+129,#announcements,102,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-02-26T09:07:00,,"1,25",,,3,false
+130,#ai-team,94,@channel Heads up: we're seeing increased error rates on CustomerIQ. Investigating now.,2025-02-21T22:34:00,,"25,1",,,3,false
+131,#proj-iam,56,Reminder: code freeze for the TechCorp AI Core release starts Friday EOD.,2025-05-24T16:29:00,,7,11,,0,false
+132,#proj-iam,65,Great work on the Identity Access Management Overhaul milestone! :tada:,2025-06-01T09:30:00,58,2,11,,5,true
+133,#proj-data-lake,32,Just deployed the fix for TechCorp AI Core. Monitoring dashboards look clean so far.,2025-01-14T07:18:00,20,"11,1",6,,0,false
+134,#engineering,42,The InsightFlow Analytics dashboard is way faster after the query optimization. Nice work team!,2025-03-24T11:47:00,,"1,80",,,1,false
+135,#proj-knowledge-graph,46,Updated the 04_TechCorp_RAG_Pipeline_Documentation.pdf — please review when you get a chance.,2025-06-15T18:41:00,,,9,,2,false
+136,#ai-team,105,The InsightFlow Analytics dashboard is way faster after the query optimization. Nice work team!,2025-01-16T08:15:00,,,10,,1,false
+137,#proj-chatbot,5,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2024-12-31T10:21:00,24,,21,23,2,false
+138,#proj-attribution,34,Great work on the Marketing Attribution Model milestone! :tada:,2025-04-30T13:51:00,98,,24,,3,false
+139,#sales,145,The Sentinel Security Suite dashboard is way faster after the query optimization. Nice work team!,2025-01-05T19:15:00,,,,,1,false
+140,#security,144,Updated the 03_TechCorp_Prompt_Engineering_Standards.pdf — please review when you get a chance.,2025-05-14T21:16:00,4,"52,2",,,10,false
+141,#proj-vendor-risk,31,Looking for volunteers to review PRs for the CustomerIQ release. Need 2 approvals.,2025-01-20T17:23:00,,,18,,0,false
+142,#random,4,Can someone from @engineering take a look at the TechCorp AI Core build? It's been failing since this morning.,2025-05-02T19:55:00,,,,,2,false
+143,#proj-vendor-risk,135,Just deployed the fix for Sentinel Security Suite. Monitoring dashboards look clean so far.,2025-05-05T22:07:00,47,,18,,1,false
+144,#proj-chatbot,33,Great work on the Chatbot Intent Expansion milestone! :tada:,2025-04-20T15:40:00,,30,21,,0,false
+145,#proj-knowledge-graph,14,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-03-31T20:30:00,116,,9,,2,false
+146,#proj-iam,103,Customer call with Metropolitan Hospital Network went well. They're excited about the new features.,2025-01-09T17:00:00,,,11,,0,false
+147,#proj-chatbot,93,@channel Heads up: we're seeing increased error rates on TechCorp AI Core. Investigating now.,2025-05-17T19:13:00,105,"4,80,11",21,,1,false
+148,#general,107,Reminder: code freeze for the Sentinel Security Suite release starts Friday EOD.,2025-05-14T21:27:00,,"52,2",,,2,false
+149,#proj-scalability,127,The TechCorp AI Core dashboard is way faster after the query optimization. Nice work team!,2025-06-24T20:06:00,,,25,,2,false
+150,#incident-response,129,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-03-02T20:58:00,,,,,5,false
+151,#proj-knowledge-graph,2,Reminder: code freeze for the InsightFlow Analytics release starts Friday EOD.,2025-06-25T07:09:00,,,9,,5,false
+152,#proj-rag-pipeline,98,Reminder: code freeze for the CustomerIQ release starts Friday EOD.,2025-03-21T12:25:00,147,,1,,7,false
+153,#customer-success,19,Reminder: code freeze for the TechCorp AI Core release starts Friday EOD.,2025-06-26T11:01:00,,1,,,3,false
+154,#ai-team,110,Can someone from @engineering take a look at the InsightFlow Analytics build? It's been failing since this morning.,2025-03-24T15:42:00,34,,,,0,false
+155,#general,20,Looking for volunteers to review PRs for the Sentinel Security Suite release. Need 2 approvals.,2025-02-24T09:13:00,153,12,,,3,false
+156,#proj-vendor-risk,39,Can someone from @engineering take a look at the CustomerIQ build? It's been failing since this morning.,2025-06-27T12:33:00,3,,18,,5,false
+157,#general,30,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-04-19T22:12:00,,,,,10,false
+158,#announcements,135,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-01-29T16:10:00,,,,,5,false
+159,#proj-vendor-risk,124,The TeamSync Collaboration dashboard is way faster after the query optimization. Nice work team!,2025-02-18T15:37:00,,"30,2",18,,2,false
+160,#proj-attribution,103,Customer call with Orion Education Network went well. They're excited about the new features.,2025-01-03T07:45:00,,"135,11",24,,1,false
+161,#proj-rag-pipeline,61,Customer call with BlueWave Renewable Energy went well. They're excited about the new features.,2025-04-08T13:12:00,,"7,52,1",1,18,0,false
+162,#random,123,Customer call with DataStream Analytics went well. They're excited about the new features.,2025-06-18T17:41:00,116,"30,135",,2,0,false
+163,#proj-iam,88,@channel Heads up: we're seeing increased error rates on CustomerIQ. Investigating now.,2025-05-28T18:39:00,89,,11,,0,true
+164,#general,31,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-05-31T08:19:00,83,,,,0,false
+165,#proj-knowledge-graph,74,Customer call with ClearView Diagnostics went well. They're excited about the new features.,2025-02-15T14:36:00,,,9,,2,false
+166,#proj-rag-pipeline,139,@channel Heads up: we're seeing increased error rates on InsightFlow Analytics. Investigating now.,2025-02-22T08:13:00,68,,1,,0,false
+167,#proj-knowledge-graph,48,@channel Heads up: we're seeing increased error rates on TeamSync Collaboration. Investigating now.,2025-03-22T21:55:00,,"52,1,25",9,,3,false
+168,#product,11,Customer call with MediCare Plus went well. They're excited about the new features.,2025-04-21T07:30:00,43,,,,3,false
+169,#incident-response,15,The InsightFlow Analytics dashboard is way faster after the query optimization. Nice work team!,2025-03-17T12:38:00,,"52,135",,18,1,false
+170,#proj-iam,21,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-04-19T14:56:00,,,11,,3,false
+171,#proj-knowledge-graph,19,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-05-12T22:47:00,69,,9,,1,false
+172,#proj-rag-pipeline,11,Customer call with Terra Engineering GmbH went well. They're excited about the new features.,2025-06-26T18:30:00,86,,1,1,3,false
+173,#proj-chatbot,22,Reminder: code freeze for the TechCorp AI Core release starts Friday EOD.,2025-04-04T21:31:00,5,,21,,5,false
+174,#proj-chatbot,68,Great work on the Chatbot Intent Expansion milestone! :tada:,2025-05-22T20:54:00,,"12,25",21,,1,false
+175,#general,65,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-02-14T12:16:00,,,,,7,false
+176,#proj-knowledge-graph,122,Customer call with FusionWare Labs went well. They're excited about the new features.,2025-06-26T22:59:00,,4,9,,3,false
+177,#proj-attribution,82,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-06-15T22:19:00,,,24,,0,false
+178,#general,6,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-06-08T16:14:00,90,,,,0,false
+179,#proj-knowledge-graph,124,Reminder: code freeze for the CustomerIQ release starts Friday EOD.,2025-01-05T13:16:00,,,9,,0,false
+180,#announcements,15,Reminder: code freeze for the Sentinel Security Suite release starts Friday EOD.,2025-03-01T20:26:00,161,,14,34,2,true
+181,#proj-iam,16,Customer call with Nordic EdTech Solutions went well. They're excited about the new features.,2025-03-20T11:25:00,,,11,,3,false
+182,#proj-attribution,133,Great work on the Marketing Attribution Model milestone! :tada:,2025-01-07T08:44:00,,"1,2",24,,1,false
+183,#proj-chatbot,30,Reminder: code freeze for the DataVault Backup release starts Friday EOD.,2025-06-28T11:38:00,173,,21,,7,false
+184,#product,20,Just deployed the fix for InsightFlow Analytics. Monitoring dashboards look clean so far.,2025-01-11T10:27:00,,,,8,0,false
+185,#customer-success,41,Looking for volunteers to review PRs for the TeamSync Collaboration release. Need 2 approvals.,2025-01-01T10:29:00,,,,,2,false
+186,#announcements,133,Reminder: code freeze for the TechCorp AI Core release starts Friday EOD.,2025-02-20T13:22:00,100,"4,30",,,7,false
+187,#ai-team,42,Reminder: code freeze for the TeamSync Collaboration release starts Friday EOD.,2025-01-11T12:36:00,,"30,25,80",,,5,false
+188,#proj-attribution,70,Customer call with Apex Manufacturing Corp went well. They're excited about the new features.,2025-01-09T10:31:00,83,,24,,7,false
+189,#customer-success,62,Can someone from @engineering take a look at the TechCorp AI Core build? It's been failing since this morning.,2025-03-25T07:59:00,45,,,,0,false
+190,#proj-knowledge-graph,30,Can we get an ETA on the TechCorp AI Core SSO fix? TechBridge Solutions is blocked.,2025-02-13T13:05:00,,,9,,3,false
+191,#incident-response,52,Reminder: code freeze for the DataVault Backup release starts Friday EOD.,2025-05-11T13:36:00,36,,,,5,false
+192,#proj-scalability,31,Updated the 03_TechCorp_Prompt_Engineering_Standards.pdf — please review when you get a chance.,2025-06-15T17:01:00,,,25,,1,false
+193,#random,112,Updated the 04_TechCorp_RAG_Pipeline_Documentation.pdf — please review when you get a chance.,2025-01-30T22:59:00,,12,19,,7,false
+194,#engineering,99,The CustomerIQ dashboard is way faster after the query optimization. Nice work team!,2025-06-19T18:04:00,,11,,,7,false
+195,#ai-team,138,Just deployed the fix for Sentinel Security Suite. Monitoring dashboards look clean so far.,2025-01-24T19:43:00,,2,17,,3,false
+196,#engineering,112,Just deployed the fix for TechCorp AI Core. Monitoring dashboards look clean so far.,2025-06-14T14:14:00,,,,,0,false
+197,#proj-scalability,5,Can we get an ETA on the InsightFlow Analytics SSO fix? DataStream Analytics is blocked.,2025-01-24T19:30:00,,"7,4,2",25,29,3,false
+198,#random,52,Reminder: code freeze for the TeamSync Collaboration release starts Friday EOD.,2025-02-14T15:20:00,,,,,3,false
+199,#proj-data-lake,121,Can we get an ETA on the TechCorp AI Core SSO fix? Urban Harvest Grocers is blocked.,2025-05-23T08:15:00,,,6,,3,false
+200,#incident-response,30,Looking for volunteers to review PRs for the TeamSync Collaboration release. Need 2 approvals.,2025-05-02T13:24:00,,"1,135",,,0,false
+201,#announcements,2,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-06-14T10:35:00,,1,,,2,false
+202,#announcements,134,Just deployed the fix for Sentinel Security Suite. Monitoring dashboards look clean so far.,2025-04-26T16:21:00,,,,,3,false
+203,#proj-data-lake,73,Just deployed the fix for CustomerIQ. Monitoring dashboards look clean so far.,2025-03-02T07:28:00,,,6,,0,false
+204,#proj-chatbot,55,The InsightFlow Analytics dashboard is way faster after the query optimization. Nice work team!,2025-05-27T14:40:00,,,21,58,0,false
+205,#customer-success,25,Customer call with CyberShield Security went well. They're excited about the new features.,2025-04-29T18:06:00,,"52,135,4",,,0,false
+206,#ai-team,62,Great work on the project milestone! :tada:,2025-05-18T18:02:00,147,"135,2,1",,21,1,false
+207,#general,21,Can someone from @engineering take a look at the CustomerIQ build? It's been failing since this morning.,2025-05-21T19:48:00,,,,,10,false
+208,#customer-success,145,@channel Heads up: we're seeing increased error rates on TechCorp AI Core. Investigating now.,2025-04-21T13:53:00,,,,,3,false
+209,#proj-data-lake,61,Looking for volunteers to review PRs for the TechCorp AI Core release. Need 2 approvals.,2025-01-12T22:38:00,,,6,16,1,false
+210,#security,65,Customer call with ClearView Diagnostics went well. They're excited about the new features.,2025-02-22T13:57:00,,,,17,0,true
+211,#incident-response,123,Reminder: code freeze for the TechCorp AI Core release starts Friday EOD.,2025-03-12T18:08:00,142,,,56,2,false
+212,#announcements,26,Great work on the project milestone! :tada:,2025-03-09T16:48:00,,,,,2,false
+213,#proj-attribution,15,Just deployed the fix for CustomerIQ. Monitoring dashboards look clean so far.,2025-06-04T14:19:00,2,,24,,2,false
+214,#proj-attribution,148,Great work on the Marketing Attribution Model milestone! :tada:,2025-02-01T17:06:00,,,24,,1,false
+215,#random,140,Reminder: code freeze for the TechCorp AI Core release starts Friday EOD.,2025-05-16T07:38:00,,,,,7,false
+216,#product,2,Customer call with DataStream Analytics went well. They're excited about the new features.,2024-12-30T10:28:00,,,,,7,false
+217,#security,78,Looking for volunteers to review PRs for the CustomerIQ release. Need 2 approvals.,2025-01-03T17:57:00,,"2,7",,,7,false
+218,#proj-attribution,93,Great work on the Marketing Attribution Model milestone! :tada:,2025-05-09T15:30:00,143,,24,,0,false
+219,#announcements,29,The DataVault Backup dashboard is way faster after the query optimization. Nice work team!,2025-03-13T15:39:00,23,,,,2,false
+220,#proj-data-lake,139,Updated the 04_TechCorp_RAG_Pipeline_Documentation.pdf — please review when you get a chance.,2025-02-25T16:06:00,,,6,,1,false
+221,#proj-vendor-risk,95,Looking for volunteers to review PRs for the TeamSync Collaboration release. Need 2 approvals.,2025-04-15T15:32:00,109,"25,2",18,,1,false
+222,#proj-rag-pipeline,70,The InsightFlow Analytics dashboard is way faster after the query optimization. Nice work team!,2025-06-17T16:28:00,,,1,,2,false
+223,#proj-scalability,52,@channel Heads up: we're seeing increased error rates on TechCorp AI Core. Investigating now.,2025-02-07T09:41:00,,"1,25,11",25,,0,false
+224,#product,38,Updated the 03_TechCorp_Prompt_Engineering_Standards.pdf — please review when you get a chance.,2025-03-19T22:02:00,,"7,12,11",,,0,true
+225,#customer-success,2,The DataVault Backup dashboard is way faster after the query optimization. Nice work team!,2025-06-23T07:47:00,32,,,,5,false
+226,#incident-response,113,@channel Heads up: we're seeing increased error rates on InsightFlow Analytics. Investigating now.,2025-02-28T19:18:00,156,,,,2,false
+227,#proj-scalability,78,Looking for volunteers to review PRs for the DataVault Backup release. Need 2 approvals.,2025-03-05T14:36:00,,,25,,10,false
+228,#proj-vendor-risk,107,The InsightFlow Analytics dashboard is way faster after the query optimization. Nice work team!,2025-03-17T22:33:00,,"25,11",18,,5,false
+229,#engineering,142,Customer call with Cascade Learning Systems went well. They're excited about the new features.,2025-02-21T17:41:00,80,,,45,1,false
+230,#proj-attribution,14,Reminder: code freeze for the InsightFlow Analytics release starts Friday EOD.,2025-03-12T22:10:00,,,24,9,3,false
+231,#proj-scalability,123,Customer call with Orion Education Network went well. They're excited about the new features.,2025-01-22T18:33:00,,"12,1",25,,3,false
+232,#proj-rag-pipeline,30,The InsightFlow Analytics dashboard is way faster after the query optimization. Nice work team!,2025-06-04T21:21:00,184,,1,27,0,false
+233,#sales,11,Can we get an ETA on the CustomerIQ SSO fix? Velocity FinTech Partners is blocked.,2025-03-17T15:35:00,,,,,3,false
+234,#security,20,@channel Heads up: we're seeing increased error rates on CustomerIQ. Investigating now.,2025-05-06T12:00:00,,"30,2",17,,5,false
+235,#security,32,Reminder: code freeze for the TeamSync Collaboration release starts Friday EOD.,2025-03-22T22:22:00,224,4,15,,1,false
+236,#ai-team,54,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-01-13T18:11:00,,,,,0,false
+237,#proj-data-lake,124,Can someone from @engineering take a look at the Sentinel Security Suite build? It's been failing since this morning.,2025-05-10T07:37:00,144,,6,,1,false
+238,#random,145,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-02-28T21:31:00,,,9,,0,false
+239,#proj-scalability,20,Updated the 03_TechCorp_Prompt_Engineering_Standards.pdf — please review when you get a chance.,2025-06-13T17:06:00,8,,25,,7,false
+240,#product,80,Reminder: code freeze for the CustomerIQ release starts Friday EOD.,2025-01-08T08:04:00,,,,,0,false
+241,#random,15,Can someone from @engineering take a look at the InsightFlow Analytics build? It's been failing since this morning.,2025-06-06T21:05:00,12,52,,,0,false
+242,#ai-team,46,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-05-11T11:19:00,,,6,,0,false
+243,#random,31,Reminder: code freeze for the InsightFlow Analytics release starts Friday EOD.,2025-01-31T18:22:00,,,,,5,false
+244,#sales,3,@channel Heads up: we're seeing increased error rates on Sentinel Security Suite. Investigating now.,2025-02-07T15:05:00,,,19,,3,false
+245,#proj-vendor-risk,70,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-06-20T17:44:00,30,,18,,0,false
+246,#general,38,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-03-18T22:53:00,,"2,11,25",,,1,false
+247,#proj-rag-pipeline,139,Great work on the Deploy RAG Pipeline v2 milestone! :tada:,2025-01-01T13:36:00,,52,1,28,5,false
+248,#engineering,17,Can someone from @engineering take a look at the TeamSync Collaboration build? It's been failing since this morning.,2025-05-12T14:54:00,,,,,1,false
+249,#security,108,Updated the 05_TechCorp_AI_Safety_Guidelines.pdf — please review when you get a chance.,2025-05-25T19:49:00,41,"52,135",,,1,false
+250,#proj-iam,113,Customer call with InnoSys Dynamics went well. They're excited about the new features.,2025-03-19T09:41:00,,"30,4,7",11,,1,false
+251,#product,88,Can someone from @engineering take a look at the TechCorp AI Core build? It's been failing since this morning.,2025-03-01T09:22:00,,"11,135,1",,,3,false
+252,#proj-knowledge-graph,52,Customer call with Andean Commodities SA went well. They're excited about the new features.,2025-04-23T10:38:00,33,,9,,5,false
+253,#proj-chatbot,98,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-04-23T13:32:00,,,21,12,5,false
+254,#proj-iam,6,Customer call with Argentine Trade Consortium went well. They're excited about the new features.,2025-05-14T16:22:00,,"80,25",11,39,2,false
+255,#engineering,22,Incident #10 has been resolved. Root cause was a misconfigured deployment flag.,2025-02-14T21:02:00,,"135,7,11",4,10,0,true
+256,#incident-response,110,The DataVault Backup dashboard is way faster after the query optimization. Nice work team!,2025-06-08T20:07:00,,,,,5,false
+257,#announcements,149,Updated the 04_TechCorp_RAG_Pipeline_Documentation.pdf — please review when you get a chance.,2025-06-17T19:58:00,,,,37,0,false
+258,#proj-iam,53,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-05-03T09:39:00,213,,11,,1,false
+259,#proj-vendor-risk,123,Can we get an ETA on the TeamSync Collaboration SSO fix? Cascade Learning Systems is blocked.,2025-05-16T19:16:00,,"80,52",18,22,2,false
+260,#ai-team,140,Just deployed the fix for Sentinel Security Suite. Monitoring dashboards look clean so far.,2025-03-30T20:26:00,,52,,,10,false
+261,#announcements,141,Updated the 03_TechCorp_Prompt_Engineering_Standards.pdf — please review when you get a chance.,2025-03-30T13:26:00,,"11,135,2",7,,7,false
+262,#proj-data-lake,21,Great work on the Data Lake Migration milestone! :tada:,2025-03-02T16:52:00,,,6,,7,false
+263,#sales,118,Reminder: code freeze for the Sentinel Security Suite release starts Friday EOD.,2025-01-21T14:08:00,172,,,,3,false
+264,#proj-iam,30,@channel Heads up: we're seeing increased error rates on TeamSync Collaboration. Investigating now.,2025-05-15T22:59:00,,"80,2,25",11,39,5,false
+265,#announcements,10,Can we get an ETA on the TechCorp AI Core SSO fix? CodeCraft Software is blocked.,2025-03-02T09:00:00,,"80,7",,,5,false
+266,#proj-attribution,136,Reminder: code freeze for the TeamSync Collaboration release starts Friday EOD.,2025-03-19T08:23:00,,"12,52",24,50,2,false
+267,#proj-vendor-risk,125,Customer call with CodeCraft Software went well. They're excited about the new features.,2025-04-05T09:29:00,,"30,2",18,,7,false
+268,#random,100,Customer call with Urban Harvest Grocers went well. They're excited about the new features.,2025-04-11T12:36:00,228,"12,30",,9,3,false
+269,#announcements,35,Reminder: code freeze for the InsightFlow Analytics release starts Friday EOD.,2025-04-23T18:46:00,,,10,,3,false
+270,#sales,101,@channel Heads up: we're seeing increased error rates on CustomerIQ. Investigating now.,2025-01-08T09:21:00,,,,,1,false
+271,#random,26,Reminder: code freeze for the TechCorp AI Core release starts Friday EOD.,2025-04-05T09:17:00,,"30,4",,,3,false
+272,#proj-scalability,14,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-06-18T15:35:00,,"52,7,30",25,,1,false
+273,#ai-team,29,Reminder: code freeze for the TechCorp AI Core release starts Friday EOD.,2025-03-07T09:30:00,,7,,,0,false
+274,#proj-chatbot,86,Can we get an ETA on the TeamSync Collaboration SSO fix? Meridian Financial Group is blocked.,2025-04-25T20:38:00,,,21,,1,false
+275,#proj-attribution,139,Reminder: code freeze for the TeamSync Collaboration release starts Friday EOD.,2025-05-31T12:31:00,,,24,,0,false
+276,#sales,43,Can someone from @engineering take a look at the TeamSync Collaboration build? It's been failing since this morning.,2025-04-11T17:49:00,222,,15,,3,false
+277,#product,35,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-02-28T16:23:00,,"11,1",,,0,false
+278,#proj-rag-pipeline,131,Updated the 04_TechCorp_RAG_Pipeline_Documentation.pdf — please review when you get a chance.,2024-12-30T13:13:00,,,1,,3,false
+279,#proj-data-lake,12,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-04-27T12:20:00,,,6,,5,false
+280,#engineering,112,Customer call with GreenLeaf Healthcare went well. They're excited about the new features.,2025-03-26T21:59:00,,,,,1,false
+281,#ai-team,95,Updated the 03_TechCorp_Prompt_Engineering_Standards.pdf — please review when you get a chance.,2025-02-09T15:35:00,,,,,3,false
+282,#security,11,Updated the 03_TechCorp_Prompt_Engineering_Standards.pdf — please review when you get a chance.,2025-04-04T13:43:00,,,,,10,false
+283,#general,31,Can we get an ETA on the TeamSync Collaboration SSO fix? EcoWare Manufacturing is blocked.,2025-02-11T22:18:00,211,,,,3,false
+284,#ai-team,17,Just published the incident post-mortem. Lessons learned doc is in the shared drive.,2025-03-01T21:56:00,,,,,7,false
+285,#proj-rag-pipeline,12,Updated the 04_TechCorp_RAG_Pipeline_Documentation.pdf — please review when you get a chance.,2025-06-26T14:20:00,174,,1,,2,false
+286,#proj-rag-pipeline,133,Incident #N/A has been resolved. Root cause was a misconfigured deployment flag.,2025-05-27T18:04:00,,"25,30,11",1,,1,false
+287,#product,51,Looking for volunteers to review PRs for the TeamSync Collaboration release. Need 2 approvals.,2025-05-06T19:03:00,,,,,2,false
+288,#proj-knowledge-graph,27,Can someone from @engineering take a look at the TechCorp AI Core build? It's been failing since this morning.,2025-04-08T20:12:00,90,,9,,1,false
+289,#proj-data-lake,138,Looking for volunteers to review PRs for the Sentinel Security Suite release. Need 2 approvals.,2025-05-01T09:41:00,58,,6,25,3,false
+290,#general,76,Great work on the Self-Service Support Portal milestone! :tada:,2025-05-06T16:23:00,,,8,,3,false
+291,#sales,34,Customer call with Titanium Manufacturing Ltd went well. They're excited about the new features.,2025-06-21T07:21:00,,,4,,0,true
+292,#security,120,Can we get an ETA on the TeamSync Collaboration SSO fix? FusionWare Labs is blocked.,2025-03-14T21:08:00,194,,,,7,true
+293,#proj-chatbot,136,@channel Heads up: we're seeing increased error rates on DataVault Backup. Investigating now.,2025-05-03T11:51:00,,"1,52",21,,7,false
+294,#incident-response,119,Just deployed the fix for CustomerIQ. Monitoring dashboards look clean so far.,2025-01-10T11:37:00,54,"11,12",,,5,false
+295,#proj-knowledge-graph,6,Customer call with Meridian Financial Group went well. They're excited about the new features.,2025-05-11T19:28:00,,,9,41,10,false
+296,#proj-scalability,128,Can someone from @engineering take a look at the Sentinel Security Suite build? It's been failing since this morning.,2025-01-08T17:48:00,144,,25,,3,false
+297,#proj-iam,12,Reminder: code freeze for the InsightFlow Analytics release starts Friday EOD.,2025-06-07T12:25:00,,52,11,,5,false
+298,#customer-success,80,Can we get an ETA on the TeamSync Collaboration SSO fix? Latam Trade Partners is blocked.,2025-03-25T12:06:00,182,,,,3,false
+299,#customer-success,34,Reminder: code freeze for the TeamSync Collaboration release starts Friday EOD.,2025-04-13T07:04:00,,,,,1,false
+300,#product,11,Can we get an ETA on the InsightFlow Analytics SSO fix? DataStream Analytics is blocked.,2025-03-18T10:46:00,211,"7,12",,,5,false

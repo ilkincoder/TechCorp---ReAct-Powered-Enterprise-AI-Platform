@@ -1,0 +1,24 @@
+# ── Secrets & local config ──────────────────────────────
+.env
+.claude/settings.local.json
+
+
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ── Frontend ────────────────────────────────────────────
+node_modules/
+frontend/dist/
+
+# ── Generated / local data ──────────────────────────────
+data/techcorp.db
+data/qdrant_index_state.json
+
+# ── IDE / OS ────────────────────────────────────────────
+.idea/
+.vscode/
+.DS_Store

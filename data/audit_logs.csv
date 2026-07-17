@@ -1,0 +1,501 @@
+log_id,timestamp,user_id,action,entity_type,entity_id,details,ip_address,result
+1,2026-05-07T14:49:40.542301,134,data.export_large,Incident,158,User Felix Rahman performed data.export_large on Incident#158,10.3.2.168,Success
+2,2026-04-30T09:05:40.542334,14,deployment.triggered,Report,47,User Fatima Novak performed deployment.triggered on Report#47,10.1.6.85,Success
+3,2026-06-06T03:31:40.542343,29,change.approved,Report,126,Change Management event — change.approved on Report#126 from IP 10.0.2.145,10.3.8.197,Failure
+4,2026-06-09T15:37:40.542349,128,data.view_sensitive,Project,176,User Ahmed Patel performed data.view_sensitive on Project#176,10.2.4.250,Success
+5,2026-05-21T12:35:40.542355,48,release.promoted,Configuration,12,Admin action: release.promoted | Configuration#12 | Result: Success,10.3.1.210,Success
+6,2026-06-07T13:41:40.542361,132,admin.role_assignment,Project,26,Admin action: admin.role_assignment | Project#26 | Result: Success,10.0.1.134,Success
+7,2026-05-04T17:04:40.542366,148,deployment.triggered,Release,179,Deployment event — deployment.triggered on Release#179 from IP 10.4.4.192,10.4.0.242,Success
+8,2026-06-24T09:22:40.542371,26,incident.resolved,Configuration,122,User Ravi Johnson performed incident.resolved on Configuration#122,10.0.4.52,Success
+9,2026-05-08T00:51:40.542376,76,user.login_failed,Release,122,User Samuel Lee performed user.login_failed on Release#122,10.0.1.142,Success
+10,2026-06-03T03:07:40.542381,19,admin.config_update,Product,171,Admin action: admin.config_update | Product#171 | Result: Blocked,10.1.6.246,Blocked
+11,2026-05-07T14:14:40.542386,14,deployment.rollback,Product,150,Action: deployment.rollback | Target: Product/150 | Source: web-ui,10.1.9.95,Success
+12,2026-06-21T00:59:40.542390,119,user.mfa_enabled,User,96,Authentication event — user.mfa_enabled on User#96 from IP 10.3.3.213,10.3.7.197,Success
+13,2026-05-19T09:54:40.542396,4,incident.created,ChangeRequest,36,Action: incident.created | Target: ChangeRequest/36 | Source: web-ui,10.4.2.212,Success
+14,2026-06-16T12:25:40.542400,141,deployment.rollback,APIKey,55,Admin action: deployment.rollback | APIKey#55 | Result: Success,10.0.4.146,Success
+15,2026-06-20T02:17:40.542405,31,user.mfa_enabled,Report,38,Admin action: user.mfa_enabled | Report#38 | Result: Blocked,10.1.0.159,Blocked
+16,2026-05-26T04:46:40.542410,124,admin.role_assignment,Release,58,Authorization event — admin.role_assignment on Release#58 from IP 10.0.2.196,10.2.5.116,Success
+17,2026-05-01T21:56:40.542415,52,user.login,Release,101,Action: user.login | Target: Release/101 | Source: web-ui,10.3.0.234,Failure
+18,2026-04-13T01:31:40.542421,123,change.rejected,Product,62,Automated change.rejected triggered for Product#62,10.3.8.176,Success
+19,2026-06-17T18:52:40.542426,125,user.login,Project,144,User Camila Brown performed user.login on Project#144,10.2.3.213,Success
+20,2026-04-06T07:30:40.542431,119,data.export,ChangeRequest,119,Data Access event — data.export on ChangeRequest#119 from IP 10.3.9.12,10.1.9.223,Success
+21,2026-03-31T23:05:40.542436,144,deployment.rollback,Configuration,194,Admin action: deployment.rollback | Configuration#194 | Result: Success,10.3.8.168,Success
+22,2026-06-16T19:18:40.542441,34,change.approved,APIKey,87,Admin action: change.approved | APIKey#87 | Result: Blocked,10.3.9.193,Blocked
+23,2026-05-25T08:54:40.542446,13,release.promoted,ChangeRequest,162,Action: release.promoted | Target: ChangeRequest/162 | Source: web-ui,10.2.0.50,Success
+24,2026-05-20T10:57:40.542451,68,data.view_sensitive,Incident,90,Automated data.view_sensitive triggered for Incident#90,10.1.7.246,Success
+25,2026-04-11T12:58:40.542456,127,data.export,Incident,197,Action: data.export | Target: Incident/197 | Source: web-ui,10.4.4.82,Success
+26,2026-04-15T01:38:40.542461,98,api.key_created,Incident,119,API Management event — api.key_created on Incident#119 from IP 10.4.6.158,10.4.1.49,Success
+27,2026-04-07T02:26:40.542466,55,admin.role_assignment,Release,47,Authorization event — admin.role_assignment on Release#47 from IP 10.3.1.62,10.3.6.166,Success
+28,2026-04-12T15:33:40.542471,103,deployment.triggered,Product,66,Admin action: deployment.triggered | Product#66 | Result: Success,10.2.5.91,Success
+29,2026-04-26T02:50:40.542476,14,user.login,Incident,66,Authentication event — user.login on Incident#66 from IP 10.3.7.164,10.3.2.247,Blocked
+30,2026-06-22T04:09:40.542481,126,change.approved,Incident,69,User David Patel performed change.approved on Incident#69,10.3.0.185,Blocked
+31,2026-06-11T12:42:40.542486,118,api.rate_limit_hit,Release,31,User Ingrid Kowalski performed api.rate_limit_hit on Release#31,10.0.4.136,Success
+32,2026-05-25T12:59:40.542490,26,data.export,Report,138,Automated data.export triggered for Report#138,10.1.3.55,Success
+33,2026-05-15T22:03:40.542497,12,user.logout,User,29,Action: user.logout | Target: User/29 | Source: web-ui,10.1.4.221,Success
+34,2026-05-29T13:48:40.542502,78,admin.role_assignment,Report,91,Action: admin.role_assignment | Target: Report/91 | Source: web-ui,10.1.1.22,Success
+35,2026-06-26T12:44:40.542507,55,api.key_revoked,Report,158,API Management event — api.key_revoked on Report#158 from IP 10.3.9.156,10.3.1.93,Success
+36,2026-05-31T10:20:40.542511,21,user.password_change,Incident,105,Action: user.password_change | Target: Incident/105 | Source: web-ui,10.1.8.7,Success
+37,2026-05-20T04:12:40.542516,12,user.password_change,Incident,172,Automated user.password_change triggered for Incident#172,10.1.3.195,Failure
+38,2026-05-03T03:40:40.542521,22,admin.role_assignment,Project,105,Admin action: admin.role_assignment | Project#105 | Result: Success,10.4.8.108,Success
+39,2026-05-25T10:53:40.542525,2,api.key_revoked,Report,196,Admin action: api.key_revoked | Report#196 | Result: Success,10.2.2.21,Success
+40,2026-04-11T04:56:40.542530,2,data.view_sensitive,APIKey,130,Data Access event — data.view_sensitive on APIKey#130 from IP 10.1.3.65,10.0.9.82,Success
+41,2026-06-02T11:29:40.542535,112,user.login_failed,Product,104,Action: user.login_failed | Target: Product/104 | Source: web-ui,10.4.6.30,Success
+42,2026-04-29T17:06:40.542539,65,data.export_large,Configuration,154,User Ingrid Patel performed data.export_large on Configuration#154,10.2.9.44,Failure
+43,2026-05-11T17:18:40.542544,118,user.login,Release,93,Automated user.login triggered for Release#93,10.0.5.196,Success
+44,2026-05-25T05:51:40.542549,73,api.rate_limit_hit,Release,59,Action: api.rate_limit_hit | Target: Release/59 | Source: web-ui,10.1.0.222,Blocked
+45,2026-05-13T16:01:40.542554,53,admin.role_assignment,User,98,Action: admin.role_assignment | Target: User/98 | Source: web-ui,10.0.5.244,Success
+46,2026-04-22T09:21:40.542561,9,change.rejected,ChangeRequest,21,Automated change.rejected triggered for ChangeRequest#21,10.1.7.246,Success
+47,2026-06-07T01:45:40.542566,63,admin.config_update,Configuration,80,Admin action: admin.config_update | Configuration#80 | Result: Success,10.0.3.93,Success
+48,2026-04-29T03:52:40.542571,48,change.approved,ChangeRequest,141,Action: change.approved | Target: ChangeRequest/141 | Source: web-ui,10.3.8.222,Success
+49,2026-06-06T00:42:40.542576,14,user.login_failed,Project,69,Authentication event — user.login_failed on Project#69 from IP 10.3.5.178,10.4.6.166,Success
+50,2026-05-28T17:29:40.542580,40,admin.config_update,Report,48,Configuration event — admin.config_update on Report#48 from IP 10.4.9.110,10.3.3.28,Failure
+51,2026-05-09T13:39:40.542585,149,user.login,Report,15,Action: user.login | Target: Report/15 | Source: web-ui,10.1.5.154,Success
+52,2026-05-28T03:38:40.542590,110,change.rejected,ChangeRequest,119,Action: change.rejected | Target: ChangeRequest/119 | Source: web-ui,10.1.0.116,Success
+53,2026-06-11T17:31:40.542595,7,release.promoted,Project,97,Automated release.promoted triggered for Project#97,10.3.5.127,Success
+54,2026-04-07T01:27:40.542600,122,incident.resolved,Report,120,Automated incident.resolved triggered for Report#120,10.4.8.123,Success
+55,2026-04-26T12:58:40.542605,123,data.export,Product,129,Admin action: data.export | Product#129 | Result: Success,10.2.3.180,Success
+56,2026-05-11T08:26:40.542610,28,data.export_large,Configuration,98,Action: data.export_large | Target: Configuration/98 | Source: web-ui,10.4.8.102,Success
+57,2026-04-08T13:21:40.542615,59,user.login,Configuration,199,Action: user.login | Target: Configuration/199 | Source: web-ui,10.4.1.221,Failure
+58,2026-06-26T09:52:40.542621,120,data.export_large,Incident,37,Automated data.export_large triggered for Incident#37,10.3.0.21,Success
+59,2026-06-12T04:46:40.542626,111,deployment.triggered,Incident,119,User Raj Kim performed deployment.triggered on Incident#119,10.1.9.15,Success
+60,2026-05-09T20:54:40.542631,10,api.key_created,Release,120,API Management event — api.key_created on Release#120 from IP 10.3.8.150,10.2.2.225,Success
+61,2026-06-20T06:28:40.542638,141,incident.created,User,123,Action: incident.created | Target: User/123 | Source: web-ui,10.0.0.182,Success
+62,2026-06-21T17:17:40.542643,38,user.password_change,Report,70,Authentication event — user.password_change on Report#70 from IP 10.3.3.156,10.0.1.142,Success
+63,2026-05-01T06:10:40.542647,122,deployment.triggered,Release,157,User Olga Okafor performed deployment.triggered on Release#157,10.3.3.89,Success
+64,2026-04-27T04:01:40.542652,30,change.approved,APIKey,195,Admin action: change.approved | APIKey#195 | Result: Success,10.4.7.1,Success
+65,2026-05-16T20:04:40.542658,14,change.approved,Product,97,Change Management event — change.approved on Product#97 from IP 10.4.6.155,10.0.9.73,Success
+66,2026-05-10T09:24:40.542663,53,user.mfa_enabled,Project,158,Authentication event — user.mfa_enabled on Project#158 from IP 10.0.2.214,10.0.0.199,Success
+67,2026-06-04T03:58:40.542668,52,user.mfa_enabled,Configuration,146,Automated user.mfa_enabled triggered for Configuration#146,10.3.5.73,Success
+68,2026-06-20T11:55:40.542672,73,change.approved,Incident,1,Automated change.approved triggered for Incident#1,10.0.4.67,Success
+69,2026-04-26T14:44:40.542677,138,admin.role_assignment,Product,173,Admin action: admin.role_assignment | Product#173 | Result: Success,10.4.6.243,Success
+70,2026-04-17T23:53:40.542682,139,api.key_created,ChangeRequest,148,API Management event — api.key_created on ChangeRequest#148 from IP 10.4.7.221,10.4.0.187,Failure
+71,2026-05-23T22:00:40.542687,40,data.view_sensitive,Report,175,User Chen Kowalski performed data.view_sensitive on Report#175,10.2.7.251,Failure
+72,2026-05-21T02:03:40.542692,80,deployment.rollback,Release,131,Admin action: deployment.rollback | Release#131 | Result: Blocked,10.1.9.95,Blocked
+73,2026-05-31T09:53:40.542697,26,data.export,Product,143,Action: data.export | Target: Product/143 | Source: web-ui,10.0.6.92,Blocked
+74,2026-05-08T04:13:40.542702,108,incident.resolved,Configuration,191,Action: incident.resolved | Target: Configuration/191 | Source: web-ui,10.1.0.122,Success
+75,2026-05-19T16:22:40.542706,142,change.rejected,Project,199,Action: change.rejected | Target: Project/199 | Source: web-ui,10.2.6.183,Success
+76,2026-06-13T08:34:40.542711,4,deployment.rollback,Release,95,Automated deployment.rollback triggered for Release#95,10.3.7.243,Success
+77,2026-05-23T10:10:40.542716,122,admin.permission_change,Configuration,61,Action: admin.permission_change | Target: Configuration/61 | Source: web-ui,10.3.8.146,Success
+78,2026-06-18T14:59:40.542721,112,data.view_sensitive,Project,26,Admin action: data.view_sensitive | Project#26 | Result: Success,10.2.7.164,Success
+79,2026-06-28T02:38:40.542725,20,deployment.rollback,Product,14,Deployment event — deployment.rollback on Product#14 from IP 10.1.8.203,10.4.3.199,Success
+80,2026-05-20T07:43:40.542730,19,api.key_created,User,43,User Carlos Brown performed api.key_created on User#43,10.0.2.140,Success
+81,2026-05-09T02:43:40.542735,12,change.rejected,Incident,44,Admin action: change.rejected | Incident#44 | Result: Success,10.3.3.238,Success
+82,2026-04-29T21:55:40.542740,83,user.login_failed,Product,17,Admin action: user.login_failed | Product#17 | Result: Success,10.0.6.51,Success
+83,2026-05-09T07:07:40.542745,62,deployment.rollback,ChangeRequest,9,Automated deployment.rollback triggered for ChangeRequest#9,10.2.3.36,Success
+84,2026-03-30T05:23:40.542749,93,incident.created,ChangeRequest,168,Incident Management event — incident.created on ChangeRequest#168 from IP 10.1.5.43,10.4.2.248,Success
+85,2026-06-08T19:40:40.542754,56,data.view_sensitive,Incident,119,Admin action: data.view_sensitive | Incident#119 | Result: Success,10.0.7.151,Success
+86,2026-06-08T18:45:40.542759,26,user.mfa_enabled,APIKey,33,Authentication event — user.mfa_enabled on APIKey#33 from IP 10.2.1.118,10.3.7.93,Success
+87,2026-06-12T21:07:40.542764,142,admin.role_assignment,Configuration,105,Admin action: admin.role_assignment | Configuration#105 | Result: Failure,10.1.9.131,Failure
+88,2026-06-08T05:37:40.542768,140,admin.permission_change,User,94,User Ahmed Bauer performed admin.permission_change on User#94,10.1.6.68,Success
+89,2026-04-05T04:59:40.542773,50,api.key_revoked,APIKey,119,Automated api.key_revoked triggered for APIKey#119,10.0.8.146,Success
+90,2026-04-16T19:38:40.542778,127,data.view_sensitive,Release,193,Data Access event — data.view_sensitive on Release#193 from IP 10.1.0.150,10.2.6.209,Success
+91,2026-06-23T13:34:40.542783,144,user.login_failed,Release,38,Authentication event — user.login_failed on Release#38 from IP 10.3.1.242,10.1.3.12,Success
+92,2026-06-26T21:26:40.542787,125,admin.config_update,User,198,Configuration event — admin.config_update on User#198 from IP 10.3.9.169,10.2.1.191,Success
+93,2026-04-25T11:36:40.542792,25,user.login,APIKey,198,Admin action: user.login | APIKey#198 | Result: Success,10.1.7.163,Success
+94,2026-04-10T22:37:40.542797,119,incident.created,Report,152,User Lucas Williams performed incident.created on Report#152,10.2.9.88,Success
+95,2026-05-01T16:31:40.542802,88,change.approved,Report,194,Admin action: change.approved | Report#194 | Result: Success,10.4.0.114,Success
+96,2026-04-11T23:35:40.542807,140,user.login_failed,Configuration,119,Action: user.login_failed | Target: Configuration/119 | Source: web-ui,10.2.8.249,Failure
+97,2026-04-03T23:33:40.542811,91,data.export,User,59,Admin action: data.export | User#59 | Result: Success,10.1.4.200,Success
+98,2026-05-09T17:22:40.542817,61,user.logout,APIKey,62,Authentication event — user.logout on APIKey#62 from IP 10.0.4.231,10.3.4.134,Success
+99,2026-04-08T08:00:40.542821,125,incident.resolved,User,129,Automated incident.resolved triggered for User#129,10.3.7.108,Success
+100,2026-05-10T00:03:40.542827,86,admin.permission_change,Project,61,Action: admin.permission_change | Target: Project/61 | Source: web-ui,10.0.0.233,Success
+101,2026-05-28T02:48:40.542832,17,api.rate_limit_hit,Release,166,API Management event — api.rate_limit_hit on Release#166 from IP 10.4.8.87,10.1.0.230,Success
+102,2026-05-05T11:03:40.542837,73,data.export_large,Configuration,42,Data Access event — data.export_large on Configuration#42 from IP 10.0.6.76,10.1.9.245,Success
+103,2026-06-13T17:34:40.542842,14,incident.resolved,Project,40,Incident Management event — incident.resolved on Project#40 from IP 10.4.9.176,10.1.1.139,Success
+104,2026-04-25T00:20:40.542847,134,user.password_change,Release,32,Admin action: user.password_change | Release#32 | Result: Success,10.1.7.242,Success
+105,2026-06-06T04:58:40.542852,107,user.login_failed,Project,91,User Hannah Morales performed user.login_failed on Project#91,10.4.0.4,Success
+106,2026-05-16T12:16:40.542857,13,user.login_failed,Product,38,Action: user.login_failed | Target: Product/38 | Source: web-ui,10.3.0.223,Success
+107,2026-05-10T04:43:40.542861,105,release.promoted,User,88,Action: release.promoted | Target: User/88 | Source: web-ui,10.1.0.205,Success
+108,2026-05-29T19:50:40.542867,142,admin.permission_change,Project,191,Admin action: admin.permission_change | Project#191 | Result: Failure,10.4.9.184,Failure
+109,2026-05-12T10:52:40.542871,118,deployment.triggered,Release,165,Action: deployment.triggered | Target: Release/165 | Source: web-ui,10.0.0.61,Success
+110,2026-05-11T21:28:40.542876,106,change.approved,User,171,Change Management event — change.approved on User#171 from IP 10.0.0.122,10.2.9.228,Success
+111,2026-04-23T00:00:40.542882,33,user.login_failed,Project,153,Automated user.login_failed triggered for Project#153,10.3.1.226,Success
+112,2026-06-23T21:29:40.542887,103,incident.resolved,Project,160,Automated incident.resolved triggered for Project#160,10.1.8.236,Success
+113,2026-04-04T13:05:40.542892,26,user.logout,User,77,Action: user.logout | Target: User/77 | Source: web-ui,10.1.8.27,Success
+114,2026-05-13T15:18:40.542897,124,data.view_sensitive,Project,136,Automated data.view_sensitive triggered for Project#136,10.0.1.119,Success
+115,2026-06-17T12:50:40.542901,83,user.login,Release,48,User Linh Okafor performed user.login on Release#48,10.2.3.98,Success
+116,2026-05-17T06:53:40.542906,21,user.password_change,ChangeRequest,197,Action: user.password_change | Target: ChangeRequest/197 | Source: web-ui,10.3.7.142,Success
+117,2026-05-20T00:01:40.542911,65,user.login_failed,User,71,Admin action: user.login_failed | User#71 | Result: Success,10.3.7.62,Success
+118,2026-05-21T13:52:40.542915,91,incident.resolved,Report,169,Incident Management event — incident.resolved on Report#169 from IP 10.0.2.160,10.2.7.27,Success
+119,2026-06-22T13:45:40.542920,101,user.login_failed,ChangeRequest,190,User Chen Okafor performed user.login_failed on ChangeRequest#190,10.0.6.227,Success
+120,2026-05-08T00:43:40.542925,7,deployment.rollback,APIKey,93,Admin action: deployment.rollback | APIKey#93 | Result: Success,10.1.5.247,Success
+121,2026-04-05T23:05:40.542929,101,user.login_failed,Product,48,User Chen Okafor performed user.login_failed on Product#48,10.3.0.86,Failure
+122,2026-04-02T01:34:40.542934,31,admin.permission_change,Product,189,Admin action: admin.permission_change | Product#189 | Result: Blocked,10.1.7.160,Blocked
+123,2026-05-29T16:22:40.542939,51,change.approved,APIKey,141,Automated change.approved triggered for APIKey#141,10.1.2.106,Success
+124,2026-05-07T23:23:40.542943,88,incident.created,Release,35,Incident Management event — incident.created on Release#35 from IP 10.1.8.142,10.1.6.17,Failure
+125,2026-04-06T22:18:40.542948,30,change.rejected,Configuration,66,Automated change.rejected triggered for Configuration#66,10.3.8.27,Success
+126,2026-06-04T21:12:40.542953,71,admin.permission_change,Product,148,Action: admin.permission_change | Target: Product/148 | Source: web-ui,10.0.8.139,Success
+127,2026-06-22T18:45:40.542958,65,user.logout,Incident,191,Action: user.logout | Target: Incident/191 | Source: web-ui,10.1.7.213,Success
+128,2026-06-13T19:49:40.542962,12,user.password_change,Incident,184,Action: user.password_change | Target: Incident/184 | Source: web-ui,10.2.8.213,Success
+129,2026-05-18T04:25:40.542967,38,user.mfa_enabled,Project,95,Authentication event — user.mfa_enabled on Project#95 from IP 10.4.3.225,10.2.8.153,Success
+130,2026-05-14T10:54:40.542972,38,admin.permission_change,Incident,100,Action: admin.permission_change | Target: Incident/100 | Source: web-ui,10.3.1.153,Success
+131,2026-05-27T17:22:40.542976,81,deployment.rollback,Configuration,13,User Ahmed Santos performed deployment.rollback on Configuration#13,10.4.8.69,Success
+132,2026-06-14T08:40:40.542981,88,deployment.triggered,Incident,106,Automated deployment.triggered triggered for Incident#106,10.4.9.155,Success
+133,2026-04-14T03:27:40.542986,140,user.login,Report,17,Automated user.login triggered for Report#17,10.1.2.244,Success
+134,2026-06-08T02:35:40.542991,141,data.export,Configuration,70,User Diego Silva performed data.export on Configuration#70,10.1.5.31,Success
+135,2026-04-19T01:08:40.542996,144,release.promoted,Configuration,57,Release event — release.promoted on Configuration#57 from IP 10.0.7.22,10.4.6.133,Failure
+136,2026-04-05T00:58:40.543010,73,api.key_created,Project,70,User Hiroshi Fischer performed api.key_created on Project#70,10.0.4.16,Success
+137,2026-05-27T10:01:40.543015,26,change.approved,Incident,73,Admin action: change.approved | Incident#73 | Result: Blocked,10.3.7.14,Blocked
+138,2026-06-28T13:48:40.543020,49,incident.created,APIKey,136,Admin action: incident.created | APIKey#136 | Result: Success,10.2.7.19,Success
+139,2026-06-04T12:43:40.543024,103,change.approved,User,124,Automated change.approved triggered for User#124,10.1.6.52,Success
+140,2026-04-11T23:13:40.543029,54,data.export,Configuration,172,Automated data.export triggered for Configuration#172,10.4.0.74,Success
+141,2026-05-16T06:19:40.543034,69,admin.permission_change,Release,12,Authorization event — admin.permission_change on Release#12 from IP 10.3.4.89,10.3.1.206,Success
+142,2026-04-01T15:43:40.543038,129,admin.role_assignment,Report,5,Action: admin.role_assignment | Target: Report/5 | Source: web-ui,10.2.6.126,Success
+143,2026-04-20T18:45:40.543043,55,user.logout,APIKey,106,Automated user.logout triggered for APIKey#106,10.4.6.87,Success
+144,2026-05-12T14:47:40.543047,61,user.mfa_enabled,Incident,56,Automated user.mfa_enabled triggered for Incident#56,10.0.7.193,Success
+145,2026-05-16T10:10:40.543052,134,data.export,Incident,24,Admin action: data.export | Incident#24 | Result: Success,10.3.4.161,Success
+146,2026-04-01T09:15:40.543057,68,release.promoted,User,122,User Leila Chen performed release.promoted on User#122,10.3.1.147,Success
+147,2026-06-17T01:12:40.543062,124,admin.permission_change,Release,26,Authorization event — admin.permission_change on Release#26 from IP 10.3.7.34,10.0.0.2,Success
+148,2026-05-02T00:05:40.543066,105,api.rate_limit_hit,Release,193,User Nia Morales performed api.rate_limit_hit on Release#193,10.4.0.117,Success
+149,2026-06-06T12:35:40.543071,2,change.approved,ChangeRequest,50,Action: change.approved | Target: ChangeRequest/50 | Source: web-ui,10.1.2.161,Success
+150,2026-05-01T16:07:40.543076,53,admin.permission_change,Product,76,Action: admin.permission_change | Target: Product/76 | Source: web-ui,10.0.2.8,Success
+151,2026-05-20T20:22:40.543080,55,user.password_change,Release,161,Action: user.password_change | Target: Release/161 | Source: web-ui,10.3.0.142,Success
+152,2026-06-24T00:38:40.543085,7,api.key_revoked,Product,96,User Jin Muller performed api.key_revoked on Product#96,10.0.5.120,Success
+153,2026-05-06T14:22:40.543090,57,admin.config_update,Project,40,Configuration event — admin.config_update on Project#40 from IP 10.1.0.183,10.4.6.10,Success
+154,2026-04-13T00:07:40.543095,100,incident.created,APIKey,41,Automated incident.created triggered for APIKey#41,10.1.1.27,Success
+155,2026-05-25T22:36:40.543100,132,change.rejected,ChangeRequest,81,User Samuel Silva performed change.rejected on ChangeRequest#81,10.1.2.168,Failure
+156,2026-04-21T02:50:40.543104,90,api.key_revoked,Configuration,198,User Carlos Kowalski performed api.key_revoked on Configuration#198,10.4.4.203,Success
+157,2026-03-30T23:55:40.543109,10,user.mfa_enabled,Incident,189,Automated user.mfa_enabled triggered for Incident#189,10.4.1.230,Success
+158,2026-06-04T23:53:40.543114,33,change.approved,User,133,Action: change.approved | Target: User/133 | Source: web-ui,10.0.3.70,Success
+159,2026-04-19T15:28:40.543119,15,incident.created,Incident,138,Incident Management event — incident.created on Incident#138 from IP 10.0.6.9,10.1.6.215,Success
+160,2026-05-05T01:55:40.543123,33,data.view_sensitive,Product,12,Action: data.view_sensitive | Target: Product/12 | Source: web-ui,10.4.5.19,Success
+161,2026-04-10T03:45:40.543128,19,release.promoted,Report,38,Admin action: release.promoted | Report#38 | Result: Success,10.0.5.44,Success
+162,2026-05-24T07:48:40.543133,136,data.view_sensitive,Product,175,User Ahmed Morales performed data.view_sensitive on Product#175,10.4.2.226,Success
+163,2026-06-06T17:58:40.543138,4,user.login,Project,83,User Thabo Kim performed user.login on Project#83,10.4.4.96,Success
+164,2026-04-20T21:26:40.543142,142,admin.permission_change,Project,113,Admin action: admin.permission_change | Project#113 | Result: Success,10.0.1.170,Success
+165,2026-04-03T13:59:40.543147,106,user.mfa_enabled,Release,98,Authentication event — user.mfa_enabled on Release#98 from IP 10.4.1.164,10.4.8.138,Failure
+166,2026-04-20T13:11:40.543152,74,data.export_large,Product,22,Automated data.export_large triggered for Product#22,10.1.8.134,Success
+167,2026-05-23T01:10:40.543157,16,deployment.rollback,Product,45,Automated deployment.rollback triggered for Product#45,10.3.0.63,Success
+168,2026-06-22T22:46:40.543161,130,user.logout,APIKey,7,Action: user.logout | Target: APIKey/7 | Source: web-ui,10.2.4.96,Success
+169,2026-04-23T09:16:40.543166,103,api.key_created,Project,93,Admin action: api.key_created | Project#93 | Result: Success,10.0.7.237,Success
+170,2026-04-24T10:29:40.543171,124,admin.role_assignment,Product,69,Authorization event — admin.role_assignment on Product#69 from IP 10.0.3.41,10.2.0.2,Success
+171,2026-06-22T21:19:40.543175,112,admin.config_update,User,142,Action: admin.config_update | Target: User/142 | Source: web-ui,10.2.6.117,Success
+172,2026-04-09T20:55:40.543181,136,change.rejected,Release,5,Action: change.rejected | Target: Release/5 | Source: web-ui,10.0.4.42,Failure
+173,2026-05-09T08:56:40.543185,78,user.logout,User,32,Admin action: user.logout | User#32 | Result: Success,10.4.7.162,Success
+174,2026-06-06T00:19:40.543190,74,user.login,ChangeRequest,165,Admin action: user.login | ChangeRequest#165 | Result: Success,10.1.2.129,Success
+175,2026-06-20T05:32:40.543195,51,api.key_revoked,Report,166,User Jin Patel performed api.key_revoked on Report#166,10.0.9.33,Success
+176,2026-04-15T21:07:40.543200,90,api.key_revoked,Product,134,Automated api.key_revoked triggered for Product#134,10.1.9.50,Success
+177,2026-06-12T06:03:40.543204,2,admin.config_update,Incident,108,Automated admin.config_update triggered for Incident#108,10.1.3.203,Success
+178,2026-04-30T15:57:40.543209,94,user.password_change,ChangeRequest,22,Automated user.password_change triggered for ChangeRequest#22,10.1.0.27,Success
+179,2026-06-05T04:59:40.543214,111,api.key_created,ChangeRequest,11,API Management event — api.key_created on ChangeRequest#11 from IP 10.4.3.150,10.2.1.236,Success
+180,2026-06-25T20:44:40.543218,50,incident.resolved,ChangeRequest,50,Automated incident.resolved triggered for ChangeRequest#50,10.1.8.13,Success
+181,2026-06-15T06:34:40.543224,2,data.export_large,Incident,188,Admin action: data.export_large | Incident#188 | Result: Success,10.1.1.130,Success
+182,2026-04-10T19:46:40.543228,100,data.export,Product,120,User Isabella Ali performed data.export on Product#120,10.1.8.175,Success
+183,2026-06-02T11:36:40.543234,11,release.promoted,ChangeRequest,62,Action: release.promoted | Target: ChangeRequest/62 | Source: web-ui,10.3.3.240,Blocked
+184,2026-05-31T12:58:40.543239,95,data.export,Project,102,Admin action: data.export | Project#102 | Result: Success,10.2.9.85,Success
+185,2026-06-21T22:37:40.543244,138,incident.created,Project,140,Action: incident.created | Target: Project/140 | Source: web-ui,10.3.1.197,Success
+186,2026-05-18T10:47:40.543249,33,admin.permission_change,Configuration,165,User David Fischer performed admin.permission_change on Configuration#165,10.0.5.105,Failure
+187,2026-06-16T03:17:40.543254,148,change.rejected,Release,100,Admin action: change.rejected | Release#100 | Result: Failure,10.0.0.138,Failure
+188,2026-06-24T23:43:40.543259,50,user.login,Incident,7,User Kwame Santos performed user.login on Incident#7,10.3.5.117,Success
+189,2026-05-11T07:19:40.543265,80,user.mfa_enabled,Incident,177,Authentication event — user.mfa_enabled on Incident#177 from IP 10.3.2.21,10.4.7.11,Success
+190,2026-04-09T20:36:40.543270,29,data.export_large,Configuration,1,Data Access event — data.export_large on Configuration#1 from IP 10.3.9.85,10.0.8.163,Success
+191,2026-06-19T13:54:40.543275,16,user.logout,ChangeRequest,155,Admin action: user.logout | ChangeRequest#155 | Result: Success,10.1.8.128,Success
+192,2026-05-09T01:19:40.543279,88,user.password_change,Incident,60,Admin action: user.password_change | Incident#60 | Result: Success,10.0.8.251,Success
+193,2026-06-08T11:11:40.543284,52,api.rate_limit_hit,Product,186,User Priya Novak performed api.rate_limit_hit on Product#186,10.1.5.125,Success
+194,2026-05-06T15:44:40.543289,81,deployment.triggered,Release,87,Deployment event — deployment.triggered on Release#87 from IP 10.0.2.90,10.0.8.99,Success
+195,2026-04-09T17:00:40.543294,123,incident.created,User,94,Automated incident.created triggered for User#94,10.2.5.130,Success
+196,2026-04-01T14:42:40.543298,130,api.rate_limit_hit,User,133,User Hiroshi Kowalski performed api.rate_limit_hit on User#133,10.0.2.183,Success
+197,2026-05-13T05:24:40.543303,11,admin.permission_change,Report,53,User Raj Morales performed admin.permission_change on Report#53,10.2.4.233,Failure
+198,2026-06-01T14:38:40.543308,135,user.mfa_enabled,Project,83,Authentication event — user.mfa_enabled on Project#83 from IP 10.1.6.98,10.2.2.242,Success
+199,2026-06-05T04:13:40.543313,129,user.logout,Report,141,Automated user.logout triggered for Report#141,10.2.7.97,Success
+200,2026-05-26T08:02:40.543318,35,incident.resolved,Incident,135,Action: incident.resolved | Target: Incident/135 | Source: web-ui,10.1.9.155,Blocked
+201,2026-06-04T07:30:40.543322,7,incident.resolved,Report,115,Admin action: incident.resolved | Report#115 | Result: Success,10.4.7.132,Success
+202,2026-06-01T10:08:40.543327,33,incident.created,Configuration,12,User David Fischer performed incident.created on Configuration#12,10.0.3.113,Success
+203,2026-04-01T17:11:40.543332,110,user.password_change,APIKey,177,Authentication event — user.password_change on APIKey#177 from IP 10.3.2.186,10.3.6.105,Success
+204,2026-04-16T11:50:40.543337,13,change.approved,ChangeRequest,74,Change Management event — change.approved on ChangeRequest#74 from IP 10.2.9.58,10.3.7.153,Success
+205,2026-04-09T22:58:40.543342,122,admin.config_update,Configuration,197,Configuration event — admin.config_update on Configuration#197 from IP 10.4.2.93,10.3.5.166,Success
+206,2026-05-22T13:15:40.543346,135,release.promoted,Project,134,Automated release.promoted triggered for Project#134,10.4.1.19,Success
+207,2026-04-17T14:31:40.543351,70,change.approved,Product,85,Change Management event — change.approved on Product#85 from IP 10.3.2.72,10.3.6.187,Success
+208,2026-06-15T11:56:40.543356,52,change.rejected,Product,49,Change Management event — change.rejected on Product#49 from IP 10.1.4.99,10.0.9.29,Success
+209,2026-05-06T22:05:40.543361,122,api.rate_limit_hit,Report,15,Automated api.rate_limit_hit triggered for Report#15,10.0.9.254,Success
+210,2026-05-06T17:08:40.543365,29,api.key_revoked,APIKey,196,Action: api.key_revoked | Target: APIKey/196 | Source: web-ui,10.1.9.245,Success
+211,2026-05-31T07:07:40.543369,63,incident.resolved,Report,156,Action: incident.resolved | Target: Report/156 | Source: web-ui,10.3.3.142,Success
+212,2026-05-15T03:53:40.543374,1,user.mfa_enabled,ChangeRequest,1,Admin action: user.mfa_enabled | ChangeRequest#1 | Result: Success,10.3.9.89,Success
+213,2026-06-10T05:12:40.543379,103,api.rate_limit_hit,User,141,Action: api.rate_limit_hit | Target: User/141 | Source: web-ui,10.2.8.2,Success
+214,2026-04-16T05:27:40.543384,20,data.export,Report,98,Action: data.export | Target: Report/98 | Source: web-ui,10.0.0.245,Success
+215,2026-04-02T19:53:40.543388,142,incident.resolved,Configuration,26,Admin action: incident.resolved | Configuration#26 | Result: Success,10.2.0.60,Success
+216,2026-06-04T09:24:40.543393,102,change.approved,Project,65,Admin action: change.approved | Project#65 | Result: Success,10.4.9.222,Success
+217,2026-06-07T02:01:40.543397,80,data.export_large,User,8,Admin action: data.export_large | User#8 | Result: Success,10.2.8.3,Success
+218,2026-06-21T13:56:40.543402,119,change.rejected,Configuration,17,Admin action: change.rejected | Configuration#17 | Result: Blocked,10.1.3.9,Blocked
+219,2026-05-17T17:46:40.543406,17,user.login_failed,Incident,157,Admin action: user.login_failed | Incident#157 | Result: Failure,10.0.3.156,Failure
+220,2026-04-08T22:45:40.543411,82,change.rejected,Project,76,User Wei Rossi performed change.rejected on Project#76,10.2.9.59,Failure
+221,2026-04-15T03:08:40.543416,48,api.rate_limit_hit,Report,51,User Dmitri Rodriguez performed api.rate_limit_hit on Report#51,10.4.7.22,Success
+222,2026-06-26T02:21:40.543420,61,api.key_created,ChangeRequest,70,Automated api.key_created triggered for ChangeRequest#70,10.1.0.120,Success
+223,2026-05-08T04:07:40.543424,133,user.logout,Product,186,Authentication event — user.logout on Product#186 from IP 10.0.8.216,10.0.1.65,Success
+224,2026-04-09T01:50:40.543429,20,incident.resolved,APIKey,186,Action: incident.resolved | Target: APIKey/186 | Source: web-ui,10.3.6.120,Success
+225,2026-05-09T01:06:40.543433,14,change.rejected,ChangeRequest,6,Action: change.rejected | Target: ChangeRequest/6 | Source: web-ui,10.1.2.204,Success
+226,2026-06-12T07:27:40.543438,135,admin.permission_change,Incident,23,Action: admin.permission_change | Target: Incident/23 | Source: web-ui,10.2.2.61,Success
+227,2026-06-18T03:49:40.543442,26,api.key_revoked,APIKey,140,User Ravi Johnson performed api.key_revoked on APIKey#140,10.0.5.18,Success
+228,2026-06-14T10:01:40.543447,42,change.rejected,User,98,Change Management event — change.rejected on User#98 from IP 10.3.3.28,10.0.8.137,Success
+229,2026-05-15T05:42:40.543451,146,deployment.triggered,Report,147,User Raj Bauer performed deployment.triggered on Report#147,10.4.3.21,Success
+230,2026-04-14T16:03:40.543456,90,incident.resolved,ChangeRequest,68,Incident Management event — incident.resolved on ChangeRequest#68 from IP 10.3.7.86,10.0.3.21,Blocked
+231,2026-06-23T14:22:40.543460,120,user.mfa_enabled,ChangeRequest,131,Action: user.mfa_enabled | Target: ChangeRequest/131 | Source: web-ui,10.2.9.36,Success
+232,2026-04-29T00:43:40.543465,71,admin.permission_change,Project,102,Automated admin.permission_change triggered for Project#102,10.4.3.11,Failure
+233,2026-06-27T12:09:40.543469,44,incident.created,Product,20,Admin action: incident.created | Product#20 | Result: Success,10.3.4.150,Success
+234,2026-04-23T04:39:40.543474,25,admin.config_update,Incident,67,Automated admin.config_update triggered for Incident#67,10.4.7.43,Success
+235,2026-05-05T09:54:40.543479,131,change.rejected,Incident,195,User James Rossi performed change.rejected on Incident#195,10.3.3.61,Success
+236,2026-05-16T10:13:40.543484,97,admin.config_update,Configuration,8,User Viktor Kowalski performed admin.config_update on Configuration#8,10.3.1.201,Success
+237,2026-06-13T03:19:40.543488,128,change.approved,Configuration,175,Automated change.approved triggered for Configuration#175,10.1.5.56,Success
+238,2026-06-28T05:15:40.543493,38,api.key_revoked,User,94,Action: api.key_revoked | Target: User/94 | Source: web-ui,10.1.1.163,Success
+239,2026-06-08T15:24:40.543498,105,admin.role_assignment,Release,173,Authorization event — admin.role_assignment on Release#173 from IP 10.4.2.139,10.0.0.244,Success
+240,2026-05-26T05:13:40.543502,133,data.view_sensitive,Project,176,Admin action: data.view_sensitive | Project#176 | Result: Success,10.4.2.3,Success
+241,2026-04-17T05:20:40.543507,15,admin.config_update,Product,84,Admin action: admin.config_update | Product#84 | Result: Success,10.3.8.25,Success
+242,2026-04-09T22:15:40.543511,78,incident.resolved,Incident,111,User Ahmed Kowalski performed incident.resolved on Incident#111,10.1.0.55,Success
+243,2026-04-11T19:03:40.543516,6,user.mfa_enabled,Release,9,Automated user.mfa_enabled triggered for Release#9,10.4.6.100,Success
+244,2026-04-07T13:30:40.543521,71,change.rejected,Report,75,Admin action: change.rejected | Report#75 | Result: Failure,10.3.3.10,Failure
+245,2026-05-15T03:09:40.543525,13,incident.resolved,Project,73,User Camila Santos performed incident.resolved on Project#73,10.4.4.216,Success
+246,2026-06-06T09:52:40.543530,131,release.promoted,Project,92,Automated release.promoted triggered for Project#92,10.3.0.206,Success
+247,2026-05-02T09:25:40.543534,50,admin.permission_change,User,158,User Kwame Santos performed admin.permission_change on User#158,10.4.6.103,Success
+248,2026-04-21T02:25:40.543539,137,release.promoted,APIKey,157,Admin action: release.promoted | APIKey#157 | Result: Success,10.2.8.40,Success
+249,2026-05-19T01:13:40.543543,148,incident.created,Product,34,User David Chen performed incident.created on Product#34,10.4.1.126,Success
+250,2026-05-07T21:38:40.543548,97,incident.resolved,Report,1,Incident Management event — incident.resolved on Report#1 from IP 10.1.5.81,10.0.3.88,Success
+251,2026-05-10T05:03:40.543552,4,data.export,Release,194,Automated data.export triggered for Release#194,10.3.6.182,Success
+252,2026-05-24T00:38:40.543561,4,user.logout,Project,43,Authentication event — user.logout on Project#43 from IP 10.2.2.26,10.1.7.79,Success
+253,2026-04-30T23:24:40.543566,49,data.export,Report,101,Admin action: data.export | Report#101 | Result: Success,10.1.8.248,Success
+254,2026-04-20T18:13:40.543570,70,admin.config_update,Product,175,Action: admin.config_update | Target: Product/175 | Source: web-ui,10.1.2.140,Success
+255,2026-06-07T09:44:40.543575,25,incident.resolved,Release,104,Action: incident.resolved | Target: Release/104 | Source: web-ui,10.3.4.98,Success
+256,2026-05-10T12:13:40.543579,142,data.view_sensitive,Product,88,Action: data.view_sensitive | Target: Product/88 | Source: web-ui,10.4.4.205,Success
+257,2026-04-02T06:43:40.543584,103,admin.role_assignment,Report,156,User Lucas Rodriguez performed admin.role_assignment on Report#156,10.3.6.30,Success
+258,2026-04-07T02:16:40.543588,110,api.key_revoked,Release,7,Admin action: api.key_revoked | Release#7 | Result: Success,10.2.0.235,Success
+259,2026-04-02T07:57:40.543593,98,user.login,APIKey,198,Action: user.login | Target: APIKey/198 | Source: web-ui,10.1.9.198,Success
+260,2026-06-19T13:51:40.543598,29,release.promoted,Report,148,Action: release.promoted | Target: Report/148 | Source: web-ui,10.0.3.7,Success
+261,2026-06-24T14:56:40.543602,101,admin.permission_change,Incident,69,Authorization event — admin.permission_change on Incident#69 from IP 10.2.5.114,10.0.5.176,Success
+262,2026-05-18T07:37:40.543607,90,data.view_sensitive,APIKey,28,Action: data.view_sensitive | Target: APIKey/28 | Source: web-ui,10.2.3.157,Success
+263,2026-04-22T14:34:40.543611,57,change.rejected,Configuration,122,Change Management event — change.rejected on Configuration#122 from IP 10.2.8.218,10.0.2.243,Success
+264,2026-04-07T14:31:40.543616,78,user.login,Product,179,User Ahmed Kowalski performed user.login on Product#179,10.2.2.210,Blocked
+265,2026-04-22T14:05:40.543620,135,admin.config_update,Configuration,158,Admin action: admin.config_update | Configuration#158 | Result: Success,10.0.3.224,Success
+266,2026-05-25T06:41:40.543625,32,change.rejected,APIKey,2,Admin action: change.rejected | APIKey#2 | Result: Success,10.3.5.250,Success
+267,2026-05-16T23:58:40.543629,121,api.key_created,Product,36,Automated api.key_created triggered for Product#36,10.0.3.195,Failure
+268,2026-05-03T09:30:40.543634,125,data.view_sensitive,APIKey,138,Automated data.view_sensitive triggered for APIKey#138,10.4.5.139,Failure
+269,2026-04-09T07:03:40.543639,102,data.view_sensitive,ChangeRequest,139,Data Access event — data.view_sensitive on ChangeRequest#139 from IP 10.2.3.118,10.4.5.247,Success
+270,2026-06-12T08:10:40.543643,86,change.rejected,Product,129,Automated change.rejected triggered for Product#129,10.2.1.111,Failure
+271,2026-06-23T12:58:40.543648,33,user.login,User,11,Action: user.login | Target: User/11 | Source: web-ui,10.3.7.209,Success
+272,2026-06-11T20:53:40.543652,65,release.promoted,Project,61,Release event — release.promoted on Project#61 from IP 10.0.7.119,10.2.0.120,Success
+273,2026-05-16T02:47:40.543657,56,user.login_failed,User,83,Automated user.login_failed triggered for User#83,10.3.5.213,Success
+274,2026-05-23T01:16:40.543661,22,admin.config_update,ChangeRequest,78,Admin action: admin.config_update | ChangeRequest#78 | Result: Success,10.3.9.252,Success
+275,2026-05-31T04:21:40.543666,35,deployment.rollback,APIKey,177,Deployment event — deployment.rollback on APIKey#177 from IP 10.2.8.115,10.4.1.124,Failure
+276,2026-05-13T01:02:40.543671,39,api.rate_limit_hit,User,34,API Management event — api.rate_limit_hit on User#34 from IP 10.2.3.201,10.1.3.125,Success
+277,2026-04-20T14:02:40.543675,59,user.login_failed,Product,182,Action: user.login_failed | Target: Product/182 | Source: web-ui,10.1.2.232,Success
+278,2026-05-19T22:44:40.543680,35,change.rejected,User,161,User Camila Tanaka performed change.rejected on User#161,10.0.5.203,Success
+279,2026-04-27T12:36:40.543684,69,incident.created,Configuration,68,Incident Management event — incident.created on Configuration#68 from IP 10.2.9.223,10.0.1.143,Success
+280,2026-04-22T19:44:40.543689,43,incident.resolved,APIKey,104,Action: incident.resolved | Target: APIKey/104 | Source: web-ui,10.2.2.148,Success
+281,2026-05-13T00:09:40.543693,137,deployment.rollback,Release,67,Automated deployment.rollback triggered for Release#67,10.0.9.250,Success
+282,2026-04-10T15:17:40.543698,5,change.approved,Release,37,Automated change.approved triggered for Release#37,10.2.4.170,Success
+283,2026-06-21T23:54:40.543703,68,incident.resolved,Project,101,User Leila Chen performed incident.resolved on Project#101,10.4.1.161,Success
+284,2026-04-02T11:37:40.543707,46,deployment.rollback,Project,118,Action: deployment.rollback | Target: Project/118 | Source: web-ui,10.3.6.105,Success
+285,2026-06-05T12:40:40.543712,50,release.promoted,User,84,Admin action: release.promoted | User#84 | Result: Success,10.1.3.206,Success
+286,2026-05-05T07:07:40.543716,44,api.rate_limit_hit,Project,188,API Management event — api.rate_limit_hit on Project#188 from IP 10.0.4.219,10.1.5.62,Failure
+287,2026-05-17T21:26:40.543721,35,incident.resolved,Incident,43,Admin action: incident.resolved | Incident#43 | Result: Success,10.3.4.215,Success
+288,2026-05-25T04:42:40.543725,97,admin.permission_change,Report,79,Automated admin.permission_change triggered for Report#79,10.4.7.139,Success
+289,2026-05-22T10:48:40.543730,61,deployment.rollback,Product,101,Deployment event — deployment.rollback on Product#101 from IP 10.1.6.213,10.3.7.66,Success
+290,2026-04-11T23:21:40.543734,28,deployment.rollback,Product,115,Action: deployment.rollback | Target: Product/115 | Source: web-ui,10.2.8.100,Success
+291,2026-05-27T19:52:40.543738,42,user.login_failed,User,85,Admin action: user.login_failed | User#85 | Result: Success,10.3.2.27,Success
+292,2026-05-18T13:12:40.543743,57,user.password_change,APIKey,182,Action: user.password_change | Target: APIKey/182 | Source: web-ui,10.0.8.109,Blocked
+293,2026-05-13T05:03:40.543747,4,user.mfa_enabled,Project,35,Admin action: user.mfa_enabled | Project#35 | Result: Success,10.1.2.40,Success
+294,2026-04-19T02:11:40.543752,6,admin.config_update,User,68,Automated admin.config_update triggered for User#68,10.3.3.116,Success
+295,2026-06-01T19:02:40.543756,131,incident.created,Release,176,Admin action: incident.created | Release#176 | Result: Success,10.2.3.14,Success
+296,2026-06-21T16:37:40.543761,67,admin.config_update,Report,101,Action: admin.config_update | Target: Report/101 | Source: web-ui,10.2.5.5,Success
+297,2026-05-01T15:27:40.543766,17,release.promoted,Release,29,Action: release.promoted | Target: Release/29 | Source: web-ui,10.4.6.243,Success
+298,2026-06-08T21:13:40.543770,20,change.approved,User,200,Admin action: change.approved | User#200 | Result: Success,10.4.8.85,Success
+299,2026-06-03T02:32:40.543775,3,api.key_created,Project,78,Admin action: api.key_created | Project#78 | Result: Success,10.1.2.112,Success
+300,2026-05-06T02:44:40.543779,53,user.logout,User,148,Automated user.logout triggered for User#148,10.0.5.253,Success
+301,2026-06-21T21:40:40.543783,28,change.rejected,Product,102,Action: change.rejected | Target: Product/102 | Source: web-ui,10.1.0.39,Success
+302,2026-04-05T13:46:40.543788,136,user.password_change,Configuration,120,User Ahmed Morales performed user.password_change on Configuration#120,10.0.7.122,Success
+303,2026-06-12T12:47:40.543792,113,user.password_change,Configuration,27,User Ingrid Johnson performed user.password_change on Configuration#27,10.2.8.204,Success
+304,2026-05-03T10:37:40.543797,103,user.mfa_enabled,Report,195,Action: user.mfa_enabled | Target: Report/195 | Source: web-ui,10.0.2.99,Failure
+305,2026-05-16T11:15:40.543801,52,data.export_large,Configuration,98,Automated data.export_large triggered for Configuration#98,10.4.1.246,Success
+306,2026-05-23T12:43:40.543806,25,data.export_large,Product,196,Admin action: data.export_large | Product#196 | Result: Success,10.4.4.15,Success
+307,2026-04-15T20:29:40.543810,34,api.key_revoked,Release,3,Admin action: api.key_revoked | Release#3 | Result: Blocked,10.1.8.126,Blocked
+308,2026-06-03T18:55:40.543815,31,api.key_revoked,User,152,Automated api.key_revoked triggered for User#152,10.0.4.66,Success
+309,2026-04-03T23:11:40.543819,12,release.promoted,Incident,184,Admin action: release.promoted | Incident#184 | Result: Success,10.3.2.8,Success
+310,2026-06-13T13:32:40.543824,21,user.login,Incident,117,Admin action: user.login | Incident#117 | Result: Success,10.2.1.18,Success
+311,2026-06-12T10:55:40.543828,109,incident.resolved,Configuration,79,Action: incident.resolved | Target: Configuration/79 | Source: web-ui,10.0.1.167,Success
+312,2026-06-13T06:10:40.543833,142,user.mfa_enabled,User,109,Admin action: user.mfa_enabled | User#109 | Result: Success,10.3.1.234,Success
+313,2026-04-10T16:21:40.543837,12,data.export,Product,154,Automated data.export triggered for Product#154,10.2.7.125,Success
+314,2026-06-12T12:54:40.543841,2,change.approved,Configuration,59,User Fatima Chen performed change.approved on Configuration#59,10.2.2.22,Success
+315,2026-04-08T21:49:40.543846,74,data.view_sensitive,Product,176,Data Access event — data.view_sensitive on Product#176 from IP 10.4.5.209,10.0.2.23,Success
+316,2026-04-11T05:51:40.543850,12,admin.role_assignment,Project,5,Admin action: admin.role_assignment | Project#5 | Result: Failure,10.4.9.144,Failure
+317,2026-05-19T22:45:40.543856,134,release.promoted,Release,109,Release event — release.promoted on Release#109 from IP 10.3.8.17,10.2.3.253,Success
+318,2026-05-27T01:56:40.543861,127,data.export_large,Product,64,Automated data.export_large triggered for Product#64,10.2.8.2,Success
+319,2026-06-21T13:58:40.543865,27,user.login,User,143,User Sana Kim performed user.login on User#143,10.1.3.94,Success
+320,2026-06-16T03:24:40.543870,124,user.login,Report,59,Automated user.login triggered for Report#59,10.1.0.113,Success
+321,2026-04-23T13:58:40.543875,7,api.rate_limit_hit,Report,4,Automated api.rate_limit_hit triggered for Report#4,10.0.6.236,Success
+322,2026-03-30T16:20:40.543879,4,user.mfa_enabled,Project,88,User Thabo Kim performed user.mfa_enabled on Project#88,10.2.6.91,Success
+323,2026-04-29T19:35:40.543883,25,deployment.triggered,Incident,14,Deployment event — deployment.triggered on Incident#14 from IP 10.0.3.22,10.2.3.75,Success
+324,2026-06-03T05:38:40.543889,81,incident.created,APIKey,77,User Ahmed Santos performed incident.created on APIKey#77,10.0.1.32,Success
+325,2026-04-21T01:06:40.543894,130,change.approved,Product,90,Automated change.approved triggered for Product#90,10.3.8.116,Success
+326,2026-06-13T00:49:40.543898,148,data.export,User,53,Action: data.export | Target: User/53 | Source: web-ui,10.3.9.39,Success
+327,2026-05-04T05:22:40.543903,41,api.key_revoked,APIKey,66,API Management event — api.key_revoked on APIKey#66 from IP 10.0.5.24,10.3.7.190,Success
+328,2026-04-29T17:47:40.543907,68,user.login_failed,Product,180,Automated user.login_failed triggered for Product#180,10.2.6.193,Success
+329,2026-04-08T23:48:40.543912,22,api.rate_limit_hit,ChangeRequest,85,User Linh Fischer performed api.rate_limit_hit on ChangeRequest#85,10.2.8.211,Success
+330,2026-05-27T16:48:40.543916,144,change.approved,APIKey,32,Admin action: change.approved | APIKey#32 | Result: Success,10.1.5.56,Success
+331,2026-06-28T07:34:40.543921,14,incident.resolved,ChangeRequest,147,User Fatima Novak performed incident.resolved on ChangeRequest#147,10.2.0.109,Success
+332,2026-04-12T01:47:40.543925,7,admin.config_update,ChangeRequest,157,Admin action: admin.config_update | ChangeRequest#157 | Result: Success,10.3.2.14,Success
+333,2026-06-20T11:20:40.543930,146,api.key_revoked,Incident,166,User Raj Bauer performed api.key_revoked on Incident#166,10.2.6.189,Success
+334,2026-05-11T14:40:40.543934,88,api.key_revoked,Project,106,User Sofia Santos performed api.key_revoked on Project#106,10.3.1.73,Success
+335,2026-06-06T07:22:40.543939,78,deployment.rollback,Incident,60,Admin action: deployment.rollback | Incident#60 | Result: Success,10.4.3.51,Success
+336,2026-05-02T17:45:40.543943,88,change.approved,Project,157,Action: change.approved | Target: Project/157 | Source: web-ui,10.2.7.201,Success
+337,2026-06-22T01:20:40.543948,3,user.mfa_enabled,Incident,120,Action: user.mfa_enabled | Target: Incident/120 | Source: web-ui,10.0.6.208,Success
+338,2026-04-04T20:07:40.543952,124,user.login_failed,User,41,Authentication event — user.login_failed on User#41 from IP 10.4.2.153,10.0.6.34,Success
+339,2026-04-01T19:01:40.543957,18,incident.resolved,Incident,95,Admin action: incident.resolved | Incident#95 | Result: Success,10.3.2.138,Success
+340,2026-06-18T03:48:40.543967,133,change.approved,Product,29,Admin action: change.approved | Product#29 | Result: Success,10.4.0.96,Success
+341,2026-06-18T23:50:40.543972,88,change.approved,Report,8,Change Management event — change.approved on Report#8 from IP 10.1.6.197,10.3.4.132,Success
+342,2026-05-14T01:17:40.543977,42,user.mfa_enabled,Project,116,Admin action: user.mfa_enabled | Project#116 | Result: Success,10.2.8.103,Success
+343,2026-04-20T12:46:40.543981,111,incident.created,APIKey,3,Admin action: incident.created | APIKey#3 | Result: Success,10.0.3.6,Success
+344,2026-04-04T14:56:40.543985,140,api.rate_limit_hit,Release,122,Automated api.rate_limit_hit triggered for Release#122,10.3.6.88,Success
+345,2026-04-06T20:44:40.543990,91,user.login_failed,Configuration,24,Automated user.login_failed triggered for Configuration#24,10.4.3.127,Failure
+346,2026-04-04T04:14:40.543994,80,change.approved,Product,154,Automated change.approved triggered for Product#154,10.4.6.215,Failure
+347,2026-06-22T23:27:40.543999,141,api.key_revoked,User,69,API Management event — api.key_revoked on User#69 from IP 10.0.7.154,10.0.5.179,Success
+348,2026-05-05T16:18:40.544003,127,change.approved,Project,91,Action: change.approved | Target: Project/91 | Source: web-ui,10.1.1.107,Failure
+349,2026-05-31T07:03:40.544007,83,deployment.rollback,Report,143,Automated deployment.rollback triggered for Report#143,10.3.7.122,Success
+350,2026-04-08T15:53:40.544012,120,release.promoted,Product,75,Release event — release.promoted on Product#75 from IP 10.2.7.51,10.3.9.86,Success
+351,2026-05-25T22:22:40.544016,116,api.key_revoked,Report,64,Admin action: api.key_revoked | Report#64 | Result: Success,10.2.0.39,Success
+352,2026-06-09T00:28:40.544021,13,user.mfa_enabled,APIKey,3,Action: user.mfa_enabled | Target: APIKey/3 | Source: web-ui,10.2.2.238,Success
+353,2026-04-20T00:41:40.544025,69,change.approved,Configuration,71,Action: change.approved | Target: Configuration/71 | Source: web-ui,10.1.7.39,Success
+354,2026-04-25T10:10:40.544030,121,incident.resolved,Report,179,Action: incident.resolved | Target: Report/179 | Source: web-ui,10.1.6.172,Success
+355,2026-04-22T03:11:40.544034,141,api.key_revoked,Product,193,User Diego Silva performed api.key_revoked on Product#193,10.4.0.52,Success
+356,2026-06-01T14:12:40.544039,19,user.login_failed,ChangeRequest,19,Action: user.login_failed | Target: ChangeRequest/19 | Source: web-ui,10.2.3.20,Failure
+357,2026-05-07T14:35:40.544043,42,change.rejected,Incident,183,Automated change.rejected triggered for Incident#183,10.0.0.7,Success
+358,2026-05-27T07:14:40.544048,50,data.view_sensitive,Incident,12,Data Access event — data.view_sensitive on Incident#12 from IP 10.2.5.214,10.4.5.45,Success
+359,2026-05-21T02:40:40.544053,43,user.login,Release,72,User Linh Kim performed user.login on Release#72,10.2.7.170,Success
+360,2026-05-22T09:48:40.544057,5,data.view_sensitive,Incident,179,Automated data.view_sensitive triggered for Incident#179,10.0.4.20,Success
+361,2026-04-23T13:05:40.544062,142,deployment.rollback,Project,198,Admin action: deployment.rollback | Project#198 | Result: Success,10.4.8.146,Success
+362,2026-06-28T05:20:40.544066,7,incident.resolved,Report,139,User Jin Muller performed incident.resolved on Report#139,10.1.7.131,Success
+363,2026-04-23T13:59:40.544071,132,user.login_failed,ChangeRequest,106,Admin action: user.login_failed | ChangeRequest#106 | Result: Success,10.1.1.233,Success
+364,2026-05-04T22:07:40.544075,112,api.key_revoked,ChangeRequest,140,Admin action: api.key_revoked | ChangeRequest#140 | Result: Success,10.2.5.136,Success
+365,2026-05-10T23:30:40.544080,131,change.rejected,ChangeRequest,130,Change Management event — change.rejected on ChangeRequest#130 from IP 10.0.5.210,10.2.1.242,Success
+366,2026-06-22T14:42:40.544084,74,change.approved,Release,169,Admin action: change.approved | Release#169 | Result: Success,10.4.3.212,Success
+367,2026-05-27T18:50:40.544088,11,admin.config_update,APIKey,93,User Raj Morales performed admin.config_update on APIKey#93,10.2.2.168,Success
+368,2026-05-04T20:03:40.544093,15,user.password_change,APIKey,21,Admin action: user.password_change | APIKey#21 | Result: Success,10.4.8.141,Success
+369,2026-05-19T10:23:40.544097,120,incident.resolved,Incident,108,Action: incident.resolved | Target: Incident/108 | Source: web-ui,10.0.6.115,Blocked
+370,2026-04-13T16:25:40.544101,74,incident.created,Release,96,User Hannah Williams performed incident.created on Release#96,10.3.8.83,Success
+371,2026-04-21T23:33:40.544106,92,release.promoted,Product,77,Automated release.promoted triggered for Product#77,10.2.4.49,Success
+372,2026-05-07T16:29:40.544110,130,data.export,Configuration,128,Action: data.export | Target: Configuration/128 | Source: web-ui,10.0.0.236,Success
+373,2026-04-27T03:28:40.544115,95,data.export_large,Configuration,94,Admin action: data.export_large | Configuration#94 | Result: Success,10.2.9.17,Success
+374,2026-04-24T22:48:40.544120,97,data.export_large,Incident,50,Data Access event — data.export_large on Incident#50 from IP 10.1.5.164,10.1.6.165,Success
+375,2026-06-05T04:28:40.544124,113,api.key_revoked,Product,163,User Ingrid Johnson performed api.key_revoked on Product#163,10.2.5.147,Success
+376,2026-06-22T17:05:40.544129,101,release.promoted,Release,59,Action: release.promoted | Target: Release/59 | Source: web-ui,10.1.2.12,Failure
+377,2026-06-05T03:22:40.544133,46,user.password_change,Product,76,Automated user.password_change triggered for Product#76,10.2.0.10,Blocked
+378,2026-06-20T05:48:40.544138,33,api.key_revoked,Release,157,API Management event — api.key_revoked on Release#157 from IP 10.1.1.104,10.4.5.189,Success
+379,2026-05-26T23:58:40.544142,20,user.password_change,Release,129,User Elena Ibrahim performed user.password_change on Release#129,10.0.0.101,Success
+380,2026-04-14T01:24:40.544147,80,incident.resolved,Project,122,Admin action: incident.resolved | Project#122 | Result: Success,10.0.8.63,Success
+381,2026-04-13T06:21:40.544151,17,admin.permission_change,Product,148,Authorization event — admin.permission_change on Product#148 from IP 10.0.0.224,10.2.8.198,Failure
+382,2026-04-08T04:45:40.544156,123,user.mfa_enabled,ChangeRequest,43,Action: user.mfa_enabled | Target: ChangeRequest/43 | Source: web-ui,10.0.3.115,Success
+383,2026-04-28T07:35:40.544160,71,admin.permission_change,Incident,189,Admin action: admin.permission_change | Incident#189 | Result: Success,10.4.7.15,Success
+384,2026-05-14T21:39:40.544165,9,api.key_revoked,APIKey,142,Admin action: api.key_revoked | APIKey#142 | Result: Success,10.1.1.71,Success
+385,2026-04-17T19:01:40.544169,31,data.export_large,Project,172,Data Access event — data.export_large on Project#172 from IP 10.2.0.234,10.2.3.90,Success
+386,2026-05-05T09:30:40.544174,9,data.export,User,174,Automated data.export triggered for User#174,10.2.1.213,Success
+387,2026-06-11T11:40:40.544178,53,user.mfa_enabled,Project,29,Authentication event — user.mfa_enabled on Project#29 from IP 10.2.8.220,10.4.9.166,Failure
+388,2026-05-03T05:01:40.544183,145,incident.resolved,Project,116,Incident Management event — incident.resolved on Project#116 from IP 10.4.2.220,10.4.1.155,Success
+389,2026-06-25T10:54:40.544187,43,release.promoted,APIKey,44,Automated release.promoted triggered for APIKey#44,10.4.4.49,Success
+390,2026-06-26T21:15:40.544192,15,admin.config_update,APIKey,91,Admin action: admin.config_update | APIKey#91 | Result: Success,10.2.4.246,Success
+391,2026-04-08T11:47:40.544196,7,admin.role_assignment,ChangeRequest,85,Authorization event — admin.role_assignment on ChangeRequest#85 from IP 10.1.4.205,10.4.6.100,Success
+392,2026-04-10T10:28:40.544201,149,incident.resolved,Product,69,User Aisha Andersson performed incident.resolved on Product#69,10.0.2.78,Success
+393,2026-05-09T03:19:40.544207,25,release.promoted,Report,18,User Yuki Okafor performed release.promoted on Report#18,10.2.7.105,Success
+394,2026-05-26T20:26:40.544211,46,api.key_created,ChangeRequest,66,User Isabella Muller performed api.key_created on ChangeRequest#66,10.3.4.76,Success
+395,2026-04-11T22:36:40.544216,108,admin.permission_change,Project,122,User Sana Silva performed admin.permission_change on Project#122,10.0.1.2,Success
+396,2026-04-13T14:40:40.544221,98,release.promoted,Incident,165,Admin action: release.promoted | Incident#165 | Result: Success,10.4.2.163,Success
+397,2026-04-22T01:00:40.544226,116,data.export,Configuration,151,Admin action: data.export | Configuration#151 | Result: Success,10.0.3.237,Success
+398,2026-03-31T12:56:40.544231,95,data.export_large,APIKey,149,Automated data.export_large triggered for APIKey#149,10.4.3.236,Success
+399,2026-06-24T14:54:40.544235,71,user.mfa_enabled,Configuration,60,Admin action: user.mfa_enabled | Configuration#60 | Result: Success,10.4.8.59,Success
+400,2026-06-12T10:56:40.544240,71,api.key_revoked,Product,69,Admin action: api.key_revoked | Product#69 | Result: Success,10.2.8.254,Success
+401,2026-06-15T13:42:40.544246,67,admin.config_update,Incident,146,Admin action: admin.config_update | Incident#146 | Result: Blocked,10.3.2.64,Blocked
+402,2026-06-02T12:16:40.544251,119,user.login,Product,146,Admin action: user.login | Product#146 | Result: Failure,10.3.5.237,Failure
+403,2026-06-23T14:49:40.544256,43,admin.permission_change,Product,32,User Linh Kim performed admin.permission_change on Product#32,10.0.1.13,Success
+404,2026-05-11T14:47:40.544260,116,user.login_failed,APIKey,112,Admin action: user.login_failed | APIKey#112 | Result: Failure,10.4.3.80,Failure
+405,2026-06-27T00:44:40.544265,142,incident.resolved,Configuration,32,Incident Management event — incident.resolved on Configuration#32 from IP 10.1.2.55,10.2.4.191,Success
+406,2026-05-29T00:31:40.544269,86,user.login_failed,User,186,Action: user.login_failed | Target: User/186 | Source: web-ui,10.4.1.91,Failure
+407,2026-05-06T00:08:40.544274,9,user.login_failed,APIKey,71,Authentication event — user.login_failed on APIKey#71 from IP 10.2.0.79,10.2.6.92,Success
+408,2026-06-28T11:03:40.544278,95,change.approved,Project,9,Automated change.approved triggered for Project#9,10.4.8.123,Success
+409,2026-05-24T07:02:40.544283,49,api.key_revoked,User,95,User Ahmed Muller performed api.key_revoked on User#95,10.2.1.96,Success
+410,2026-04-04T05:22:40.544287,8,user.login,Configuration,111,User Linh Ibrahim performed user.login on Configuration#111,10.4.1.192,Success
+411,2026-03-30T15:04:40.544292,110,api.key_revoked,ChangeRequest,23,API Management event — api.key_revoked on ChangeRequest#23 from IP 10.1.4.128,10.0.0.26,Success
+412,2026-04-10T23:32:40.544296,98,deployment.triggered,Project,103,User David Okafor performed deployment.triggered on Project#103,10.3.3.184,Success
+413,2026-04-18T11:22:40.544301,80,change.rejected,Release,198,Change Management event — change.rejected on Release#198 from IP 10.1.3.13,10.3.5.187,Success
+414,2026-04-16T23:10:40.544305,112,user.mfa_enabled,Report,186,Admin action: user.mfa_enabled | Report#186 | Result: Success,10.2.9.157,Success
+415,2026-04-18T00:16:40.544309,65,user.login,Report,111,User Ingrid Patel performed user.login on Report#111,10.3.0.122,Failure
+416,2026-06-25T05:58:40.544314,144,incident.created,Project,94,Incident Management event — incident.created on Project#94 from IP 10.1.1.166,10.2.9.65,Success
+417,2026-03-31T22:34:40.544318,135,user.login_failed,Configuration,6,Action: user.login_failed | Target: Configuration/6 | Source: web-ui,10.2.7.214,Success
+418,2026-04-18T12:25:40.544323,135,api.key_created,Report,148,Admin action: api.key_created | Report#148 | Result: Success,10.0.0.96,Success
+419,2026-04-30T06:28:40.544328,110,change.approved,Product,19,Automated change.approved triggered for Product#19,10.3.1.100,Success
+420,2026-06-11T02:31:40.544332,88,deployment.triggered,Project,172,User Sofia Santos performed deployment.triggered on Project#172,10.0.6.59,Success
+421,2026-04-11T19:12:40.544337,38,incident.resolved,ChangeRequest,24,Automated incident.resolved triggered for ChangeRequest#24,10.1.7.45,Success
+422,2026-04-28T07:17:40.544341,42,admin.config_update,Product,155,User Ravi Okafor performed admin.config_update on Product#155,10.4.5.156,Success
+423,2026-06-15T00:27:40.544345,109,data.export,ChangeRequest,34,Automated data.export triggered for ChangeRequest#34,10.0.2.236,Success
+424,2026-06-27T23:40:40.544350,130,data.view_sensitive,Report,33,Automated data.view_sensitive triggered for Report#33,10.0.0.1,Success
+425,2026-04-09T05:35:40.544354,1,change.approved,User,17,Automated change.approved triggered for User#17,10.1.7.190,Failure
+426,2026-06-11T08:55:40.544359,136,user.logout,Product,55,Admin action: user.logout | Product#55 | Result: Failure,10.1.0.130,Failure
+427,2026-06-21T15:18:40.544363,99,incident.resolved,ChangeRequest,2,Action: incident.resolved | Target: ChangeRequest/2 | Source: web-ui,10.1.0.97,Success
+428,2026-06-11T04:45:40.544368,134,data.export,Incident,24,Data Access event — data.export on Incident#24 from IP 10.3.4.249,10.0.0.103,Success
+429,2026-04-17T21:05:40.544372,13,deployment.rollback,User,90,User Camila Santos performed deployment.rollback on User#90,10.0.7.126,Success
+430,2026-06-06T02:53:40.544377,111,change.approved,User,157,User Raj Kim performed change.approved on User#157,10.2.0.81,Success
+431,2026-06-22T18:26:40.544381,128,admin.config_update,Project,192,User Ahmed Patel performed admin.config_update on Project#192,10.3.6.187,Success
+432,2026-04-30T14:58:40.544386,54,user.mfa_enabled,User,9,User Zara Chen performed user.mfa_enabled on User#9,10.0.0.76,Success
+433,2026-04-16T08:14:40.544391,73,deployment.rollback,Project,130,Deployment event — deployment.rollback on Project#130 from IP 10.4.5.25,10.1.4.164,Success
+434,2026-05-06T23:14:40.544395,35,release.promoted,Report,120,Release event — release.promoted on Report#120 from IP 10.2.6.149,10.0.8.123,Success
+435,2026-06-14T03:56:40.544400,73,change.rejected,ChangeRequest,121,Admin action: change.rejected | ChangeRequest#121 | Result: Success,10.0.9.29,Success
+436,2026-06-18T10:52:40.544404,54,deployment.rollback,ChangeRequest,138,User Zara Chen performed deployment.rollback on ChangeRequest#138,10.0.2.74,Success
+437,2026-05-14T00:07:40.544409,101,data.export,User,40,Action: data.export | Target: User/40 | Source: web-ui,10.0.4.110,Success
+438,2026-05-13T03:33:40.544413,90,deployment.triggered,Incident,187,Deployment event — deployment.triggered on Incident#187 from IP 10.1.5.155,10.0.9.195,Success
+439,2026-04-20T04:47:40.544418,12,api.rate_limit_hit,Configuration,70,Action: api.rate_limit_hit | Target: Configuration/70 | Source: web-ui,10.3.7.241,Success
+440,2026-04-20T01:37:40.544422,61,incident.resolved,ChangeRequest,77,Incident Management event — incident.resolved on ChangeRequest#77 from IP 10.1.1.104,10.1.4.178,Success
+441,2026-04-20T16:28:40.544427,91,api.key_revoked,Configuration,36,Automated api.key_revoked triggered for Configuration#36,10.1.7.216,Success
+442,2026-04-10T07:27:40.544432,119,user.logout,Release,115,Action: user.logout | Target: Release/115 | Source: web-ui,10.1.3.73,Success
+443,2026-06-23T23:50:40.544436,49,change.approved,User,153,Change Management event — change.approved on User#153 from IP 10.4.9.99,10.0.6.232,Success
+444,2026-06-24T20:11:40.544442,146,user.logout,ChangeRequest,188,User Raj Bauer performed user.logout on ChangeRequest#188,10.0.5.96,Success
+445,2026-06-15T22:06:40.544447,137,user.password_change,Report,100,Authentication event — user.password_change on Report#100 from IP 10.2.1.49,10.4.5.107,Success
+446,2026-03-31T12:39:40.544451,118,deployment.triggered,User,176,Admin action: deployment.triggered | User#176 | Result: Success,10.2.3.236,Success
+447,2026-06-17T20:38:40.544456,95,admin.role_assignment,ChangeRequest,179,Action: admin.role_assignment | Target: ChangeRequest/179 | Source: web-ui,10.1.1.192,Blocked
+448,2026-06-27T11:54:40.544461,95,deployment.triggered,Release,16,User Nia Ibrahim performed deployment.triggered on Release#16,10.0.5.24,Success
+449,2026-06-05T05:58:40.544465,27,data.view_sensitive,Release,55,Admin action: data.view_sensitive | Release#55 | Result: Success,10.1.6.190,Success
+450,2026-05-23T15:56:40.544470,102,deployment.triggered,User,113,Automated deployment.triggered triggered for User#113,10.4.5.108,Success
+451,2026-04-19T15:50:40.544474,32,admin.permission_change,APIKey,153,Admin action: admin.permission_change | APIKey#153 | Result: Success,10.4.3.122,Success
+452,2026-06-20T16:49:40.544478,4,api.key_created,Incident,171,Admin action: api.key_created | Incident#171 | Result: Blocked,10.1.3.241,Blocked
+453,2026-04-15T14:49:40.544483,80,data.export_large,Incident,177,User Kwame Bauer performed data.export_large on Incident#177,10.1.3.213,Success
+454,2026-03-31T08:45:40.544487,8,api.rate_limit_hit,Report,157,Admin action: api.rate_limit_hit | Report#157 | Result: Success,10.0.6.13,Success
+455,2026-05-14T06:01:40.544492,102,admin.role_assignment,Product,140,Admin action: admin.role_assignment | Product#140 | Result: Success,10.2.1.245,Success
+456,2026-06-19T16:46:40.544497,8,user.mfa_enabled,Release,100,Admin action: user.mfa_enabled | Release#100 | Result: Success,10.3.7.66,Success
+457,2026-05-05T00:46:40.544501,1,user.login,Configuration,147,Automated user.login triggered for Configuration#147,10.3.0.204,Success
+458,2026-04-25T09:05:40.544506,8,data.export,Incident,123,Action: data.export | Target: Incident/123 | Source: web-ui,10.4.2.182,Success
+459,2026-03-31T05:54:40.544510,86,admin.permission_change,ChangeRequest,149,Automated admin.permission_change triggered for ChangeRequest#149,10.3.1.167,Success
+460,2026-05-18T17:36:40.544515,112,deployment.triggered,Product,86,User Isabella Rodriguez performed deployment.triggered on Product#86,10.0.4.179,Success
+461,2026-05-27T12:52:40.544519,57,deployment.rollback,Configuration,81,User Thabo Rodriguez performed deployment.rollback on Configuration#81,10.2.9.161,Success
+462,2026-06-20T21:38:40.544524,73,incident.resolved,Product,150,Action: incident.resolved | Target: Product/150 | Source: web-ui,10.1.4.30,Success
+463,2026-06-20T17:02:40.544528,93,admin.role_assignment,Release,25,User Kwame Brown performed admin.role_assignment on Release#25,10.4.1.124,Success
+464,2026-06-27T21:01:40.544533,8,api.rate_limit_hit,Release,63,Automated api.rate_limit_hit triggered for Release#63,10.3.2.235,Blocked
+465,2026-06-14T15:25:40.544538,69,data.export,User,39,Action: data.export | Target: User/39 | Source: web-ui,10.3.9.191,Success
+466,2026-05-16T23:14:40.544543,83,user.login,Release,117,Automated user.login triggered for Release#117,10.2.0.217,Success
+467,2026-04-13T18:12:40.544548,50,change.approved,Project,44,Action: change.approved | Target: Project/44 | Source: web-ui,10.2.5.126,Success
+468,2026-04-04T11:58:40.544552,65,user.logout,Incident,108,Action: user.logout | Target: Incident/108 | Source: web-ui,10.2.9.131,Success
+469,2026-06-19T09:20:40.544557,106,api.key_created,Report,48,Admin action: api.key_created | Report#48 | Result: Blocked,10.0.8.34,Blocked
+470,2026-05-15T12:35:40.544562,132,user.login,Project,24,User Samuel Silva performed user.login on Project#24,10.1.1.171,Success
+471,2026-04-06T22:03:40.544566,129,admin.permission_change,Product,26,Authorization event — admin.permission_change on Product#26 from IP 10.0.4.91,10.3.3.211,Success
+472,2026-05-12T23:43:40.544571,145,user.password_change,User,176,User Sofia Tanaka performed user.password_change on User#176,10.3.2.116,Success
+473,2026-05-17T00:14:40.544575,57,api.rate_limit_hit,Report,96,API Management event — api.rate_limit_hit on Report#96 from IP 10.3.7.245,10.3.6.179,Success
+474,2026-04-01T14:25:40.544579,139,deployment.triggered,Product,181,User Tariq Andersson performed deployment.triggered on Product#181,10.4.8.103,Success
+475,2026-03-30T21:55:40.544584,67,data.view_sensitive,APIKey,137,Automated data.view_sensitive triggered for APIKey#137,10.3.9.67,Success
+476,2026-05-24T06:53:40.544589,141,user.mfa_enabled,Product,131,User Diego Silva performed user.mfa_enabled on Product#131,10.3.3.38,Success
+477,2026-06-28T16:38:40.544593,44,user.mfa_enabled,APIKey,42,Authentication event — user.mfa_enabled on APIKey#42 from IP 10.3.9.171,10.3.4.157,Success
+478,2026-06-09T16:33:40.544597,63,user.mfa_enabled,Product,170,Automated user.mfa_enabled triggered for Product#170,10.1.7.250,Success
+479,2026-04-21T18:42:40.544602,57,release.promoted,Product,192,Admin action: release.promoted | Product#192 | Result: Success,10.3.8.219,Success
+480,2026-04-08T18:49:40.544607,4,admin.permission_change,Product,189,Action: admin.permission_change | Target: Product/189 | Source: web-ui,10.0.3.69,Success
+481,2026-06-11T19:21:40.544611,39,data.export,Incident,34,User Raj Novak performed data.export on Incident#34,10.1.5.183,Success
+482,2026-06-12T01:44:40.544616,52,api.key_created,User,199,Automated api.key_created triggered for User#199,10.1.6.89,Success
+483,2026-06-21T06:04:40.544620,53,api.key_revoked,User,175,Automated api.key_revoked triggered for User#175,10.2.9.121,Success
+484,2026-06-15T22:15:40.544624,107,deployment.triggered,Configuration,150,User Hannah Morales performed deployment.triggered on Configuration#150,10.4.4.28,Success
+485,2026-04-01T20:02:40.544629,42,user.login,Project,107,Automated user.login triggered for Project#107,10.3.9.58,Success
+486,2026-06-13T17:33:40.544634,41,user.logout,Report,56,Admin action: user.logout | Report#56 | Result: Success,10.1.7.203,Success
+487,2026-06-08T23:44:40.544638,118,user.login_failed,Configuration,42,User Ingrid Kowalski performed user.login_failed on Configuration#42,10.2.7.20,Success
+488,2026-05-13T05:14:40.544643,80,deployment.rollback,Report,15,Automated deployment.rollback triggered for Report#15,10.2.9.179,Failure
+489,2026-05-09T13:44:40.544647,116,user.logout,Incident,180,Authentication event — user.logout on Incident#180 from IP 10.2.5.101,10.2.3.84,Success
+490,2026-05-27T08:08:40.544652,92,user.logout,ChangeRequest,200,Automated user.logout triggered for ChangeRequest#200,10.1.2.169,Success
+491,2026-05-06T06:49:40.544656,51,data.export_large,Incident,146,Automated data.export_large triggered for Incident#146,10.1.0.201,Success
+492,2026-05-10T13:22:40.544661,51,deployment.triggered,Product,44,User Jin Patel performed deployment.triggered on Product#44,10.1.9.16,Failure
+493,2026-04-04T12:51:40.544665,73,user.mfa_enabled,Incident,106,Admin action: user.mfa_enabled | Incident#106 | Result: Success,10.4.4.218,Success
+494,2026-04-03T00:55:40.544669,78,data.view_sensitive,Product,26,Admin action: data.view_sensitive | Product#26 | Result: Success,10.4.7.104,Success
+495,2026-04-08T10:03:40.544674,22,deployment.rollback,Configuration,38,User Linh Fischer performed deployment.rollback on Configuration#38,10.4.2.113,Success
+496,2026-06-03T00:28:40.544679,113,change.rejected,ChangeRequest,57,Change Management event — change.rejected on ChangeRequest#57 from IP 10.0.8.164,10.2.9.186,Success
+497,2026-04-21T10:35:40.544683,109,admin.config_update,User,94,User Mei Okafor performed admin.config_update on User#94,10.4.4.122,Success
+498,2026-05-12T20:16:40.544688,16,admin.role_assignment,Project,181,Authorization event — admin.role_assignment on Project#181 from IP 10.0.1.205,10.4.6.93,Success
+499,2026-05-09T19:13:40.544692,110,data.export,APIKey,200,Data Access event — data.export on APIKey#200 from IP 10.3.2.54,10.2.9.65,Success
+500,2026-05-13T10:22:40.544697,78,api.key_revoked,Release,52,API Management event — api.key_revoked on Release#52 from IP 10.3.0.117,10.2.5.90,Success

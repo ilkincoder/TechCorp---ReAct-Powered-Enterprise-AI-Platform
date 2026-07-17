@@ -1,0 +1,5 @@
+# adds curl so the compose healthcheck can hit /health
+
+
+FROM qdrant/qdrant:v1.13.0
+RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*

@@ -1,0 +1,34 @@
+# TechCorp Enterprise AI Platform
+# Python 3.14+
+
+# Web framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.0
+
+# LLM (DeepSeek V4 Pro — OpenAI-compatible API)
+openai>=1.70.0
+
+# RAG / Embeddings
+sentence-transformers>=3.3.0
+qdrant-client>=1.9.0
+fastembed>=0.4.0
+nltk>=3.9.0
+pymupdf>=1.24.0
+
+# Database
+psycopg2-binary>=2.9.0
+pandas>=2.2.0
+
+# HTTP / API
+httpx>=0.28.0
+
+# Utilities
+tqdm>=4.66.0
+
+# Config
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.24.0

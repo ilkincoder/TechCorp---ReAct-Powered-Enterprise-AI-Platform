@@ -1,0 +1,230 @@
+.conversation-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--color-surface);
+  border-right: 1px solid var(--color-border);
+  transition: width 0.25s ease;
+}
+
+.conversation-list.collapsed {
+  width: 32px;
+  cursor: pointer;
+  align-items: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.conversation-list.collapsed:hover {
+  background: var(--color-surface-hover);
+}
+
+.conv-expand-chevron {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  margin-top: 16px;
+  transition: color 0.15s;
+}
+
+.conversation-list.collapsed:hover .conv-expand-chevron {
+  color: var(--color-text);
+}
+
+/* ── Header ──────────────────────────── */
+
+.conv-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 12px 10px;
+}
+
+.conv-new-btn {
+  flex: 1;
+  padding: 10px;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 0.88rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.conv-new-btn:hover {
+  opacity: 0.9;
+}
+
+.conv-collapse-btn {
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+  padding: 6px 8px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.conv-collapse-btn:hover {
+  background: var(--color-surface-hover);
+  color: var(--color-text);
+}
+
+/* ── Search ──────────────────────────── */
+
+.conv-search-wrap {
+  display: flex;
+  align-items: center;
+  margin: 0 12px 10px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0 8px;
+}
+
+.conv-search-icon {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+}
+
+.conv-search {
+  flex: 1;
+  background: none;
+  border: none;
+  color: var(--color-text);
+  padding: 8px;
+  font-size: 0.82rem;
+  outline: none;
+}
+
+.conv-search::placeholder {
+  color: var(--color-text-muted);
+}
+
+/* ── Error ──────────────────────────── */
+
+.conv-error {
+  margin: 0 12px 8px;
+  padding: 8px 12px;
+  background: var(--color-error-bg);
+  color: var(--color-error);
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conv-error button {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  cursor: pointer;
+  font-size: 0.78rem;
+  padding: 0;
+}
+
+/* ── Items ──────────────────────────── */
+
+.conv-items {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.conv-empty {
+  padding: 20px 12px;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}
+
+.conv-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 12px;
+  cursor: pointer;
+  transition: background 0.1s;
+  border-left: 3px solid transparent;
+  gap: 10px;
+}
+
+.conv-item:hover {
+  background: var(--color-surface-hover);
+}
+
+.conv-item.active {
+  background: var(--color-surface-hover);
+  border-left-color: var(--color-primary);
+}
+
+.conv-avatar {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--color-primary-dim);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.conv-item-content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.conv-title {
+  font-size: 0.85rem;
+  color: var(--color-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.conv-preview {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.conv-meta {
+  display: flex;
+  gap: 8px;
+  font-size: 0.73rem;
+  color: var(--color-text-muted);
+}
+
+.conv-date {
+  flex-shrink: 0;
+}
+
+.conv-delete-btn {
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  opacity: 0;
+  transition: opacity 0.15s, color 0.15s;
+}
+
+.conv-item:hover .conv-delete-btn {
+  opacity: 1;
+}
+
+.conv-delete-btn:hover {
+  color: var(--color-error);
+}

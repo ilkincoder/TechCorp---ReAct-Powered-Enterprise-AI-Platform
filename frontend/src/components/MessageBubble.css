@@ -1,0 +1,250 @@
+.bubble {
+  max-width: 85%;
+  padding: 16px 20px;
+  border-radius: var(--radius-lg);
+  line-height: 1.65;
+  animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.bubble-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ── User bubble ─────────────────────── */
+
+.bubble-user {
+  align-self: flex-end;
+  background: var(--color-user-bubble);
+  border-bottom-right-radius: var(--radius-sm);
+}
+
+.bubble-user .bubble-text {
+  white-space: pre-wrap;
+}
+
+/* ── Assistant bubble ────────────────── */
+
+.bubble-assistant {
+  align-self: flex-start;
+  background: var(--color-assistant-bubble);
+  border: 1px solid var(--color-border);
+  border-bottom-left-radius: var(--radius-sm);
+}
+
+/* ── Markdown inside assistant ───────── */
+
+.bubble-markdown h1,
+.bubble-markdown h2,
+.bubble-markdown h3 {
+  margin: 12px 0 6px;
+  color: var(--color-primary);
+}
+
+.bubble-markdown h1 { font-size: 1.2rem; }
+.bubble-markdown h2 { font-size: 1.1rem; }
+.bubble-markdown h3 { font-size: 1rem; }
+
+.bubble-markdown p {
+  margin: 6px 0;
+}
+
+.bubble-markdown ul,
+.bubble-markdown ol {
+  margin: 6px 0;
+  padding-left: 20px;
+}
+
+.bubble-markdown li {
+  margin: 3px 0;
+}
+
+.bubble-markdown code {
+  background: var(--color-surface-hover);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+.bubble-markdown pre {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+  overflow-x: auto;
+  margin: 10px 0;
+}
+
+.bubble-markdown pre code {
+  background: none;
+  padding: 0;
+}
+
+.bubble-markdown blockquote {
+  border-left: 3px solid var(--color-primary);
+  padding-left: 14px;
+  color: var(--color-text-muted);
+  margin: 8px 0;
+}
+
+.bubble-markdown a {
+  color: var(--color-primary);
+}
+
+.bubble-markdown table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 8px 0;
+}
+
+.bubble-markdown th,
+.bubble-markdown td {
+  border: 1px solid var(--color-border);
+  padding: 6px 10px;
+  text-align: left;
+  font-size: 0.88rem;
+}
+
+.bubble-markdown th {
+  background: var(--color-surface-hover);
+}
+
+/* ── Intent badge ────────────────────── */
+
+.intent-badge {
+  font-size: 0.7rem;
+  font-weight: 500;
+  background: var(--color-primary-dim);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+/* ── Tools used chips ────────────────── */
+
+.tools-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.tool-chip {
+  font-size: 0.72rem;
+  background: var(--color-surface-hover);
+  color: var(--color-primary);
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.tool-chip-error {
+  background: #fef2f2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+/* ── Tool errors list ────────────────── */
+
+.tool-errors-list {
+  margin-bottom: 8px;
+}
+
+/* ── Responsive ──────────────────────── */
+
+/* ── Streaming indicator ────────────── */
+
+.streaming-indicator {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  animation: pulse-dot 0.9s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%      { opacity: 0.4; transform: scale(0.75); }
+}
+
+/* ── Tool progress ──────────────────── */
+
+.tool-progress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  background: var(--color-surface-hover);
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+
+.tool-progress-spinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--color-border);
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.tool-progress-text {
+  flex: 1;
+}
+
+/* ── Streaming bubble glow ──────────── */
+
+.bubble-assistant.is-streaming {
+  border-color: var(--color-primary-dim);
+  box-shadow: 0 0 8px rgba(108, 140, 255, 0.1);
+}
+
+/* ── Agent Reasoning Accordion ─────────────────────────────────────────── */
+
+.agent-reasoning {
+  margin-bottom: 12px;
+  padding: 10px 14px;
+  background: var(--bg-secondary, #f5f5f5);
+  border: 1px solid var(--border-color, #e0e0e0);
+  border-radius: 8px;
+  font-size: 0.85em;
+  color: var(--text-secondary, #666);
+}
+.agent-reasoning summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--text-primary, #333);
+  user-select: none;
+}
+.agent-reasoning summary:hover {
+  color: var(--accent-color, #4a90d9);
+}
+.agent-reasoning p {
+  margin-top: 8px;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .bubble {
+    max-width: 95%;
+  }
+}

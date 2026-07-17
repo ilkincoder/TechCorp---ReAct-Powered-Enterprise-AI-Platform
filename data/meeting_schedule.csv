@@ -1,0 +1,57 @@
+meeting_id,meeting_title,organizer_id,project_id,meeting_date,start_time,end_time,location,meeting_type
+1,Daily Standup,20,,2025-06-30,09:00,09:30,Huddle Room 1B,Standup
+2,Daily Standup,20,,2025-07-01,08:00,08:30,Conference Room 2B,Standup
+3,Daily Standup,20,,2025-07-02,09:00,09:30,Board Room 5,Standup
+4,Daily Standup,28,,2025-06-30,09:00,09:30,Virtual - Teams,Standup
+5,Daily Standup,28,,2025-07-01,08:00,08:30,Virtual - Google Meet,Standup
+6,Daily Standup,28,,2025-07-02,08:00,08:30,Virtual - Google Meet,Standup
+7,Daily Standup,49,,2025-06-30,09:00,09:30,Huddle Room 1A,Standup
+8,Daily Standup,49,,2025-07-01,08:00,08:30,Conference Room 2B,Standup
+9,Daily Standup,49,,2025-07-02,09:00,09:30,Huddle Room 1B,Standup
+10,Daily Standup,64,,2025-06-30,10:00,10:30,Huddle Room 1B,Standup
+11,Daily Standup,64,,2025-07-01,08:00,08:30,Huddle Room 1B,Standup
+12,Daily Standup,64,,2025-07-02,09:00,09:30,Board Room 5,Standup
+13,Daily Standup,67,,2025-06-30,09:00,09:30,Conference Room 3A,Standup
+14,Daily Standup,67,,2025-07-01,08:00,08:30,Huddle Room 1A,Standup
+15,Daily Standup,67,,2025-07-02,09:00,09:30,Conference Room 3A,Standup
+16,Daily Standup,85,,2025-06-30,10:00,10:30,Conference Room 3A,Standup
+17,Daily Standup,85,,2025-07-01,08:00,08:30,Virtual - Teams,Standup
+18,Daily Standup,85,,2025-07-02,10:00,10:30,Virtual - Google Meet,Standup
+19,Daily Standup,93,,2025-06-30,10:00,10:30,Huddle Room 1B,Standup
+20,Daily Standup,93,,2025-07-01,09:00,09:30,Board Room 5,Standup
+21,Daily Standup,93,,2025-07-02,08:00,08:30,Virtual - Zoom,Standup
+22,Daily Standup,108,,2025-06-30,09:00,09:30,Virtual - Google Meet,Standup
+23,Daily Standup,108,,2025-07-01,10:00,10:30,Huddle Room 1B,Standup
+24,Daily Standup,108,,2025-07-02,10:00,10:30,Board Room 5,Standup
+25,Daily Standup,123,,2025-06-30,09:00,09:30,Conference Room 2B,Standup
+26,Daily Standup,123,,2025-07-01,08:00,08:30,Virtual - Zoom,Standup
+27,Daily Standup,123,,2025-07-02,08:00,08:30,Board Room 5,Standup
+28,Daily Standup,128,,2025-06-30,10:00,10:30,Virtual - Teams,Standup
+29,Daily Standup,128,,2025-07-01,10:00,10:30,Virtual - Google Meet,Standup
+30,Daily Standup,128,,2025-07-02,09:00,09:30,Conference Room 2B,Standup
+31,Daily Standup,12,,2025-06-30,08:00,08:30,Huddle Room 1B,Standup
+32,Daily Standup,12,,2025-07-01,08:00,08:30,Huddle Room 1A,Standup
+33,Daily Standup,12,,2025-07-02,08:00,08:30,Virtual - Teams,Standup
+34,Customer Success Weekly Sync,13,,2025-07-07,11:00,12:00,Huddle Room 1A,Planning
+35,Compliance Quarterly Update,37,,2025-07-01,16:00,17:00,Virtual - Zoom,Review
+36,Engineering Sprint Review,45,,2025-07-03,16:00,17:00,Conference Room 3A,Review
+37,Sales Pipeline Review,53,,2025-07-08,14:00,15:00,Huddle Room 1B,Review
+38,Sales Pipeline Review,74,,2025-07-05,14:00,15:00,Conference Room 4C,Review
+39,AI Team Daily Standup,88,,2025-07-05,14:00,15:00,Conference Room 3A,Standup
+40,Vendor SLA Review,99,,2025-07-06,16:00,17:00,Huddle Room 1B,Review
+41,Q3 Budget Planning,110,,2025-07-06,15:00,16:00,Conference Room 4C,Planning
+42,Engineering Sprint Review,122,,2025-06-30,13:00,14:00,Board Room 5,Review
+43,Vendor SLA Review,132,,2025-07-06,13:00,14:00,Virtual - Zoom,Review
+44,Vendor SLA Review,139,,2025-07-02,12:00,13:00,Huddle Room 1B,Review
+45,Data Lake Migration - Status Review,52,6,2025-07-10,11:00,11:30,Conference Room 4C,Review
+46,Real-Time Analytics Dashboard - Status Review,89,7,2025-07-04,14:00,14:30,Virtual - Google Meet,Review
+47,Internal Knowledge Graph Build - Status Review,25,9,2025-07-02,16:00,16:30,Virtual - Google Meet,Review
+48,Sales Forecasting Pipeline - Status Review,82,10,2025-07-11,12:00,12:30,Virtual - Google Meet,Review
+49,Identity Access Management Overhaul - Status Review,30,11,2025-07-08,11:00,11:30,Virtual - Zoom,Review
+50,Sentiment Analysis Pipeline - Status Review,45,17,2025-07-01,14:00,14:30,Virtual - Teams,Review
+51,Vendor Risk Assessment - Status Review,133,18,2025-07-08,12:00,12:30,Conference Room 4C,Review
+52,CRM Data Quality Initiative - Status Review,16,20,2025-07-09,15:00,15:30,Conference Room 4C,Review
+53,Chatbot Intent Expansion - Status Review,25,21,2025-07-06,14:00,14:30,Board Room 5,Review
+54,Threat Detection Upgrade - Status Review,138,23,2025-07-09,10:00,10:30,Board Room 5,Review
+55,Marketing Attribution Model - Status Review,145,24,2025-07-06,13:00,13:30,Huddle Room 1A,Review
+56,Platform Scalability Benchmark - Status Review,10,25,2025-07-08,15:00,15:30,Virtual - Google Meet,Review
