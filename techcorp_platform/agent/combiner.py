@@ -4,7 +4,7 @@ import asyncio
 import json
 from openai import AsyncOpenAI
 
-from ..config import DEEPSEEK_API_KEY, DEEPSEEK_MODEL, DEEPSEEK_BASE_URL
+from ..config import DEEPSEEK_MODEL, get_async_openai_client
 
 
 def _format_context_block(summary: str = "", recent: list[dict] | None = None) -> str:
@@ -122,10 +122,7 @@ class ResultCombiner:
 
     def _get_client(self) -> AsyncOpenAI:
         if self._client is None:
-            self._client = AsyncOpenAI(
-                api_key=DEEPSEEK_API_KEY,
-                base_url=DEEPSEEK_BASE_URL,
-            )
+            self._client = get_async_openai_client()
         return self._client
 
     async def combine_stream(

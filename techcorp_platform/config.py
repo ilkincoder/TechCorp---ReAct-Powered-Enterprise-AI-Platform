@@ -45,6 +45,38 @@ DATABASE_URL = (
 SEARCH_API_KEY = os.getenv("SEARCH_API_KEY", "")
 SEARCH_PROVIDER = os.getenv("SEARCH_PROVIDER", "duckduckgo")
 
+# ── LangSmith Tracing ───────────────────────────────────────────────────────
+LANGSMITH_TRACING = os.getenv("LANGSMITH_TRACING", "false").lower() == "true"
+LANGSMITH_API_KEY = os.getenv("LANGSMITH_API_KEY", "")
+LANGSMITH_PROJECT = os.getenv("LANGSMITH_PROJECT", "techcorp-enterprise")
+LANGSMITH_ENDPOINT = os.getenv("LANGSMITH_ENDPOINT", "https://api.smith.langchain.com")
+
+
+def _wrap_client(client):
+    """Apply LangSmith tracing wrapper if enabled, otherwise return as-is."""
+    if LANGSMITH_TRACING and LANGSMITH_API_KEY:
+        from langsmith import wrappers
+        return wrappers.wrap_openai(client)
+    return client
+
+
+def get_openai_client() -> "OpenAI":
+    """Return a synchronous OpenAI client (LangSmith-traced when configured)."""
+    from openai import OpenAI
+    return _wrap_client(OpenAI(
+        api_key=DEEPSEEK_API_KEY,
+        base_url=DEEPSEEK_BASE_URL,
+    ))
+
+
+def get_async_openai_client() -> "AsyncOpenAI":
+    """Return an async OpenAI client (LangSmith-traced when configured)."""
+    from openai import AsyncOpenAI
+    return _wrap_client(AsyncOpenAI(
+        api_key=DEEPSEEK_API_KEY,
+        base_url=DEEPSEEK_BASE_URL,
+    ))
+
 # ── Server ────────────────────────────────────────────────────────────────────
 APP_HOST = os.getenv("APP_HOST", "0.0.0.0")
 APP_PORT = int(os.getenv("APP_PORT", "8000"))

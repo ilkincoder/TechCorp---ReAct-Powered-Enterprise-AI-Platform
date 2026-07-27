@@ -13,16 +13,15 @@ import asyncio
 import json
 from datetime import datetime, timezone
 
-from openai import OpenAI
 from pydantic import BaseModel, ValidationError, model_validator
 
-from ..config import DEEPSEEK_API_KEY, DEEPSEEK_MODEL, DEEPSEEK_BASE_URL
+from ..config import DEEPSEEK_MODEL, get_openai_client
 from ..conversations import insert_report, update_report, get_report
 from .base import BaseTool, ToolResult
 
 
-def _get_llm() -> OpenAI:
-    return OpenAI(api_key=DEEPSEEK_API_KEY, base_url=DEEPSEEK_BASE_URL)
+def _get_llm():
+    return get_openai_client()
 
 
 PROPOSE_PROMPT = """You are a report planning assistant for TechCorp Enterprise AI Platform.

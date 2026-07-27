@@ -10,7 +10,7 @@ from dataclasses import dataclass
 
 from openai import AsyncOpenAI
 
-from ..config import DEEPSEEK_API_KEY, DEEPSEEK_MODEL, DEEPSEEK_BASE_URL
+from ..config import DEEPSEEK_MODEL, get_async_openai_client
 from ..tools import get_tool_map
 from .combiner import COMBINER_GROUNDING_RULES
 from .rbac import apply_rbac, _build_role_context
@@ -157,10 +157,7 @@ class ReActLoop:
 
     def _get_client(self) -> AsyncOpenAI:
         if self._client is None:
-            self._client = AsyncOpenAI(
-                api_key=DEEPSEEK_API_KEY,
-                base_url=DEEPSEEK_BASE_URL,
-            )
+            self._client = get_async_openai_client()
         return self._client
 
     def _build_messages(

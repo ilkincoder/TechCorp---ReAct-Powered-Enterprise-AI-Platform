@@ -23,6 +23,9 @@ pandas>=2.2.0
 # HTTP / API
 httpx>=0.28.0
 
+# Observability / Tracing
+langsmith>=0.3.0
+
 # Utilities
 tqdm>=4.66.0
 

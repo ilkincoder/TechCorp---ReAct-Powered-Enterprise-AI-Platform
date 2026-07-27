@@ -13,7 +13,6 @@ from datetime import date
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
-from openai import OpenAI
 from pydantic import BaseModel
 
 from .tools import get_tool_schemas, get_tool_map
@@ -41,7 +40,11 @@ from .conversations import (
     get_report,
     update_report,
 )
-from .config import DEEPSEEK_API_KEY, DEEPSEEK_MODEL, DEEPSEEK_BASE_URL
+from .config import (
+    DEEPSEEK_MODEL,
+    LANGSMITH_TRACING, LANGSMITH_API_KEY, LANGSMITH_PROJECT,
+    get_openai_client,
+)
 
 
 app = FastAPI(
@@ -222,6 +225,12 @@ async def startup():
     except Exception as e:
         print(f"[startup] Could not init memory Qdrant collection: {e}")
 
+    # LangSmith tracing status (tracing is applied per-client in config.py)
+    if LANGSMITH_TRACING and LANGSMITH_API_KEY:
+        print(f"[startup] LangSmith tracing enabled — project: {LANGSMITH_PROJECT}")
+    else:
+        print("[startup] LangSmith tracing disabled")
+
 
 # ── Endpoints ──────────────────────────────────────────────────────────────
 
@@ -275,7 +284,7 @@ async def _maybe_summarize(conversation_id: str, message_count: int) -> None:
             f"{transcript}\n\nSummary:"
         )
 
-        client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=DEEPSEEK_BASE_URL)
+        client = get_openai_client()
         response = await asyncio.to_thread(
             lambda: client.chat.completions.create(
                 model=DEEPSEEK_MODEL,
